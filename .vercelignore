@@ -1,0 +1,12 @@
+backend/
+database/
+tests/
+scratch/
+scratch_read.py
+__pycache__/
+*.pyc
+*.py
+*.bat
+*.url
+node_modules/
+.git/

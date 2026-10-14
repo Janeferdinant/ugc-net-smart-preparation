@@ -1,5 +1,7 @@
 # UGC NET Smart Preparation Portal
 
+![UGC NET Smart Preparation Portal Hero Banner](assets/hero_banner.jpg)
+
 ### Research, Resources, Learning Analytics & Premium Glassmorphism UI/UX
 **Brand & Authorship:** Jane Rose | Asst. Professor | CSE  
 **Governing Authorities:** National Testing Agency (NTA) & University Grants Commission (UGC)  
@@ -9,11 +11,14 @@
 [![Verification](https://img.shields.io/badge/Official%20Links-100%25%20Verified%20NTA%20%2F%20UGC-blue.svg)](https://ugcnet.nta.ac.in)
 [![Themes](https://img.shields.io/badge/Glassmorphism-10%20Selectable%20Presets-purple.svg)](#glassmorphism-theme-engine)
 [![Grand Exam](https://img.shields.io/badge/Grand%20Exam-200%20Questions%20%7C%203%20Hours-amber.svg)](#3-hour-grand-full-length-examination-200-questions)
-[![Deployment](https://img.shields.io/badge/Deployment-Vercel%20Edge%20%7C%20Zero--Dependency-black.svg)](https://vercel.com)
+[![Deployment](https://img.shields.io/badge/Deployment-Vercel%20Edge%20%7C%20Live-black.svg)](https://vercel.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Janeferdinant%2Fugc--net--smart--preparation-181717?logo=github)](https://github.com/Janeferdinant/ugc-net-smart-preparation)
 
 ---
 
-## 1. Visual Showcase & Animated Demonstrations
+## 1. Visual Showcase & Architecture
+
+![Comprehensive Platform Architecture & Features Showcase](assets/features_showcase.jpg)
 
 ### Complete Portal Interactive Walkthrough
 Experience the real-time Glassmorphism appearance engine, continuous verification audit, interactive knowledge graphs, and timed CBT mock examinations.
