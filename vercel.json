@@ -13,10 +13,10 @@
     { "src": "/api/verification-report", "dest": "/api/verification-report.json" },
     { "src": "/api/study-plan/30-days", "dest": "/api/study-plan/30-days.json" },
     { "src": "/api/career", "dest": "/api/career.json" },
-    { "src": "/api/syllabus/([^/]+)", "dest": "/api/syllabus/$1.json" },
-    { "src": "/api/mock-tests/([^/]+)", "dest": "/api/mock-tests/$1.json" },
-    { "src": "/api/knowledge-graph/([^/]+)", "dest": "/api/knowledge-graph/$1.json" },
-    { "src": "/api/papers/([^/]+)", "dest": "/api/papers/$1.json" },
+    { "src": "/api/syllabus/([^/.]+)(?:\\.json)?", "dest": "/api/syllabus/$1.json" },
+    { "src": "/api/mock-tests/([^/.]+)(?:\\.json)?", "dest": "/api/mock-tests/$1.json" },
+    { "src": "/api/knowledge-graph/([^/.]+)(?:\\.json)?", "dest": "/api/knowledge-graph/$1.json" },
+    { "src": "/api/papers/([^/.]+)(?:\\.json)?", "dest": "/api/papers/$1.json" },
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]

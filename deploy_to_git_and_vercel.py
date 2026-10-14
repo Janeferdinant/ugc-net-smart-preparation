@@ -170,7 +170,7 @@ def run():
             words = safe_line.strip().split()
             for w in words:
                 if w.startswith("https://") and ".vercel.app" in w:
-                    deployment_url = w.strip()
+                    deployment_url = w.strip('",; \t\r\n')
 
     proc.stdout.close()
     return_code = proc.wait()
