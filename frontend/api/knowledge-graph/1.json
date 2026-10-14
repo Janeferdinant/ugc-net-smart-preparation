@@ -1,0 +1,533 @@
+{
+  "nodes": [
+    {
+      "id": "sub-1",
+      "label": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "group": "root",
+      "size": 32,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "unit-1",
+      "label": "Unit I: Teaching Aptitude",
+      "group": "unit",
+      "unit_number": 1,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-1-0",
+      "label": "Teaching: Concept, Objectives, Leve...",
+      "full_title": "Teaching: Concept, Objectives, Levels of teaching (Memory, Understanding and Reflective)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-1-1",
+      "label": "Characteristics and basic requireme...",
+      "full_title": "Characteristics and basic requirements of effective teaching",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-1-2",
+      "label": "Learner's characteristics: Adolesce...",
+      "full_title": "Learner's characteristics: Adolescent and adult learners, Individual differences",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-2",
+      "label": "Unit II: Research Aptitude",
+      "group": "unit",
+      "unit_number": 2,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-2-0",
+      "label": "Research: Meaning, Types, and Chara...",
+      "full_title": "Research: Meaning, Types, and Characteristics; Positivism and Post-positivistic approach to research",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-2-1",
+      "label": "Methods of Research: Experimental, ...",
+      "full_title": "Methods of Research: Experimental, Descriptive, Historical, Qualitative and Quantitative methods",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-2-2",
+      "label": "Steps of Research: Problem formulat...",
+      "full_title": "Steps of Research: Problem formulation, Hypothesis generation, Research design, Data collection",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-3",
+      "label": "Unit III: Comprehension",
+      "group": "unit",
+      "unit_number": 3,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-3-0",
+      "label": "Unseen passage analysis: Reading co...",
+      "full_title": "Unseen passage analysis: Reading comprehension strategies",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-3-1",
+      "label": "Contextual vocabulary and semantic ...",
+      "full_title": "Contextual vocabulary and semantic inference",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-3-2",
+      "label": "Fact extraction vs. thematic interp...",
+      "full_title": "Fact extraction vs. thematic interpretation",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-4",
+      "label": "Unit IV: Communication",
+      "group": "unit",
+      "unit_number": 4,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-4-0",
+      "label": "Communication: Meaning, types and c...",
+      "full_title": "Communication: Meaning, types and characteristics of communication",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-4-1",
+      "label": "Effective communication: Verbal and...",
+      "full_title": "Effective communication: Verbal and Non-verbal, Inter-Cultural and group communications, Classroom communication",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-4-2",
+      "label": "Barriers to effective communication...",
+      "full_title": "Barriers to effective communication: Semantic, Psychological, Organizational, Cultural",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-5",
+      "label": "Unit V: Mathematical Reasoning and Aptitude",
+      "group": "unit",
+      "unit_number": 5,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-5-0",
+      "label": "Types of reasoning: Number series, ...",
+      "full_title": "Types of reasoning: Number series, Letter series, Codes and Relationships",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-5-1",
+      "label": "Mathematical Aptitude: Fraction, Ti...",
+      "full_title": "Mathematical Aptitude: Fraction, Time & Distance, Ratio, Proportion and Percentage",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-5-2",
+      "label": "Profit and Loss, Simple and Compoun...",
+      "full_title": "Profit and Loss, Simple and Compound Interest, Discounting, Averages",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-6",
+      "label": "Unit VI: Logical Reasoning",
+      "group": "unit",
+      "unit_number": 6,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-6-0",
+      "label": "Understanding the structure of argu...",
+      "full_title": "Understanding the structure of arguments: Argument forms, structure of categorical propositions, Mood and Figure",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-6-1",
+      "label": "Formal and Informal fallacies, Uses...",
+      "full_title": "Formal and Informal fallacies, Uses of language, Connotations and denotations of terms, Classical square of opposition",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-6-2",
+      "label": "Evaluating and distinguishing deduc...",
+      "full_title": "Evaluating and distinguishing deductive and inductive reasoning",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-7",
+      "label": "Unit VII: Data Interpretation",
+      "group": "unit",
+      "unit_number": 7,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-7-0",
+      "label": "Sources, acquisition and classifica...",
+      "full_title": "Sources, acquisition and classification of Data",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-7-1",
+      "label": "Quantitative and Qualitative Data i...",
+      "full_title": "Quantitative and Qualitative Data interpretation",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-7-2",
+      "label": "Graphical representation: Bar-chart...",
+      "full_title": "Graphical representation: Bar-chart, Histograms, Pie-chart, Table-chart and Line-chart",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-8",
+      "label": "Unit VIII: Information and Communication Technology (ICT)",
+      "group": "unit",
+      "unit_number": 8,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-8-0",
+      "label": "ICT: General abbreviations and term...",
+      "full_title": "ICT: General abbreviations and terminology (HTTP, TCP/IP, DNS, IPv4 vs IPv6, Cloud Computing)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-8-1",
+      "label": "Basics of Internet, Intranet, E-mai...",
+      "full_title": "Basics of Internet, Intranet, E-mail, Audio and Video-conferencing",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-8-2",
+      "label": "Digital initiatives in higher educa...",
+      "full_title": "Digital initiatives in higher education: National Digital Library, e-ShodhSindhu, Virtual Labs, NAD",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-9",
+      "label": "Unit IX: People, Development and Environment",
+      "group": "unit",
+      "unit_number": 9,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-9-0",
+      "label": "Development and environment: Millen...",
+      "full_title": "Development and environment: Millennium Development Goals (MDGs) and Sustainable Development Goals (SDGs)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-9-1",
+      "label": "Human and environment interaction: ...",
+      "full_title": "Human and environment interaction: Anthropogenic activities and their impacts on environment",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-9-2",
+      "label": "Environmental issues: Air pollution...",
+      "full_title": "Environmental issues: Air pollution, Water pollution, Soil pollution, Noise pollution, Waste (solid, liquid, biomedical, hazardous, e-waste)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-10",
+      "label": "Unit X: Higher Education System",
+      "group": "unit",
+      "unit_number": 10,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-10-0",
+      "label": "Institutions of higher learning and...",
+      "full_title": "Institutions of higher learning and education in ancient India (Takshashila, Nalanda, Valabhi, Vikramashila)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-10-1",
+      "label": "Evolution of higher learning and re...",
+      "full_title": "Evolution of higher learning and research in Post-Independence India (Radhakrishnan Commission, Kothari Commission, NEP 2020)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-10-2",
+      "label": "Oriental, Conventional and Non-conv...",
+      "full_title": "Oriental, Conventional and Non-conventional learning programmes in India",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    }
+  ],
+  "links": [
+    {
+      "source": "sub-1",
+      "target": "unit-1",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-1",
+      "target": "top-1-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-1",
+      "target": "top-1-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-1",
+      "target": "top-1-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-2",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-2",
+      "target": "top-2-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-2",
+      "target": "top-2-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-2",
+      "target": "top-2-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-3",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-3",
+      "target": "top-3-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-3",
+      "target": "top-3-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-3",
+      "target": "top-3-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-4",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-4",
+      "target": "top-4-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-4",
+      "target": "top-4-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-4",
+      "target": "top-4-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-5",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-5",
+      "target": "top-5-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-5",
+      "target": "top-5-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-5",
+      "target": "top-5-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-6",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-6",
+      "target": "top-6-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-6",
+      "target": "top-6-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-6",
+      "target": "top-6-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-7",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-7",
+      "target": "top-7-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-7",
+      "target": "top-7-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-7",
+      "target": "top-7-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-8",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-8",
+      "target": "top-8-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-8",
+      "target": "top-8-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-8",
+      "target": "top-8-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-9",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-9",
+      "target": "top-9-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-9",
+      "target": "top-9-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-9",
+      "target": "top-9-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-1",
+      "target": "unit-10",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-10",
+      "target": "top-10-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-10",
+      "target": "top-10-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-10",
+      "target": "top-10-2",
+      "type": "contains_topic"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "subject_id": 1,
+    "unit_number": 1,
+    "title": "Unit I: Teaching Aptitude",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit I: Teaching Aptitude",
+    "topics_json": "[\"Teaching: Concept, Objectives, Levels of teaching (Memory, Understanding and Reflective)\", \"Characteristics and basic requirements of effective teaching\", \"Learner's characteristics: Adolescent and adult learners, Individual differences\", \"Factors affecting teaching: Teacher, Learner, Support material, Instructional facilities\", \"Methods of teaching in Higher learning institutions: Teacher-centred vs. Learner-centred methods, Offline vs. Online methods (Swayam, Swayamprabha, MOOCs)\", \"Teaching Support System: Traditional, Modern and ICT based\", \"Evaluation Systems: Elements and Types, Evaluation in Choice Based Credit System (CBCS), Computer based testing, Innovations in evaluation\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Teaching: Concept, Objectives, Levels of teaching (Memory, Understanding and Reflective)",
+      "Characteristics and basic requirements of effective teaching",
+      "Learner's characteristics: Adolescent and adult learners, Individual differences",
+      "Factors affecting teaching: Teacher, Learner, Support material, Instructional facilities",
+      "Methods of teaching in Higher learning institutions: Teacher-centred vs. Learner-centred methods, Offline vs. Online methods (Swayam, Swayamprabha, MOOCs)",
+      "Teaching Support System: Traditional, Modern and ICT based",
+      "Evaluation Systems: Elements and Types, Evaluation in Choice Based Credit System (CBCS), Computer based testing, Innovations in evaluation"
+    ]
+  },
+  {
+    "id": 2,
+    "subject_id": 1,
+    "unit_number": 2,
+    "title": "Unit II: Research Aptitude",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit II: Research Aptitude",
+    "topics_json": "[\"Research: Meaning, Types, and Characteristics; Positivism and Post-positivistic approach to research\", \"Methods of Research: Experimental, Descriptive, Historical, Qualitative and Quantitative methods\", \"Steps of Research: Problem formulation, Hypothesis generation, Research design, Data collection\", \"Thesis and Article writing: Format and styles of referencing (APA, MLA, Chicago, IEEE)\", \"Application of ICT in research: Toolsets, Statistical packages, Plagiarism detection\", \"Research ethics and integrity in academic publications\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Research: Meaning, Types, and Characteristics; Positivism and Post-positivistic approach to research",
+      "Methods of Research: Experimental, Descriptive, Historical, Qualitative and Quantitative methods",
+      "Steps of Research: Problem formulation, Hypothesis generation, Research design, Data collection",
+      "Thesis and Article writing: Format and styles of referencing (APA, MLA, Chicago, IEEE)",
+      "Application of ICT in research: Toolsets, Statistical packages, Plagiarism detection",
+      "Research ethics and integrity in academic publications"
+    ]
+  },
+  {
+    "id": 3,
+    "subject_id": 1,
+    "unit_number": 3,
+    "title": "Unit III: Comprehension",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit III: Comprehension",
+    "topics_json": "[\"Unseen passage analysis: Reading comprehension strategies\", \"Contextual vocabulary and semantic inference\", \"Fact extraction vs. thematic interpretation\", \"Answering critical evaluation questions from academic texts\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Unseen passage analysis: Reading comprehension strategies",
+      "Contextual vocabulary and semantic inference",
+      "Fact extraction vs. thematic interpretation",
+      "Answering critical evaluation questions from academic texts"
+    ]
+  },
+  {
+    "id": 4,
+    "subject_id": 1,
+    "unit_number": 4,
+    "title": "Unit IV: Communication",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit IV: Communication",
+    "topics_json": "[\"Communication: Meaning, types and characteristics of communication\", \"Effective communication: Verbal and Non-verbal, Inter-Cultural and group communications, Classroom communication\", \"Barriers to effective communication: Semantic, Psychological, Organizational, Cultural\", \"Mass-Media and Society: Role, impact and ethical boundaries\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Communication: Meaning, types and characteristics of communication",
+      "Effective communication: Verbal and Non-verbal, Inter-Cultural and group communications, Classroom communication",
+      "Barriers to effective communication: Semantic, Psychological, Organizational, Cultural",
+      "Mass-Media and Society: Role, impact and ethical boundaries"
+    ]
+  },
+  {
+    "id": 5,
+    "subject_id": 1,
+    "unit_number": 5,
+    "title": "Unit V: Mathematical Reasoning and Aptitude",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit V: Mathematical Reasoning and Aptitude",
+    "topics_json": "[\"Types of reasoning: Number series, Letter series, Codes and Relationships\", \"Mathematical Aptitude: Fraction, Time & Distance, Ratio, Proportion and Percentage\", \"Profit and Loss, Simple and Compound Interest, Discounting, Averages\", \"Numerical problem solving techniques and shortcut heuristics\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Types of reasoning: Number series, Letter series, Codes and Relationships",
+      "Mathematical Aptitude: Fraction, Time & Distance, Ratio, Proportion and Percentage",
+      "Profit and Loss, Simple and Compound Interest, Discounting, Averages",
+      "Numerical problem solving techniques and shortcut heuristics"
+    ]
+  },
+  {
+    "id": 6,
+    "subject_id": 1,
+    "unit_number": 6,
+    "title": "Unit VI: Logical Reasoning",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit VI: Logical Reasoning",
+    "topics_json": "[\"Understanding the structure of arguments: Argument forms, structure of categorical propositions, Mood and Figure\", \"Formal and Informal fallacies, Uses of language, Connotations and denotations of terms, Classical square of opposition\", \"Evaluating and distinguishing deductive and inductive reasoning\", \"Analogies: Characteristics and validity assessment\", \"Venn diagram: Simple and multi-diagrammatic use for establishing validity of arguments\", \"Indian Logic: Means of knowledge (Pramanas) - Pratyaksha (Perception), Anumana (Inference), Upamana (Comparison), Shabda (Verbal testimony), Arthapatti (Implication) and Anupalabddhi (Non-apprehension)\", \"Structure and kinds of Anumana, Vyapti (invariable relation), Hetvabhasas (fallacies of inference)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Understanding the structure of arguments: Argument forms, structure of categorical propositions, Mood and Figure",
+      "Formal and Informal fallacies, Uses of language, Connotations and denotations of terms, Classical square of opposition",
+      "Evaluating and distinguishing deductive and inductive reasoning",
+      "Analogies: Characteristics and validity assessment",
+      "Venn diagram: Simple and multi-diagrammatic use for establishing validity of arguments",
+      "Indian Logic: Means of knowledge (Pramanas) - Pratyaksha (Perception), Anumana (Inference), Upamana (Comparison), Shabda (Verbal testimony), Arthapatti (Implication) and Anupalabddhi (Non-apprehension)",
+      "Structure and kinds of Anumana, Vyapti (invariable relation), Hetvabhasas (fallacies of inference)"
+    ]
+  },
+  {
+    "id": 7,
+    "subject_id": 1,
+    "unit_number": 7,
+    "title": "Unit VII: Data Interpretation",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit VII: Data Interpretation",
+    "topics_json": "[\"Sources, acquisition and classification of Data\", \"Quantitative and Qualitative Data interpretation\", \"Graphical representation: Bar-chart, Histograms, Pie-chart, Table-chart and Line-chart\", \"Data and Governance: Applications in public policy and decision making\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Sources, acquisition and classification of Data",
+      "Quantitative and Qualitative Data interpretation",
+      "Graphical representation: Bar-chart, Histograms, Pie-chart, Table-chart and Line-chart",
+      "Data and Governance: Applications in public policy and decision making"
+    ]
+  },
+  {
+    "id": 8,
+    "subject_id": 1,
+    "unit_number": 8,
+    "title": "Unit VIII: Information and Communication Technology (ICT)",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit VIII: Information and Communication Technology (ICT)",
+    "topics_json": "[\"ICT: General abbreviations and terminology (HTTP, TCP/IP, DNS, IPv4 vs IPv6, Cloud Computing)\", \"Basics of Internet, Intranet, E-mail, Audio and Video-conferencing\", \"Digital initiatives in higher education: National Digital Library, e-ShodhSindhu, Virtual Labs, NAD\", \"ICT and Governance: E-Governance frameworks and citizen services\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "ICT: General abbreviations and terminology (HTTP, TCP/IP, DNS, IPv4 vs IPv6, Cloud Computing)",
+      "Basics of Internet, Intranet, E-mail, Audio and Video-conferencing",
+      "Digital initiatives in higher education: National Digital Library, e-ShodhSindhu, Virtual Labs, NAD",
+      "ICT and Governance: E-Governance frameworks and citizen services"
+    ]
+  },
+  {
+    "id": 9,
+    "subject_id": 1,
+    "unit_number": 9,
+    "title": "Unit IX: People, Development and Environment",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit IX: People, Development and Environment",
+    "topics_json": "[\"Development and environment: Millennium Development Goals (MDGs) and Sustainable Development Goals (SDGs)\", \"Human and environment interaction: Anthropogenic activities and their impacts on environment\", \"Environmental issues: Air pollution, Water pollution, Soil pollution, Noise pollution, Waste (solid, liquid, biomedical, hazardous, e-waste)\", \"Climate change and its socio-economic and political dimensions\", \"Impacts of pollutants on human health\", \"Natural and energy resources: Solar, Wind, Soil, Hydro, Geothermal, Biomass, Nuclear and Forests\", \"Natural hazards and disasters: Mitigation strategies\", \"Environmental Protection Act (1986), National Action Plan on Climate Change, International agreements (Montreal Protocol, Rio Summit, CBD, Kyoto, Paris, ISA)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Development and environment: Millennium Development Goals (MDGs) and Sustainable Development Goals (SDGs)",
+      "Human and environment interaction: Anthropogenic activities and their impacts on environment",
+      "Environmental issues: Air pollution, Water pollution, Soil pollution, Noise pollution, Waste (solid, liquid, biomedical, hazardous, e-waste)",
+      "Climate change and its socio-economic and political dimensions",
+      "Impacts of pollutants on human health",
+      "Natural and energy resources: Solar, Wind, Soil, Hydro, Geothermal, Biomass, Nuclear and Forests",
+      "Natural hazards and disasters: Mitigation strategies",
+      "Environmental Protection Act (1986), National Action Plan on Climate Change, International agreements (Montreal Protocol, Rio Summit, CBD, Kyoto, Paris, ISA)"
+    ]
+  },
+  {
+    "id": 10,
+    "subject_id": 1,
+    "unit_number": 10,
+    "title": "Unit X: Higher Education System",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Paper 1 Syllabus - Unit X: Higher Education System",
+    "topics_json": "[\"Institutions of higher learning and education in ancient India (Takshashila, Nalanda, Valabhi, Vikramashila)\", \"Evolution of higher learning and research in Post-Independence India (Radhakrishnan Commission, Kothari Commission, NEP 2020)\", \"Oriental, Conventional and Non-conventional learning programmes in India\", \"Professional, Technical and Skill Based education\", \"Value education and environmental education\", \"Policies, Governance, and Administration: Regulatory bodies (UGC, AICTE, NAAC, NIRF)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Institutions of higher learning and education in ancient India (Takshashila, Nalanda, Valabhi, Vikramashila)",
+      "Evolution of higher learning and research in Post-Independence India (Radhakrishnan Commission, Kothari Commission, NEP 2020)",
+      "Oriental, Conventional and Non-conventional learning programmes in India",
+      "Professional, Technical and Skill Based education",
+      "Value education and environmental education",
+      "Policies, Governance, and Administration: Regulatory bodies (UGC, AICTE, NAAC, NIRF)"
+    ]
+  }
+]

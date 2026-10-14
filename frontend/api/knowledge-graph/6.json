@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {
+      "id": "sub-6",
+      "label": "Computer Vision & Pattern Recognition",
+      "group": "root",
+      "size": 32,
+      "color": "#3B82F6"
+    }
+  ],
+  "links": []
+}

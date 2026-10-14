@@ -1,0 +1,25 @@
+# Python & Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Vercel & Node
+.vercel
+node_modules/
+npm-debug.log*
+
+# Database journals & scratch files
+*.db-journal
+scratch_read.py
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

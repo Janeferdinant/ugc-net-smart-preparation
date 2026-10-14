@@ -1,0 +1,533 @@
+{
+  "nodes": [
+    {
+      "id": "sub-3",
+      "label": "Electronic Science",
+      "group": "root",
+      "size": 32,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "unit-21",
+      "label": "Unit 1: Semiconductor Devices and IC Fabrication",
+      "group": "unit",
+      "unit_number": 1,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-21-0",
+      "label": "Energy bands in semiconductors, car...",
+      "full_title": "Energy bands in semiconductors, carrier concentration, drift and diffusion current, Hall effect",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-21-1",
+      "label": "p-n junction diodes, Zener diodes, ...",
+      "full_title": "p-n junction diodes, Zener diodes, Varactor, Tunnel, Schottky, Photodiode, Solar cell",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-21-2",
+      "label": "BJT, JFET, MOSFET, MESFET, HEMT, Fi...",
+      "full_title": "BJT, JFET, MOSFET, MESFET, HEMT, FinFET: operation, characteristics and small signal models",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-22",
+      "label": "Unit 2: Linear and Digital Circuit Analysis",
+      "group": "unit",
+      "unit_number": 2,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-22-0",
+      "label": "Network theorems: Thevenin, Norton,...",
+      "full_title": "Network theorems: Thevenin, Norton, Superposition, Maximum Power Transfer, Tellegen, Reciprocity",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-22-1",
+      "label": "Transient and steady-state analysis...",
+      "full_title": "Transient and steady-state analysis of RL, RC, and RLC circuits; Two-port networks (Z, Y, h, ABCD parameters)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-22-2",
+      "label": "Operational Amplifiers: Ideal chara...",
+      "full_title": "Operational Amplifiers: Ideal characteristics, inverting, non-inverting, differential, instrumentation amplifier, filters, oscillators",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-23",
+      "label": "Unit 3: Microprocessors, Microcontrollers and Embedded Systems",
+      "group": "unit",
+      "unit_number": 3,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-23-0",
+      "label": "Architecture and assembly programmi...",
+      "full_title": "Architecture and assembly programming of 8085 and 8086 microprocessors",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-23-1",
+      "label": "Interfacing: 8255 (PPI), 8254 (Time...",
+      "full_title": "Interfacing: 8255 (PPI), 8254 (Timer), 8259 (PIC), 8251 (USART), 8237 (DMA)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-23-2",
+      "label": "8051 Microcontroller architecture, ...",
+      "full_title": "8051 Microcontroller architecture, instruction set, timers, serial port, interrupts, interfacing with ADC/DAC and sensors",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-24",
+      "label": "Unit 4: Electromagnetics, Antennas and Microwave",
+      "group": "unit",
+      "unit_number": 4,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-24-0",
+      "label": "Maxwell's equations, wave propagati...",
+      "full_title": "Maxwell's equations, wave propagation in free space, dielectric and conducting media, Poynting theorem",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-24-1",
+      "label": "Transmission lines: characteristic ...",
+      "full_title": "Transmission lines: characteristic impedance, reflection coefficient, VSWR, Smith chart impedance matching",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-24-2",
+      "label": "Waveguides: TE, TM modes in rectang...",
+      "full_title": "Waveguides: TE, TM modes in rectangular and circular waveguides, cavity resonators",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-25",
+      "label": "Unit 5: Communication Systems and Signal Processing",
+      "group": "unit",
+      "unit_number": 5,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-25-0",
+      "label": "Analog communication: AM, FM, PM, s...",
+      "full_title": "Analog communication: AM, FM, PM, superheterodyne receivers, noise analysis (SNR, noise figure)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-25-1",
+      "label": "Digital communication: PCM, DPCM, D...",
+      "full_title": "Digital communication: PCM, DPCM, DM, ASK, FSK, PSK, QPSK, QAM; Information theory, Shannon-Hartley theorem, error control coding (linear block codes, cyclic codes, convolutional codes)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-25-2",
+      "label": "Signals and Systems: Continuous and...",
+      "full_title": "Signals and Systems: Continuous and discrete-time signals, LTI systems, convolution, Fourier transform, Laplace transform, Z-transform",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-26",
+      "label": "Unit 6: Control Systems and Instrumentation",
+      "group": "unit",
+      "unit_number": 6,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-26-0",
+      "label": "Control system concepts: open loop,...",
+      "full_title": "Control system concepts: open loop, closed loop, transfer function, block diagram reduction, signal flow graphs",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-26-1",
+      "label": "Time domain analysis: steady-state ...",
+      "full_title": "Time domain analysis: steady-state error, transient response of first and second order systems, Routh-Hurwitz stability criterion",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-26-2",
+      "label": "Frequency domain analysis: Nyquist ...",
+      "full_title": "Frequency domain analysis: Nyquist stability criterion, Bode plots, root locus technique",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-27",
+      "label": "Unit 7: Optical and Satellite Communication",
+      "group": "unit",
+      "unit_number": 7,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-27-0",
+      "label": "Optical fibers: step-index, graded-...",
+      "full_title": "Optical fibers: step-index, graded-index, attenuation, dispersion, optical sources (LED, Laser diode), optical detectors (PIN, APD)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-27-1",
+      "label": "WDM/DWDM systems, optical amplifier...",
+      "full_title": "WDM/DWDM systems, optical amplifiers (EDFA), optical networks (SONET/SDH)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-27-2",
+      "label": "Satellite communication: orbital me...",
+      "full_title": "Satellite communication: orbital mechanics, look angles, link budget calculations, uplink/downlink, transponders, multiple access (FDMA, TDMA, CDMA)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-28",
+      "label": "Unit 8: Power Electronics and Energy Systems",
+      "group": "unit",
+      "unit_number": 8,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-28-0",
+      "label": "Power semiconductor devices: SCR, T...",
+      "full_title": "Power semiconductor devices: SCR, TRIAC, DIAC, GTO, IGBT, Power MOSFET; triggering and commutation circuits",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-28-1",
+      "label": "Controlled rectifiers: single-phase...",
+      "full_title": "Controlled rectifiers: single-phase and three-phase converters",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-28-2",
+      "label": "Inverters, choppers, cycloconverter...",
+      "full_title": "Inverters, choppers, cycloconverters, SMPS, UPS systems",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-29",
+      "label": "Unit 9: VLSI Design and Hardware Description Languages",
+      "group": "unit",
+      "unit_number": 9,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-29-0",
+      "label": "MOS transistor switches, CMOS logic...",
+      "full_title": "MOS transistor switches, CMOS logic gates, transmission gates, stick diagrams, lambda-based design rules",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-29-1",
+      "label": "Dynamic logic, domino logic, CMOS m...",
+      "full_title": "Dynamic logic, domino logic, CMOS memory cells (SRAM, DRAM)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-29-2",
+      "label": "VHDL and Verilog: behavioral, dataf...",
+      "full_title": "VHDL and Verilog: behavioral, dataflow and structural modeling, simulation and synthesis of digital systems, FPGA architecture",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-30",
+      "label": "Unit 10: Advanced Wireless and Mobile Communications",
+      "group": "unit",
+      "unit_number": 10,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-30-0",
+      "label": "Cellular concepts: frequency reuse,...",
+      "full_title": "Cellular concepts: frequency reuse, handoff, channel assignment, interference (co-channel and adjacent channel), cell splitting",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-30-1",
+      "label": "Wireless standards: 2G (GSM), 3G (U...",
+      "full_title": "Wireless standards: 2G (GSM), 3G (UMTS), 4G (LTE), 5G NR architectures, MIMO, OFDM",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-30-2",
+      "label": "Wireless networks: Wi-Fi (802.11), ...",
+      "full_title": "Wireless networks: Wi-Fi (802.11), Bluetooth, ZigBee, Wireless Sensor Networks (WSN), IoT architectures",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    }
+  ],
+  "links": [
+    {
+      "source": "sub-3",
+      "target": "unit-21",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-21",
+      "target": "top-21-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-21",
+      "target": "top-21-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-21",
+      "target": "top-21-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-22",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-22",
+      "target": "top-22-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-22",
+      "target": "top-22-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-22",
+      "target": "top-22-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-23",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-23",
+      "target": "top-23-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-23",
+      "target": "top-23-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-23",
+      "target": "top-23-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-24",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-24",
+      "target": "top-24-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-24",
+      "target": "top-24-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-24",
+      "target": "top-24-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-25",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-25",
+      "target": "top-25-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-25",
+      "target": "top-25-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-25",
+      "target": "top-25-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-26",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-26",
+      "target": "top-26-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-26",
+      "target": "top-26-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-26",
+      "target": "top-26-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-27",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-27",
+      "target": "top-27-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-27",
+      "target": "top-27-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-27",
+      "target": "top-27-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-28",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-28",
+      "target": "top-28-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-28",
+      "target": "top-28-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-28",
+      "target": "top-28-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-29",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-29",
+      "target": "top-29-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-29",
+      "target": "top-29-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-29",
+      "target": "top-29-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-3",
+      "target": "unit-30",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-30",
+      "target": "top-30-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-30",
+      "target": "top-30-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-30",
+      "target": "top-30-2",
+      "type": "contains_topic"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "ugc-net-preparation",
+  "cleanUrls": true,
+  "routes": [
+    { "src": "/api/health", "dest": "/frontend/api/health.json" },
+    { "src": "/api/subjects", "dest": "/frontend/api/subjects.json" },
+    { "src": "/api/analytics/overview", "dest": "/frontend/api/analytics/overview.json" },
+    { "src": "/api/papers", "dest": "/frontend/api/papers.json" },
+    { "src": "/api/questions", "dest": "/frontend/api/questions.json" },
+    { "src": "/api/mock-tests", "dest": "/frontend/api/mock-tests.json" },
+    { "src": "/api/mock-tests/(\\d+)", "dest": "/frontend/api/mock-tests/$1.json" },
+    { "src": "/api/mock-tests/submit", "dest": "/frontend/api/mock-tests/submit_mock.json" },
+    { "src": "/api/syllabus/(\\d+)", "dest": "/frontend/api/syllabus/$1.json" },
+    { "src": "/api/knowledge-graph/(\\d+)", "dest": "/frontend/api/knowledge-graph/$1.json" },
+    { "src": "/api/career", "dest": "/frontend/api/career.json" },
+    { "src": "/api/verification-report", "dest": "/frontend/api/verification-report.json" },
+    { "src": "/frontend/(.*)", "dest": "/frontend/$1" },
+    { "src": "/docs/media/(.*)", "dest": "/docs/media/$1" },
+    { "src": "/(.*)", "dest": "/frontend/$1" }
+  ]
+}

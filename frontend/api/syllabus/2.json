@@ -1,0 +1,195 @@
+[
+  {
+    "id": 11,
+    "subject_id": 2,
+    "unit_number": 1,
+    "title": "Unit 1: Discrete Structures and Optimization",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 1: Discrete Structures and Optimization",
+    "topics_json": "[\"Mathematical Logic: Propositional and Predicate Logic, Propositional Equivalences, Normal Forms, Predicates and Quantifiers\", \"Sets and Relations: Set Operations, Representation and Properties of Relations, Equivalence Relations, Partial Orderings, Lattices\", \"Counting, Mathematical Induction and Discrete Probability: Pigeonhole Principle, Permutations and Combinations, Inclusion-Exclusion, Recurrence Relations\", \"Group Theory: Groups, Subgroups, Semi Groups, Monoids, Lagrange's Theorem, Cosets, Normal Subgroups, Homomorphism\", \"Graph Theory: Simple Graph, Multigraph, Bipartite Graphs, Eulerian and Hamiltonian Paths, Planar Graphs, Graph Coloring\", \"Boolean Algebra: Boolean Functions and its Minimization, Karnaugh Maps, Logic Gates\", \"Optimization: Linear Programming Problem (LPP), Simplex Method, Dual Simplex, Transportation and Assignment Models, PERT-CPM\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Mathematical Logic: Propositional and Predicate Logic, Propositional Equivalences, Normal Forms, Predicates and Quantifiers",
+      "Sets and Relations: Set Operations, Representation and Properties of Relations, Equivalence Relations, Partial Orderings, Lattices",
+      "Counting, Mathematical Induction and Discrete Probability: Pigeonhole Principle, Permutations and Combinations, Inclusion-Exclusion, Recurrence Relations",
+      "Group Theory: Groups, Subgroups, Semi Groups, Monoids, Lagrange's Theorem, Cosets, Normal Subgroups, Homomorphism",
+      "Graph Theory: Simple Graph, Multigraph, Bipartite Graphs, Eulerian and Hamiltonian Paths, Planar Graphs, Graph Coloring",
+      "Boolean Algebra: Boolean Functions and its Minimization, Karnaugh Maps, Logic Gates",
+      "Optimization: Linear Programming Problem (LPP), Simplex Method, Dual Simplex, Transportation and Assignment Models, PERT-CPM"
+    ]
+  },
+  {
+    "id": 12,
+    "subject_id": 2,
+    "unit_number": 2,
+    "title": "Unit 2: Computer System Architecture",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 2: Computer System Architecture",
+    "topics_json": "[\"Digital Logic Circuits and Components: Digital Computers, Logic Gates, Boolean Algebra, Map Simplification, Combinational Circuits, Flip-Flops, Sequential Circuits, Integrated Circuits, Decoders, Multiplexers, Registers and Counters\", \"Data Representation: Data Types, Number Systems and Conversion, Complements, Fixed Point and Floating Point Representation, Error Detection Codes\", \"Register Transfer and Microoperations: Register Transfer Language, Bus and Memory Transfers, Arithmetic Microoperations, Logic Microoperations, Shift Microoperations\", \"Basic Computer Organization and Design: Instruction Codes, Computer Registers, Computer Instructions, Timing and Control, Instruction Cycle, Memory-Reference Instructions, Input-Output and Interrupt\", \"Programming the Basic Computer: Machine Language, Assembly Language, Assembler, Program Loops, Subroutines, Input-Output Programming\", \"Microprogrammed Control: Control Memory, Address Sequencing, Design of Control Unit\", \"Central Processing Unit: General Register Organization, Stack Organization, Instruction Formats, Addressing Modes, Data Transfer and Manipulation, Program Control, RISC vs CISC\", \"Pipeline and Vector Processing: Parallel Processing, Pipelining, Arithmetic Pipeline, Instruction Pipeline, Vector Processing, Array Processors\", \"Computer Arithmetic: Addition, Subtraction, Multiplication (Booth's Algorithm), Division Algorithms, Floating-Point Arithmetic Operations\", \"Input-Output Organization: Peripheral Devices, Input-Output Interface, Asynchronous Data Transfer, Modes of Transfer, Priority Interrupt, Direct Memory Access (DMA)\", \"Memory Hierarchy: Memory Hierarchy, Main Memory, Auxiliary Memory, Associative Memory, Cache Memory (Direct, Associative, Set-Associative Mapping, Cache Replacement), Virtual Memory\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Digital Logic Circuits and Components: Digital Computers, Logic Gates, Boolean Algebra, Map Simplification, Combinational Circuits, Flip-Flops, Sequential Circuits, Integrated Circuits, Decoders, Multiplexers, Registers and Counters",
+      "Data Representation: Data Types, Number Systems and Conversion, Complements, Fixed Point and Floating Point Representation, Error Detection Codes",
+      "Register Transfer and Microoperations: Register Transfer Language, Bus and Memory Transfers, Arithmetic Microoperations, Logic Microoperations, Shift Microoperations",
+      "Basic Computer Organization and Design: Instruction Codes, Computer Registers, Computer Instructions, Timing and Control, Instruction Cycle, Memory-Reference Instructions, Input-Output and Interrupt",
+      "Programming the Basic Computer: Machine Language, Assembly Language, Assembler, Program Loops, Subroutines, Input-Output Programming",
+      "Microprogrammed Control: Control Memory, Address Sequencing, Design of Control Unit",
+      "Central Processing Unit: General Register Organization, Stack Organization, Instruction Formats, Addressing Modes, Data Transfer and Manipulation, Program Control, RISC vs CISC",
+      "Pipeline and Vector Processing: Parallel Processing, Pipelining, Arithmetic Pipeline, Instruction Pipeline, Vector Processing, Array Processors",
+      "Computer Arithmetic: Addition, Subtraction, Multiplication (Booth's Algorithm), Division Algorithms, Floating-Point Arithmetic Operations",
+      "Input-Output Organization: Peripheral Devices, Input-Output Interface, Asynchronous Data Transfer, Modes of Transfer, Priority Interrupt, Direct Memory Access (DMA)",
+      "Memory Hierarchy: Memory Hierarchy, Main Memory, Auxiliary Memory, Associative Memory, Cache Memory (Direct, Associative, Set-Associative Mapping, Cache Replacement), Virtual Memory"
+    ]
+  },
+  {
+    "id": 13,
+    "subject_id": 2,
+    "unit_number": 3,
+    "title": "Unit 3: Programming Languages and Computer Graphics",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 3: Programming Languages and Computer Graphics",
+    "topics_json": "[\"Language Design and Programming Principles: Programming Paradigms, Imperative, Functional, Logic and Object-Oriented Programming, Storage Management (Static, Stack, Heap)\", \"Programming in C/C++: Data Types, Operators, Control Statements, Functions, Arrays, Pointers, Structures, Unions, File Handling, Classes, Inheritance, Polymorphism, Templates, Exception Handling\", \"Elementary Computer Graphics: Display Devices (Raster Scan, Random Scan), Flat-panel Displays, Input Devices, Hard-Copy Devices\", \"2D Geometrical Transforms and Viewing: Translation, Scaling, Rotation, Reflection, Shear, Homogeneous Coordinates, Viewing Pipeline, Window-to-Viewport Transformation, Clipping Algorithms (Cohen-Sutherland, Liang-Barsky, Sutherland-Hodgman)\", \"3D Concepts and Transforms: 3D Display Methods, 3D Object Representations (Spline, Bezier curves), 3D Transformations, Projections (Parallel and Perspective Projections)\", \"Illumination Models and Surface Rendering: Basic Illumination Models (Ambient, Diffuse, Specular reflection, Phong model), Polygon Rendering Methods (Gouraud and Phong shading)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Language Design and Programming Principles: Programming Paradigms, Imperative, Functional, Logic and Object-Oriented Programming, Storage Management (Static, Stack, Heap)",
+      "Programming in C/C++: Data Types, Operators, Control Statements, Functions, Arrays, Pointers, Structures, Unions, File Handling, Classes, Inheritance, Polymorphism, Templates, Exception Handling",
+      "Elementary Computer Graphics: Display Devices (Raster Scan, Random Scan), Flat-panel Displays, Input Devices, Hard-Copy Devices",
+      "2D Geometrical Transforms and Viewing: Translation, Scaling, Rotation, Reflection, Shear, Homogeneous Coordinates, Viewing Pipeline, Window-to-Viewport Transformation, Clipping Algorithms (Cohen-Sutherland, Liang-Barsky, Sutherland-Hodgman)",
+      "3D Concepts and Transforms: 3D Display Methods, 3D Object Representations (Spline, Bezier curves), 3D Transformations, Projections (Parallel and Perspective Projections)",
+      "Illumination Models and Surface Rendering: Basic Illumination Models (Ambient, Diffuse, Specular reflection, Phong model), Polygon Rendering Methods (Gouraud and Phong shading)"
+    ]
+  },
+  {
+    "id": 14,
+    "subject_id": 2,
+    "unit_number": 4,
+    "title": "Unit 4: Database Management Systems",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 4: Database Management Systems",
+    "topics_json": "[\"Database System Concepts and Architecture: Data Models, Schemas and Instances, Three-Schema Architecture and Data Independence, Database Languages and Interfaces, Centralized and Client/Server Architectures\", \"Data Modeling: Entity-Relationship (ER) Model, Constraints, Weak Entities, ER-to-Relational Mapping, Extended ER (EER)\", \"Relational Model and SQL: Relational Model Concepts, Relational Constraints, Relational Algebra, Tuple and Domain Relational Calculus, SQL DDL, DML, DCL, TCL, Complex Queries, Views, Triggers, Assertions\", \"Normalization for Relational Databases: Functional Dependencies, Normal Forms (1NF, 2NF, 3NF, BCNF, 4NF, 5NF), Dependency Preservation, Lossless Join Decomposition\", \"Transaction Processing, Concurrency Control and Recovery: Transaction Concepts, ACID Properties, Schedules and Recoverability, Serializability, Concurrency Control Techniques (Two-Phase Locking, Timestamp Ordering, Multiversion), Database Recovery Techniques (Log-Based, Checkpointing)\", \"Enhanced Data Models: Object-Oriented Databases, XML Databases, NoSQL Databases (Document, Key-Value, Columnar, Graph), Distributed Databases (Fragmentation, Replication)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Database System Concepts and Architecture: Data Models, Schemas and Instances, Three-Schema Architecture and Data Independence, Database Languages and Interfaces, Centralized and Client/Server Architectures",
+      "Data Modeling: Entity-Relationship (ER) Model, Constraints, Weak Entities, ER-to-Relational Mapping, Extended ER (EER)",
+      "Relational Model and SQL: Relational Model Concepts, Relational Constraints, Relational Algebra, Tuple and Domain Relational Calculus, SQL DDL, DML, DCL, TCL, Complex Queries, Views, Triggers, Assertions",
+      "Normalization for Relational Databases: Functional Dependencies, Normal Forms (1NF, 2NF, 3NF, BCNF, 4NF, 5NF), Dependency Preservation, Lossless Join Decomposition",
+      "Transaction Processing, Concurrency Control and Recovery: Transaction Concepts, ACID Properties, Schedules and Recoverability, Serializability, Concurrency Control Techniques (Two-Phase Locking, Timestamp Ordering, Multiversion), Database Recovery Techniques (Log-Based, Checkpointing)",
+      "Enhanced Data Models: Object-Oriented Databases, XML Databases, NoSQL Databases (Document, Key-Value, Columnar, Graph), Distributed Databases (Fragmentation, Replication)"
+    ]
+  },
+  {
+    "id": 15,
+    "subject_id": 2,
+    "unit_number": 5,
+    "title": "Unit 5: System Software and Operating System",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 5: System Software and Operating System",
+    "topics_json": "[\"System Software: Basics of Operating Systems, Assemblers, Loaders and Linkers, Macro Processors, Compilers and Interpreters\", \"Operating System Structure: Services, System Calls, System Programs, Virtual Machines, OS Design and Implementation\", \"Process Management: Processes, Threads, Interprocess Communication, CPU Scheduling Algorithms (FCFS, SJF, Priority, Round Robin, Multilevel Queue), Process Synchronization (Critical Section Problem, Peterson's Solution, Semaphores, Monitors, Classical Synchronization Problems)\", \"Deadlocks: System Model, Characterization, Methods for Handling Deadlocks, Deadlock Prevention, Deadlock Avoidance (Banker's Algorithm), Deadlock Detection and Recovery\", \"Memory Management: Logical vs Physical Address Space, Swapping, Contiguous Memory Allocation, Paging, Segmentation, Virtual Memory (Demand Paging, Page Replacement Algorithms: FIFO, Optimal, LRU, Thrashing)\", \"Storage Management: File Concept, Access Methods, Directory Structure, File System Mounting, File Sharing, Protection, Allocation Methods (Contiguous, Linked, Indexed), Free-Space Management, Disk Structure, Disk Scheduling Algorithms (FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK)\", \"Security and Protection: Goals of Protection, Principles of Protection, Domain of Protection, Access Matrix, Security Problem, Program Threats, System Threats\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "System Software: Basics of Operating Systems, Assemblers, Loaders and Linkers, Macro Processors, Compilers and Interpreters",
+      "Operating System Structure: Services, System Calls, System Programs, Virtual Machines, OS Design and Implementation",
+      "Process Management: Processes, Threads, Interprocess Communication, CPU Scheduling Algorithms (FCFS, SJF, Priority, Round Robin, Multilevel Queue), Process Synchronization (Critical Section Problem, Peterson's Solution, Semaphores, Monitors, Classical Synchronization Problems)",
+      "Deadlocks: System Model, Characterization, Methods for Handling Deadlocks, Deadlock Prevention, Deadlock Avoidance (Banker's Algorithm), Deadlock Detection and Recovery",
+      "Memory Management: Logical vs Physical Address Space, Swapping, Contiguous Memory Allocation, Paging, Segmentation, Virtual Memory (Demand Paging, Page Replacement Algorithms: FIFO, Optimal, LRU, Thrashing)",
+      "Storage Management: File Concept, Access Methods, Directory Structure, File System Mounting, File Sharing, Protection, Allocation Methods (Contiguous, Linked, Indexed), Free-Space Management, Disk Structure, Disk Scheduling Algorithms (FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK)",
+      "Security and Protection: Goals of Protection, Principles of Protection, Domain of Protection, Access Matrix, Security Problem, Program Threats, System Threats"
+    ]
+  },
+  {
+    "id": 16,
+    "subject_id": 2,
+    "unit_number": 6,
+    "title": "Unit 6: Software Engineering",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 6: Software Engineering",
+    "topics_json": "[\"Software Process Models: Waterfall, Incremental, RAD, Evolutionary (Prototyping, Spiral), Concurrent, Agile Process Models (Scrum, Extreme Programming, Kanban)\", \"Software Requirements: Functional and Non-functional Requirements, User Requirements, System Requirements, Requirement Engineering Process, SRS Document, Software Prototyping\", \"Software Design: Architectural Design, Structured Design, Object-Oriented Design (UML Diagrams: Use Case, Class, Sequence, State Machine), Component-Level Design, User Interface Design\", \"Software Quality and Metrics: McCall's Quality Factors, ISO 9126, CMMI Levels, Software Reliability, Metrics for Process and Products, Function Point (FP) Analysis, Cyclomatic Complexity\", \"Software Testing: Verification and Validation, White-Box Testing (Basis Path, Control Structure), Black-Box Testing (Equivalence Partitioning, Boundary Value Analysis), Unit, Integration, System, Acceptance, Regression Testing\", \"Software Maintenance and Configuration Management: Types of Maintenance, Re-engineering, Reverse Engineering, SCM Repository and Process, Version Control (Git)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Software Process Models: Waterfall, Incremental, RAD, Evolutionary (Prototyping, Spiral), Concurrent, Agile Process Models (Scrum, Extreme Programming, Kanban)",
+      "Software Requirements: Functional and Non-functional Requirements, User Requirements, System Requirements, Requirement Engineering Process, SRS Document, Software Prototyping",
+      "Software Design: Architectural Design, Structured Design, Object-Oriented Design (UML Diagrams: Use Case, Class, Sequence, State Machine), Component-Level Design, User Interface Design",
+      "Software Quality and Metrics: McCall's Quality Factors, ISO 9126, CMMI Levels, Software Reliability, Metrics for Process and Products, Function Point (FP) Analysis, Cyclomatic Complexity",
+      "Software Testing: Verification and Validation, White-Box Testing (Basis Path, Control Structure), Black-Box Testing (Equivalence Partitioning, Boundary Value Analysis), Unit, Integration, System, Acceptance, Regression Testing",
+      "Software Maintenance and Configuration Management: Types of Maintenance, Re-engineering, Reverse Engineering, SCM Repository and Process, Version Control (Git)"
+    ]
+  },
+  {
+    "id": 17,
+    "subject_id": 2,
+    "unit_number": 7,
+    "title": "Unit 7: Data Communication and Computer Networks",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 7: Data Communication and Computer Networks",
+    "topics_json": "[\"Data Communication: Components, Data Representation, Data Flow, Networks, Topologies, Transmission Media (Guided and Unguided), Performance (Bandwidth, Throughput, Latency)\", \"Network Models: OSI Reference Model (7 Layers), TCP/IP Protocol Suite, Addressing (Physical, Logical, Port, Specific)\", \"Data Link Layer: Error Detection and Correction (Parity, Checksum, CRC, Hamming Code), Framing, Flow and Error Control (Stop-and-Wait, Go-Back-N, Selective Repeat), Multiple Access Protocols (ALOHA, CSMA/CD, CSMA/CA)\", \"Network Layer: IPv4 Addressing (Subnetting, Supernetting, CIDR), IPv6 Addressing, Routing Algorithms (Distance Vector - Bellman-Ford, Link State - Dijkstra, Hierarchical, Broadcast, Multicast), Network Layer Protocols (ARP, RARP, ICMP, IGMP)\", \"Transport Layer: Process-to-Process Delivery, User Datagram Protocol (UDP), Transmission Control Protocol (TCP) - Segment Format, Connection Establishment, Flow Control (Sliding Window), Congestion Control (Slow Start, Congestion Avoidance, Fast Retransmit, Fast Recovery), SCTP\", \"Application Layer: Domain Name System (DNS), Electronic Mail (SMTP, POP3, IMAP), File Transfer Protocol (FTP), Hypertext Transfer Protocol (HTTP, HTTPS), Network Management (SNMP)\", \"Network Security: Cryptography (Symmetric: DES, AES; Asymmetric: RSA, Diffie-Hellman), Digital Signatures, Message Integrity (MD5, SHA), Firewalls, Virtual Private Networks (VPN), IPSec, SSL/TLS\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Data Communication: Components, Data Representation, Data Flow, Networks, Topologies, Transmission Media (Guided and Unguided), Performance (Bandwidth, Throughput, Latency)",
+      "Network Models: OSI Reference Model (7 Layers), TCP/IP Protocol Suite, Addressing (Physical, Logical, Port, Specific)",
+      "Data Link Layer: Error Detection and Correction (Parity, Checksum, CRC, Hamming Code), Framing, Flow and Error Control (Stop-and-Wait, Go-Back-N, Selective Repeat), Multiple Access Protocols (ALOHA, CSMA/CD, CSMA/CA)",
+      "Network Layer: IPv4 Addressing (Subnetting, Supernetting, CIDR), IPv6 Addressing, Routing Algorithms (Distance Vector - Bellman-Ford, Link State - Dijkstra, Hierarchical, Broadcast, Multicast), Network Layer Protocols (ARP, RARP, ICMP, IGMP)",
+      "Transport Layer: Process-to-Process Delivery, User Datagram Protocol (UDP), Transmission Control Protocol (TCP) - Segment Format, Connection Establishment, Flow Control (Sliding Window), Congestion Control (Slow Start, Congestion Avoidance, Fast Retransmit, Fast Recovery), SCTP",
+      "Application Layer: Domain Name System (DNS), Electronic Mail (SMTP, POP3, IMAP), File Transfer Protocol (FTP), Hypertext Transfer Protocol (HTTP, HTTPS), Network Management (SNMP)",
+      "Network Security: Cryptography (Symmetric: DES, AES; Asymmetric: RSA, Diffie-Hellman), Digital Signatures, Message Integrity (MD5, SHA), Firewalls, Virtual Private Networks (VPN), IPSec, SSL/TLS"
+    ]
+  },
+  {
+    "id": 18,
+    "subject_id": 2,
+    "unit_number": 8,
+    "title": "Unit 8: Theory of Computation and Compilers",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 8: Theory of Computation and Compilers",
+    "topics_json": "[\"Theory of Computation: Formal Languages, Chomsky Hierarchy (Regular, Context-Free, Context-Sensitive, Recursively Enumerable)\", \"Regular Languages and Finite Automata: Deterministic Finite Automata (DFA), Non-deterministic Finite Automata (NFA), Equivalence of NFA and DFA, Minimization of DFA, Regular Expressions, Regular Grammars, Pumping Lemma for Regular Languages, Closure Properties\", \"Context-Free Languages and Pushdown Automata: Context-Free Grammars (CFG), Parse Trees, Ambiguity, Simplification of CFG, Normal Forms (Chomsky Normal Form - CNF, Greibach Normal Form - GNF), Pushdown Automata (PDA), Deterministic PDA, Non-deterministic PDA, Equivalence of CFG and PDA, Pumping Lemma for CFLs, Closure Properties\", \"Turing Machines and Decidability: Turing Machine Model, Design of Turing Machines, Multi-tape TMs, Non-deterministic TMs, Church-Turing Thesis, Decidable and Undecidable Problems, Halting Problem, Post's Correspondence Problem (PCP), Rice's Theorem\", \"Compiler Design: Structure of a Compiler, Phases of Compilation\", \"Lexical Analysis: Role of Lexical Analyzer, Specification and Recognition of Tokens, Lex tool\", \"Syntax Analysis: Role of Parser, Top-Down Parsing (Recursive Descent, LL(1)), Bottom-Up Parsing (Operator Precedence, Shift-Reduce, LR(0), SLR(1), LALR(1), CLR(1)), Yacc tool\", \"Syntax-Directed Translation: Syntax-Directed Definitions, S-attributed and L-attributed Definitions, Construction of Syntax Trees\", \"Intermediate Code Generation: Three-Address Code, Quadruples, Triples, Indirect Triples, Translation of Expressions, Control Flow\", \"Code Optimization: Principal Sources of Optimization, Basic Blocks and Flow Graphs, Optimization of Basic Blocks, Loops in Flow Graphs, Global Data Flow Analysis\", \"Code Generation: Issues in the Design of a Code Generator, Target Machine Architecture, Register Allocation and Assignment\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Theory of Computation: Formal Languages, Chomsky Hierarchy (Regular, Context-Free, Context-Sensitive, Recursively Enumerable)",
+      "Regular Languages and Finite Automata: Deterministic Finite Automata (DFA), Non-deterministic Finite Automata (NFA), Equivalence of NFA and DFA, Minimization of DFA, Regular Expressions, Regular Grammars, Pumping Lemma for Regular Languages, Closure Properties",
+      "Context-Free Languages and Pushdown Automata: Context-Free Grammars (CFG), Parse Trees, Ambiguity, Simplification of CFG, Normal Forms (Chomsky Normal Form - CNF, Greibach Normal Form - GNF), Pushdown Automata (PDA), Deterministic PDA, Non-deterministic PDA, Equivalence of CFG and PDA, Pumping Lemma for CFLs, Closure Properties",
+      "Turing Machines and Decidability: Turing Machine Model, Design of Turing Machines, Multi-tape TMs, Non-deterministic TMs, Church-Turing Thesis, Decidable and Undecidable Problems, Halting Problem, Post's Correspondence Problem (PCP), Rice's Theorem",
+      "Compiler Design: Structure of a Compiler, Phases of Compilation",
+      "Lexical Analysis: Role of Lexical Analyzer, Specification and Recognition of Tokens, Lex tool",
+      "Syntax Analysis: Role of Parser, Top-Down Parsing (Recursive Descent, LL(1)), Bottom-Up Parsing (Operator Precedence, Shift-Reduce, LR(0), SLR(1), LALR(1), CLR(1)), Yacc tool",
+      "Syntax-Directed Translation: Syntax-Directed Definitions, S-attributed and L-attributed Definitions, Construction of Syntax Trees",
+      "Intermediate Code Generation: Three-Address Code, Quadruples, Triples, Indirect Triples, Translation of Expressions, Control Flow",
+      "Code Optimization: Principal Sources of Optimization, Basic Blocks and Flow Graphs, Optimization of Basic Blocks, Loops in Flow Graphs, Global Data Flow Analysis",
+      "Code Generation: Issues in the Design of a Code Generator, Target Machine Architecture, Register Allocation and Assignment"
+    ]
+  },
+  {
+    "id": 19,
+    "subject_id": 2,
+    "unit_number": 9,
+    "title": "Unit 9: Data Science and Cloud Computing",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 9: Data Science and Cloud Computing",
+    "topics_json": "[\"Data Science: Definition, Life Cycle, Data Acquisition, Data Cleaning, Exploratory Data Analysis (EDA), Descriptive and Inferential Statistics, Hypothesis Testing (t-test, ANOVA, Chi-square)\", \"Big Data Technologies: 5 V's of Big Data, Hadoop Distributed File System (HDFS), MapReduce Programming Model, Apache Spark (RDDs, DataFrames, Spark SQL), NoSQL vs RDBMS\", \"Cloud Computing: Essential Characteristics, Service Models (IaaS, PaaS, SaaS), Deployment Models (Public, Private, Hybrid, Community), Cloud Architecture, Virtualization (Hypervisors, Containerization - Docker, Kubernetes)\", \"Cloud Security and Storage: Data Security in Cloud, Identity and Access Management (IAM), Cloud Storage Models (Object, Block, File Storage)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Data Science: Definition, Life Cycle, Data Acquisition, Data Cleaning, Exploratory Data Analysis (EDA), Descriptive and Inferential Statistics, Hypothesis Testing (t-test, ANOVA, Chi-square)",
+      "Big Data Technologies: 5 V's of Big Data, Hadoop Distributed File System (HDFS), MapReduce Programming Model, Apache Spark (RDDs, DataFrames, Spark SQL), NoSQL vs RDBMS",
+      "Cloud Computing: Essential Characteristics, Service Models (IaaS, PaaS, SaaS), Deployment Models (Public, Private, Hybrid, Community), Cloud Architecture, Virtualization (Hypervisors, Containerization - Docker, Kubernetes)",
+      "Cloud Security and Storage: Data Security in Cloud, Identity and Access Management (IAM), Cloud Storage Models (Object, Block, File Storage)"
+    ]
+  },
+  {
+    "id": 20,
+    "subject_id": 2,
+    "unit_number": 10,
+    "title": "Unit 10: Artificial Intelligence",
+    "weightage_percent": 10,
+    "description": "Official UGC NET CS & Applications Syllabus - Unit 10: Artificial Intelligence",
+    "topics_json": "[\"Approaches to AI: Turing Test, Rational Agent Approach, State Space Search, Problem Reduction, Production Systems\", \"Search Algorithms: Uninformed Search (BFS, DFS, Depth-Limited, Iterative Deepening, Uniform Cost), Informed Search (Best-First, A* Algorithm, AO* Algorithm, Memory-Bounded Heuristic Search), Adversarial Search (Minimax Algorithm, Alpha-Beta Pruning)\", \"Knowledge Representation and Reasoning: Propositional Logic, First-Order Logic, Forward Chaining, Backward Chaining, Resolution, Semantic Networks, Frames, Conceptual Dependency, Scripts\", \"Uncertain Knowledge and Reasoning: Probability Theory, Bayes' Rule, Bayesian Networks, Dempster-Shafer Theory, Fuzzy Logic (Fuzzy Sets, Membership Functions, Fuzzy Operations, Fuzzy Inference Systems)\", \"Machine Learning: Supervised Learning (Linear Regression, Logistic Regression, Decision Trees, Random Forests, Support Vector Machines, k-Nearest Neighbors, Naive Bayes), Unsupervised Learning (k-Means, Hierarchical Clustering, DBSCAN, Principal Component Analysis - PCA), Reinforcement Learning (Q-Learning, Policy Gradient, MDP)\", \"Neural Networks and Deep Learning: Biological Neuron vs Artificial Neuron, Perceptron, Multilayer Perceptron (MLP), Backpropagation Algorithm, Activation Functions (Sigmoid, Tanh, ReLU, Softmax), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Transformers and Self-Attention\", \"Natural Language Processing: Syntactic Processing, Semantic Analysis, Pragmatic Processing, Text Classification, Sentiment Analysis\", \"Expert Systems: Architecture of Expert Systems, Knowledge Acquisition, Shells and Rule-Based Systems\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Approaches to AI: Turing Test, Rational Agent Approach, State Space Search, Problem Reduction, Production Systems",
+      "Search Algorithms: Uninformed Search (BFS, DFS, Depth-Limited, Iterative Deepening, Uniform Cost), Informed Search (Best-First, A* Algorithm, AO* Algorithm, Memory-Bounded Heuristic Search), Adversarial Search (Minimax Algorithm, Alpha-Beta Pruning)",
+      "Knowledge Representation and Reasoning: Propositional Logic, First-Order Logic, Forward Chaining, Backward Chaining, Resolution, Semantic Networks, Frames, Conceptual Dependency, Scripts",
+      "Uncertain Knowledge and Reasoning: Probability Theory, Bayes' Rule, Bayesian Networks, Dempster-Shafer Theory, Fuzzy Logic (Fuzzy Sets, Membership Functions, Fuzzy Operations, Fuzzy Inference Systems)",
+      "Machine Learning: Supervised Learning (Linear Regression, Logistic Regression, Decision Trees, Random Forests, Support Vector Machines, k-Nearest Neighbors, Naive Bayes), Unsupervised Learning (k-Means, Hierarchical Clustering, DBSCAN, Principal Component Analysis - PCA), Reinforcement Learning (Q-Learning, Policy Gradient, MDP)",
+      "Neural Networks and Deep Learning: Biological Neuron vs Artificial Neuron, Perceptron, Multilayer Perceptron (MLP), Backpropagation Algorithm, Activation Functions (Sigmoid, Tanh, ReLU, Softmax), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Transformers and Self-Attention",
+      "Natural Language Processing: Syntactic Processing, Semantic Analysis, Pragmatic Processing, Text Classification, Sentiment Analysis",
+      "Expert Systems: Architecture of Expert Systems, Knowledge Acquisition, Shells and Rule-Based Systems"
+    ]
+  }
+]

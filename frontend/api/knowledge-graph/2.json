@@ -1,0 +1,533 @@
+{
+  "nodes": [
+    {
+      "id": "sub-2",
+      "label": "Computer Science and Applications",
+      "group": "root",
+      "size": 32,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "unit-11",
+      "label": "Unit 1: Discrete Structures and Optimization",
+      "group": "unit",
+      "unit_number": 1,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-11-0",
+      "label": "Mathematical Logic: Propositional a...",
+      "full_title": "Mathematical Logic: Propositional and Predicate Logic, Propositional Equivalences, Normal Forms, Predicates and Quantifiers",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-11-1",
+      "label": "Sets and Relations: Set Operations,...",
+      "full_title": "Sets and Relations: Set Operations, Representation and Properties of Relations, Equivalence Relations, Partial Orderings, Lattices",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-11-2",
+      "label": "Counting, Mathematical Induction an...",
+      "full_title": "Counting, Mathematical Induction and Discrete Probability: Pigeonhole Principle, Permutations and Combinations, Inclusion-Exclusion, Recurrence Relations",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-12",
+      "label": "Unit 2: Computer System Architecture",
+      "group": "unit",
+      "unit_number": 2,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-12-0",
+      "label": "Digital Logic Circuits and Componen...",
+      "full_title": "Digital Logic Circuits and Components: Digital Computers, Logic Gates, Boolean Algebra, Map Simplification, Combinational Circuits, Flip-Flops, Sequential Circuits, Integrated Circuits, Decoders, Multiplexers, Registers and Counters",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-12-1",
+      "label": "Data Representation: Data Types, Nu...",
+      "full_title": "Data Representation: Data Types, Number Systems and Conversion, Complements, Fixed Point and Floating Point Representation, Error Detection Codes",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-12-2",
+      "label": "Register Transfer and Microoperatio...",
+      "full_title": "Register Transfer and Microoperations: Register Transfer Language, Bus and Memory Transfers, Arithmetic Microoperations, Logic Microoperations, Shift Microoperations",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-13",
+      "label": "Unit 3: Programming Languages and Computer Graphics",
+      "group": "unit",
+      "unit_number": 3,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-13-0",
+      "label": "Language Design and Programming Pri...",
+      "full_title": "Language Design and Programming Principles: Programming Paradigms, Imperative, Functional, Logic and Object-Oriented Programming, Storage Management (Static, Stack, Heap)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-13-1",
+      "label": "Programming in C/C++: Data Types, O...",
+      "full_title": "Programming in C/C++: Data Types, Operators, Control Statements, Functions, Arrays, Pointers, Structures, Unions, File Handling, Classes, Inheritance, Polymorphism, Templates, Exception Handling",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-13-2",
+      "label": "Elementary Computer Graphics: Displ...",
+      "full_title": "Elementary Computer Graphics: Display Devices (Raster Scan, Random Scan), Flat-panel Displays, Input Devices, Hard-Copy Devices",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-14",
+      "label": "Unit 4: Database Management Systems",
+      "group": "unit",
+      "unit_number": 4,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-14-0",
+      "label": "Database System Concepts and Archit...",
+      "full_title": "Database System Concepts and Architecture: Data Models, Schemas and Instances, Three-Schema Architecture and Data Independence, Database Languages and Interfaces, Centralized and Client/Server Architectures",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-14-1",
+      "label": "Data Modeling: Entity-Relationship ...",
+      "full_title": "Data Modeling: Entity-Relationship (ER) Model, Constraints, Weak Entities, ER-to-Relational Mapping, Extended ER (EER)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-14-2",
+      "label": "Relational Model and SQL: Relationa...",
+      "full_title": "Relational Model and SQL: Relational Model Concepts, Relational Constraints, Relational Algebra, Tuple and Domain Relational Calculus, SQL DDL, DML, DCL, TCL, Complex Queries, Views, Triggers, Assertions",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-15",
+      "label": "Unit 5: System Software and Operating System",
+      "group": "unit",
+      "unit_number": 5,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-15-0",
+      "label": "System Software: Basics of Operatin...",
+      "full_title": "System Software: Basics of Operating Systems, Assemblers, Loaders and Linkers, Macro Processors, Compilers and Interpreters",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-15-1",
+      "label": "Operating System Structure: Service...",
+      "full_title": "Operating System Structure: Services, System Calls, System Programs, Virtual Machines, OS Design and Implementation",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-15-2",
+      "label": "Process Management: Processes, Thre...",
+      "full_title": "Process Management: Processes, Threads, Interprocess Communication, CPU Scheduling Algorithms (FCFS, SJF, Priority, Round Robin, Multilevel Queue), Process Synchronization (Critical Section Problem, Peterson's Solution, Semaphores, Monitors, Classical Synchronization Problems)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-16",
+      "label": "Unit 6: Software Engineering",
+      "group": "unit",
+      "unit_number": 6,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-16-0",
+      "label": "Software Process Models: Waterfall,...",
+      "full_title": "Software Process Models: Waterfall, Incremental, RAD, Evolutionary (Prototyping, Spiral), Concurrent, Agile Process Models (Scrum, Extreme Programming, Kanban)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-16-1",
+      "label": "Software Requirements: Functional a...",
+      "full_title": "Software Requirements: Functional and Non-functional Requirements, User Requirements, System Requirements, Requirement Engineering Process, SRS Document, Software Prototyping",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-16-2",
+      "label": "Software Design: Architectural Desi...",
+      "full_title": "Software Design: Architectural Design, Structured Design, Object-Oriented Design (UML Diagrams: Use Case, Class, Sequence, State Machine), Component-Level Design, User Interface Design",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-17",
+      "label": "Unit 7: Data Communication and Computer Networks",
+      "group": "unit",
+      "unit_number": 7,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-17-0",
+      "label": "Data Communication: Components, Dat...",
+      "full_title": "Data Communication: Components, Data Representation, Data Flow, Networks, Topologies, Transmission Media (Guided and Unguided), Performance (Bandwidth, Throughput, Latency)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-17-1",
+      "label": "Network Models: OSI Reference Model...",
+      "full_title": "Network Models: OSI Reference Model (7 Layers), TCP/IP Protocol Suite, Addressing (Physical, Logical, Port, Specific)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-17-2",
+      "label": "Data Link Layer: Error Detection an...",
+      "full_title": "Data Link Layer: Error Detection and Correction (Parity, Checksum, CRC, Hamming Code), Framing, Flow and Error Control (Stop-and-Wait, Go-Back-N, Selective Repeat), Multiple Access Protocols (ALOHA, CSMA/CD, CSMA/CA)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-18",
+      "label": "Unit 8: Theory of Computation and Compilers",
+      "group": "unit",
+      "unit_number": 8,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-18-0",
+      "label": "Theory of Computation: Formal Langu...",
+      "full_title": "Theory of Computation: Formal Languages, Chomsky Hierarchy (Regular, Context-Free, Context-Sensitive, Recursively Enumerable)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-18-1",
+      "label": "Regular Languages and Finite Automa...",
+      "full_title": "Regular Languages and Finite Automata: Deterministic Finite Automata (DFA), Non-deterministic Finite Automata (NFA), Equivalence of NFA and DFA, Minimization of DFA, Regular Expressions, Regular Grammars, Pumping Lemma for Regular Languages, Closure Properties",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-18-2",
+      "label": "Context-Free Languages and Pushdown...",
+      "full_title": "Context-Free Languages and Pushdown Automata: Context-Free Grammars (CFG), Parse Trees, Ambiguity, Simplification of CFG, Normal Forms (Chomsky Normal Form - CNF, Greibach Normal Form - GNF), Pushdown Automata (PDA), Deterministic PDA, Non-deterministic PDA, Equivalence of CFG and PDA, Pumping Lemma for CFLs, Closure Properties",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-19",
+      "label": "Unit 9: Data Science and Cloud Computing",
+      "group": "unit",
+      "unit_number": 9,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-19-0",
+      "label": "Data Science: Definition, Life Cycl...",
+      "full_title": "Data Science: Definition, Life Cycle, Data Acquisition, Data Cleaning, Exploratory Data Analysis (EDA), Descriptive and Inferential Statistics, Hypothesis Testing (t-test, ANOVA, Chi-square)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-19-1",
+      "label": "Big Data Technologies: 5 V's of Big...",
+      "full_title": "Big Data Technologies: 5 V's of Big Data, Hadoop Distributed File System (HDFS), MapReduce Programming Model, Apache Spark (RDDs, DataFrames, Spark SQL), NoSQL vs RDBMS",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-19-2",
+      "label": "Cloud Computing: Essential Characte...",
+      "full_title": "Cloud Computing: Essential Characteristics, Service Models (IaaS, PaaS, SaaS), Deployment Models (Public, Private, Hybrid, Community), Cloud Architecture, Virtualization (Hypervisors, Containerization - Docker, Kubernetes)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "unit-20",
+      "label": "Unit 10: Artificial Intelligence",
+      "group": "unit",
+      "unit_number": 10,
+      "size": 22,
+      "color": "#10B981"
+    },
+    {
+      "id": "top-20-0",
+      "label": "Approaches to AI: Turing Test, Rati...",
+      "full_title": "Approaches to AI: Turing Test, Rational Agent Approach, State Space Search, Problem Reduction, Production Systems",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-20-1",
+      "label": "Search Algorithms: Uninformed Searc...",
+      "full_title": "Search Algorithms: Uninformed Search (BFS, DFS, Depth-Limited, Iterative Deepening, Uniform Cost), Informed Search (Best-First, A* Algorithm, AO* Algorithm, Memory-Bounded Heuristic Search), Adversarial Search (Minimax Algorithm, Alpha-Beta Pruning)",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "top-20-2",
+      "label": "Knowledge Representation and Reason...",
+      "full_title": "Knowledge Representation and Reasoning: Propositional Logic, First-Order Logic, Forward Chaining, Backward Chaining, Resolution, Semantic Networks, Frames, Conceptual Dependency, Scripts",
+      "group": "topic",
+      "size": 14,
+      "color": "#8B5CF6"
+    }
+  ],
+  "links": [
+    {
+      "source": "sub-2",
+      "target": "unit-11",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-11",
+      "target": "top-11-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-11",
+      "target": "top-11-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-11",
+      "target": "top-11-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-12",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-12",
+      "target": "top-12-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-12",
+      "target": "top-12-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-12",
+      "target": "top-12-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-13",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-13",
+      "target": "top-13-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-13",
+      "target": "top-13-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-13",
+      "target": "top-13-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-14",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-14",
+      "target": "top-14-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-14",
+      "target": "top-14-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-14",
+      "target": "top-14-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-15",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-15",
+      "target": "top-15-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-15",
+      "target": "top-15-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-15",
+      "target": "top-15-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-16",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-16",
+      "target": "top-16-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-16",
+      "target": "top-16-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-16",
+      "target": "top-16-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-17",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-17",
+      "target": "top-17-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-17",
+      "target": "top-17-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-17",
+      "target": "top-17-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-18",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-18",
+      "target": "top-18-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-18",
+      "target": "top-18-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-18",
+      "target": "top-18-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-19",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-19",
+      "target": "top-19-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-19",
+      "target": "top-19-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-19",
+      "target": "top-19-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-2",
+      "target": "unit-20",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-20",
+      "target": "top-20-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-20",
+      "target": "top-20-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-20",
+      "target": "top-20-2",
+      "type": "contains_topic"
+    }
+  ]
+}

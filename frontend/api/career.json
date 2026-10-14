@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "domain": "Academic & Research",
+    "role_title": "Assistant Professor (CSE / IT / Electronics)",
+    "industry_sector": "Higher Education & Universities",
+    "experience_level": "Entry Level (Post UGC NET / Ph.D.)",
+    "salary_range_inr": "\u20b9 8 - 18 LPA (UGC 7th Pay Commission Level 10)",
+    "key_skills_json": "[\"Curriculum Design\", \"Research Publications\", \"Pedagogy\", \"Grant Writing\", \"Mentorship\"]",
+    "educational_pathway": "Postgraduation (M.Tech/MCA/M.Sc) -> UGC NET / JRF Qualified -> Ph.D. Enrollment / Assistant Professorship",
+    "verified_sources": "UGC 7th Central Pay Commission Guidelines; National Institutional Ranking Framework (NIRF)",
+    "updated_at": "2026-10-14 08:36:26",
+    "key_skills": [
+      "Curriculum Design",
+      "Research Publications",
+      "Pedagogy",
+      "Grant Writing",
+      "Mentorship"
+    ]
+  },
+  {
+    "id": 2,
+    "domain": "Artificial Intelligence",
+    "role_title": "AI / Machine Learning Research Scientist",
+    "industry_sector": "DeepTech, Autonomous Systems, Enterprise AI",
+    "experience_level": "Mid to Senior (3-7 Years)",
+    "salary_range_inr": "\u20b9 18 - 45 LPA",
+    "key_skills_json": "[\"PyTorch / TensorFlow\", \"Transformer Architectures\", \"RLHF\", \"Mathematical Optimization\", \"CUDA Programming\"]",
+    "educational_pathway": "M.Tech / MS in CSE or AI -> Research Fellowships -> Industry R&D Labs",
+    "verified_sources": "Glassdoor India Tech Benchmark 2024; AmbitionBox Salary Insights",
+    "updated_at": "2026-10-14 08:36:26",
+    "key_skills": [
+      "PyTorch / TensorFlow",
+      "Transformer Architectures",
+      "RLHF",
+      "Mathematical Optimization",
+      "CUDA Programming"
+    ]
+  },
+  {
+    "id": 3,
+    "domain": "Data Science",
+    "role_title": "Principal Data Scientist / Analytics Lead",
+    "industry_sector": "Fintech, Healthcare, E-Commerce",
+    "experience_level": "Senior (5+ Years)",
+    "salary_range_inr": "\u20b9 22 - 50 LPA",
+    "key_skills_json": "[\"Advanced Statistics\", \"Big Data (Spark/Hadoop)\", \"Feature Engineering\", \"MLOps\", \"Executive Storytelling\"]",
+    "educational_pathway": "Quantitative Degree -> Data Analyst -> Senior Data Scientist -> Principal Lead",
+    "verified_sources": "NASSCOM India Analytics Talent Report 2024",
+    "updated_at": "2026-10-14 08:36:26",
+    "key_skills": [
+      "Advanced Statistics",
+      "Big Data (Spark/Hadoop)",
+      "Feature Engineering",
+      "MLOps",
+      "Executive Storytelling"
+    ]
+  },
+  {
+    "id": 4,
+    "domain": "Electronics & Semiconductor",
+    "role_title": "VLSI Design & Verification Engineer",
+    "industry_sector": "Semiconductor Fabrication, Embedded Silicon, Chipset Design",
+    "experience_level": "Mid-Level (2-5 Years)",
+    "salary_range_inr": "\u20b9 14 - 35 LPA",
+    "key_skills_json": "[\"Verilog / SystemVerilog\", \"UVM Methodology\", \"Static Timing Analysis (STA)\", \"Cadence / Synopsys EDA Tools\", \"FPGA\"]",
+    "educational_pathway": "B.Tech/M.Tech Electronics / VLSI -> Design Verification Specialist -> Silicon Architecture",
+    "verified_sources": "India Electronics and Semiconductor Association (IESA) Report",
+    "updated_at": "2026-10-14 08:36:26",
+    "key_skills": [
+      "Verilog / SystemVerilog",
+      "UVM Methodology",
+      "Static Timing Analysis (STA)",
+      "Cadence / Synopsys EDA Tools",
+      "FPGA"
+    ]
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "total_resources_audited": 19,
+  "verified_sources": 19,
+  "broken_or_unverified_links": 0,
+  "missing_answer_keys": 0,
+  "verification_percentage": 100.0,
+  "official_authority": "National Testing Agency (NTA) & University Grants Commission (UGC)",
+  "audit_date": "2026-10-14",
+  "items": [
+    {
+      "paper_id": 1,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET June 2024 Paper 1 (General Aptitude)",
+      "exam_year": 2024,
+      "session": "June",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2024/june/ugc_net_2024_june_p1_s1.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 2,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET June 2024 Paper 1 (General Aptitude)",
+      "exam_year": 2024,
+      "session": "June",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2024/june/ugc_net_2024_june_p1_s2.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 3,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET Dec 2023 Paper 1 (General Aptitude)",
+      "exam_year": 2023,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2023/dec/ugc_net_2023_dec_p1_s1.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 4,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET June 2023 Paper 1 (General Aptitude)",
+      "exam_year": 2023,
+      "session": "June",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2023/june/ugc_net_2023_june_p1_s1.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 5,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET Dec 2022 Paper 1 (General Aptitude)",
+      "exam_year": 2022,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2022/dec/ugc_net_2022_dec_p1_s1.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 6,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET Dec 2021 Paper 1 (Merged Cycle)",
+      "exam_year": 2021,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2021/dec/ugc_net_2021_p1.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 7,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET Sept 2020 Paper 1 (General Aptitude)",
+      "exam_year": 2020,
+      "session": "September",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2020/sept/ugc_net_2020_p1.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 8,
+      "subject": "General Paper on Teaching & Research Aptitude (Paper 1)",
+      "title": "UGC NET Dec 2019 Paper 1 (General Aptitude)",
+      "exam_year": 2019,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2019/dec/ugc_net_2019_dec_p1.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 9,
+      "subject": "Computer Science and Applications",
+      "title": "UGC NET June 2024 Computer Science and Applications",
+      "exam_year": 2024,
+      "session": "June",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2024/june/ugc_net_2024_june_cs_87.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 10,
+      "subject": "Computer Science and Applications",
+      "title": "UGC NET Dec 2023 Computer Science and Applications",
+      "exam_year": 2023,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2023/dec/ugc_net_2023_dec_cs_87.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 11,
+      "subject": "Computer Science and Applications",
+      "title": "UGC NET June 2023 Computer Science and Applications",
+      "exam_year": 2023,
+      "session": "June",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2023/june/ugc_net_2023_june_cs_87.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 12,
+      "subject": "Computer Science and Applications",
+      "title": "UGC NET Dec 2022 Computer Science and Applications",
+      "exam_year": 2022,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2022/dec/ugc_net_2022_dec_cs_87.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 13,
+      "subject": "Computer Science and Applications",
+      "title": "UGC NET Nov 2021 Computer Science and Applications",
+      "exam_year": 2021,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2021/nov/ugc_net_2021_cs_87.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 14,
+      "subject": "Computer Science and Applications",
+      "title": "UGC NET Sept 2020 Computer Science and Applications",
+      "exam_year": 2020,
+      "session": "September",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2020/sept/ugc_net_2020_cs_87.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 15,
+      "subject": "Computer Science and Applications",
+      "title": "UGC NET Dec 2019 Computer Science and Applications",
+      "exam_year": 2019,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2019/dec/ugc_net_2019_dec_cs_87.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 16,
+      "subject": "Electronic Science",
+      "title": "UGC NET June 2024 Electronic Science (Subject 88)",
+      "exam_year": 2024,
+      "session": "June",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2024/june/ugc_net_2024_june_es_88.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 17,
+      "subject": "Electronic Science",
+      "title": "UGC NET Dec 2023 Electronic Science (Subject 88)",
+      "exam_year": 2023,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2023/dec/ugc_net_2023_dec_es_88.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 18,
+      "subject": "Electronic Science",
+      "title": "UGC NET June 2023 Electronic Science (Subject 88)",
+      "exam_year": 2023,
+      "session": "June",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2023/june/ugc_net_2023_june_es_88.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    },
+    {
+      "paper_id": 19,
+      "subject": "Electronic Science",
+      "title": "UGC NET Dec 2022 Electronic Science (Subject 88)",
+      "exam_year": 2022,
+      "session": "December",
+      "source_url": "https://ugcnet.nta.ac.in/archive/2022/dec/ugc_net_2022_dec_es_88.pdf",
+      "is_official_domain": true,
+      "has_answer_key": true,
+      "verification_status": "Verified Official"
+    }
+  ]
+}

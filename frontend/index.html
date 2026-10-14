@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="frosted" data-mode="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>UGC NET Smart Preparation Portal — Research, Resources & Learning Analytics</title>
+  <meta name="description" content="AI-powered UGC NET preparation platform for Paper 1, Computer Science & Applications, and Electronic Science. Curated by Jane Rose, Asst. Professor, CSE.">
+  <meta name="author" content="Jane Rose | Asst. Professor | CSE">
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Google Fonts: Inter (UI), EB Garamond (Academic Serif), JetBrains Mono (Code/Math) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN for instant, zero-build rendering -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['EB Garamond', 'Georgia', 'serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Master Glassmorphism & Liquid Glass Stylesheet -->
+  <link rel="stylesheet" href="./glassmorphism/glass_engine.css">
+
+  <style>
+    body {
+      background: var(--bg-gradient);
+      background-attachment: fixed;
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Ambient Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Main Application Container -->
+  <div id="app" class="relative z-10 min-h-screen flex flex-col">
+    <!-- Initial Loading State -->
+    <div class="flex-1 flex flex-col items-center justify-center p-8 text-center">
+      <div class="w-12 h-12 rounded-2xl bg-sky-500/20 border border-sky-400 flex items-center justify-center text-2xl animate-pulse mb-4">
+        🎓
+      </div>
+      <h2 class="text-lg font-bold text-white tracking-tight">Initializing UGC NET Smart Portal...</h2>
+      <p class="text-xs text-slate-400 mt-1 font-mono">Jane Rose | Asst. Professor | CSE</p>
+    </div>
+  </div>
+
+  <!-- Main ES Module Application Script -->
+  <script type="module" src="./dashboard/app.js"></script>
+</body>
+</html>

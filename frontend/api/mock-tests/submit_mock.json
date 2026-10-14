@@ -1,0 +1,25 @@
+{
+  "test_id": 6,
+  "total_questions": 200,
+  "attempted": 200,
+  "correct": 178,
+  "incorrect": 22,
+  "score": 356,
+  "max_score": 400,
+  "accuracy_percent": 89.0,
+  "qualifying_status": "QUALIFIED FOR JRF & ASSISTANT PROFESSOR (Percentile: 99.4%)",
+  "section_breakdown": {
+    "section_1_paper_1": {
+      "attempted": 50,
+      "correct": 46,
+      "score": 92,
+      "max_score": 100
+    },
+    "section_2_computer_science": {
+      "attempted": 150,
+      "correct": 132,
+      "score": 264,
+      "max_score": 300
+    }
+  }
+}

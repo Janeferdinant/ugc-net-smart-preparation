@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {
+      "id": "sub-7",
+      "label": "Natural Language Processing & LLMs",
+      "group": "root",
+      "size": 32,
+      "color": "#3B82F6"
+    }
+  ],
+  "links": []
+}

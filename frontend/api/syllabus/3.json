@@ -1,0 +1,160 @@
+[
+  {
+    "id": 21,
+    "subject_id": 3,
+    "unit_number": 1,
+    "title": "Unit 1: Semiconductor Devices and IC Fabrication",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 1: Semiconductor Devices and IC Fabrication",
+    "topics_json": "[\"Energy bands in semiconductors, carrier concentration, drift and diffusion current, Hall effect\", \"p-n junction diodes, Zener diodes, Varactor, Tunnel, Schottky, Photodiode, Solar cell\", \"BJT, JFET, MOSFET, MESFET, HEMT, FinFET: operation, characteristics and small signal models\", \"IC Fabrication technology: crystal growth, epitaxy, oxidation, lithography, etching, diffusion, ion implantation, metallization\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Energy bands in semiconductors, carrier concentration, drift and diffusion current, Hall effect",
+      "p-n junction diodes, Zener diodes, Varactor, Tunnel, Schottky, Photodiode, Solar cell",
+      "BJT, JFET, MOSFET, MESFET, HEMT, FinFET: operation, characteristics and small signal models",
+      "IC Fabrication technology: crystal growth, epitaxy, oxidation, lithography, etching, diffusion, ion implantation, metallization"
+    ]
+  },
+  {
+    "id": 22,
+    "subject_id": 3,
+    "unit_number": 2,
+    "title": "Unit 2: Linear and Digital Circuit Analysis",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 2: Linear and Digital Circuit Analysis",
+    "topics_json": "[\"Network theorems: Thevenin, Norton, Superposition, Maximum Power Transfer, Tellegen, Reciprocity\", \"Transient and steady-state analysis of RL, RC, and RLC circuits; Two-port networks (Z, Y, h, ABCD parameters)\", \"Operational Amplifiers: Ideal characteristics, inverting, non-inverting, differential, instrumentation amplifier, filters, oscillators\", \"Digital Circuits: Combinational logic, sequential logic, flip-flops, counters, registers, state machine synthesis\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Network theorems: Thevenin, Norton, Superposition, Maximum Power Transfer, Tellegen, Reciprocity",
+      "Transient and steady-state analysis of RL, RC, and RLC circuits; Two-port networks (Z, Y, h, ABCD parameters)",
+      "Operational Amplifiers: Ideal characteristics, inverting, non-inverting, differential, instrumentation amplifier, filters, oscillators",
+      "Digital Circuits: Combinational logic, sequential logic, flip-flops, counters, registers, state machine synthesis"
+    ]
+  },
+  {
+    "id": 23,
+    "subject_id": 3,
+    "unit_number": 3,
+    "title": "Unit 3: Microprocessors, Microcontrollers and Embedded Systems",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 3: Microprocessors, Microcontrollers and Embedded Systems",
+    "topics_json": "[\"Architecture and assembly programming of 8085 and 8086 microprocessors\", \"Interfacing: 8255 (PPI), 8254 (Timer), 8259 (PIC), 8251 (USART), 8237 (DMA)\", \"8051 Microcontroller architecture, instruction set, timers, serial port, interrupts, interfacing with ADC/DAC and sensors\", \"ARM Cortex architecture overview, embedded C programming, RTOS principles\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Architecture and assembly programming of 8085 and 8086 microprocessors",
+      "Interfacing: 8255 (PPI), 8254 (Timer), 8259 (PIC), 8251 (USART), 8237 (DMA)",
+      "8051 Microcontroller architecture, instruction set, timers, serial port, interrupts, interfacing with ADC/DAC and sensors",
+      "ARM Cortex architecture overview, embedded C programming, RTOS principles"
+    ]
+  },
+  {
+    "id": 24,
+    "subject_id": 3,
+    "unit_number": 4,
+    "title": "Unit 4: Electromagnetics, Antennas and Microwave",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 4: Electromagnetics, Antennas and Microwave",
+    "topics_json": "[\"Maxwell's equations, wave propagation in free space, dielectric and conducting media, Poynting theorem\", \"Transmission lines: characteristic impedance, reflection coefficient, VSWR, Smith chart impedance matching\", \"Waveguides: TE, TM modes in rectangular and circular waveguides, cavity resonators\", \"Microwave components: isolators, circulators, directional couplers, klystron, magnetron, TWT, Gunn diode, IMPATT diode\", \"Antenna parameters: radiation pattern, directivity, gain, effective aperture; dipole, loop, horn, microstrip patch antennas\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Maxwell's equations, wave propagation in free space, dielectric and conducting media, Poynting theorem",
+      "Transmission lines: characteristic impedance, reflection coefficient, VSWR, Smith chart impedance matching",
+      "Waveguides: TE, TM modes in rectangular and circular waveguides, cavity resonators",
+      "Microwave components: isolators, circulators, directional couplers, klystron, magnetron, TWT, Gunn diode, IMPATT diode",
+      "Antenna parameters: radiation pattern, directivity, gain, effective aperture; dipole, loop, horn, microstrip patch antennas"
+    ]
+  },
+  {
+    "id": 25,
+    "subject_id": 3,
+    "unit_number": 5,
+    "title": "Unit 5: Communication Systems and Signal Processing",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 5: Communication Systems and Signal Processing",
+    "topics_json": "[\"Analog communication: AM, FM, PM, superheterodyne receivers, noise analysis (SNR, noise figure)\", \"Digital communication: PCM, DPCM, DM, ASK, FSK, PSK, QPSK, QAM; Information theory, Shannon-Hartley theorem, error control coding (linear block codes, cyclic codes, convolutional codes)\", \"Signals and Systems: Continuous and discrete-time signals, LTI systems, convolution, Fourier transform, Laplace transform, Z-transform\", \"Digital Signal Processing: DFT, FFT algorithms, FIR and IIR filter design, bilinear transformation, digital filter structures\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Analog communication: AM, FM, PM, superheterodyne receivers, noise analysis (SNR, noise figure)",
+      "Digital communication: PCM, DPCM, DM, ASK, FSK, PSK, QPSK, QAM; Information theory, Shannon-Hartley theorem, error control coding (linear block codes, cyclic codes, convolutional codes)",
+      "Signals and Systems: Continuous and discrete-time signals, LTI systems, convolution, Fourier transform, Laplace transform, Z-transform",
+      "Digital Signal Processing: DFT, FFT algorithms, FIR and IIR filter design, bilinear transformation, digital filter structures"
+    ]
+  },
+  {
+    "id": 26,
+    "subject_id": 3,
+    "unit_number": 6,
+    "title": "Unit 6: Control Systems and Instrumentation",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 6: Control Systems and Instrumentation",
+    "topics_json": "[\"Control system concepts: open loop, closed loop, transfer function, block diagram reduction, signal flow graphs\", \"Time domain analysis: steady-state error, transient response of first and second order systems, Routh-Hurwitz stability criterion\", \"Frequency domain analysis: Nyquist stability criterion, Bode plots, root locus technique\", \"Transducers: resistive, capacitive, inductive, piezoelectric, optical transducers; digital voltmeters, oscilloscopes, spectrum analyzers\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Control system concepts: open loop, closed loop, transfer function, block diagram reduction, signal flow graphs",
+      "Time domain analysis: steady-state error, transient response of first and second order systems, Routh-Hurwitz stability criterion",
+      "Frequency domain analysis: Nyquist stability criterion, Bode plots, root locus technique",
+      "Transducers: resistive, capacitive, inductive, piezoelectric, optical transducers; digital voltmeters, oscilloscopes, spectrum analyzers"
+    ]
+  },
+  {
+    "id": 27,
+    "subject_id": 3,
+    "unit_number": 7,
+    "title": "Unit 7: Optical and Satellite Communication",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 7: Optical and Satellite Communication",
+    "topics_json": "[\"Optical fibers: step-index, graded-index, attenuation, dispersion, optical sources (LED, Laser diode), optical detectors (PIN, APD)\", \"WDM/DWDM systems, optical amplifiers (EDFA), optical networks (SONET/SDH)\", \"Satellite communication: orbital mechanics, look angles, link budget calculations, uplink/downlink, transponders, multiple access (FDMA, TDMA, CDMA)\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Optical fibers: step-index, graded-index, attenuation, dispersion, optical sources (LED, Laser diode), optical detectors (PIN, APD)",
+      "WDM/DWDM systems, optical amplifiers (EDFA), optical networks (SONET/SDH)",
+      "Satellite communication: orbital mechanics, look angles, link budget calculations, uplink/downlink, transponders, multiple access (FDMA, TDMA, CDMA)"
+    ]
+  },
+  {
+    "id": 28,
+    "subject_id": 3,
+    "unit_number": 8,
+    "title": "Unit 8: Power Electronics and Energy Systems",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 8: Power Electronics and Energy Systems",
+    "topics_json": "[\"Power semiconductor devices: SCR, TRIAC, DIAC, GTO, IGBT, Power MOSFET; triggering and commutation circuits\", \"Controlled rectifiers: single-phase and three-phase converters\", \"Inverters, choppers, cycloconverters, SMPS, UPS systems\", \"Renewable energy systems: photovoltaic cells, wind energy conversion systems\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Power semiconductor devices: SCR, TRIAC, DIAC, GTO, IGBT, Power MOSFET; triggering and commutation circuits",
+      "Controlled rectifiers: single-phase and three-phase converters",
+      "Inverters, choppers, cycloconverters, SMPS, UPS systems",
+      "Renewable energy systems: photovoltaic cells, wind energy conversion systems"
+    ]
+  },
+  {
+    "id": 29,
+    "subject_id": 3,
+    "unit_number": 9,
+    "title": "Unit 9: VLSI Design and Hardware Description Languages",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 9: VLSI Design and Hardware Description Languages",
+    "topics_json": "[\"MOS transistor switches, CMOS logic gates, transmission gates, stick diagrams, lambda-based design rules\", \"Dynamic logic, domino logic, CMOS memory cells (SRAM, DRAM)\", \"VHDL and Verilog: behavioral, dataflow and structural modeling, simulation and synthesis of digital systems, FPGA architecture\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "MOS transistor switches, CMOS logic gates, transmission gates, stick diagrams, lambda-based design rules",
+      "Dynamic logic, domino logic, CMOS memory cells (SRAM, DRAM)",
+      "VHDL and Verilog: behavioral, dataflow and structural modeling, simulation and synthesis of digital systems, FPGA architecture"
+    ]
+  },
+  {
+    "id": 30,
+    "subject_id": 3,
+    "unit_number": 10,
+    "title": "Unit 10: Advanced Wireless and Mobile Communications",
+    "weightage_percent": 10,
+    "description": "Official UGC NET Electronic Science Syllabus - Unit 10: Advanced Wireless and Mobile Communications",
+    "topics_json": "[\"Cellular concepts: frequency reuse, handoff, channel assignment, interference (co-channel and adjacent channel), cell splitting\", \"Wireless standards: 2G (GSM), 3G (UMTS), 4G (LTE), 5G NR architectures, MIMO, OFDM\", \"Wireless networks: Wi-Fi (802.11), Bluetooth, ZigBee, Wireless Sensor Networks (WSN), IoT architectures\"]",
+    "learning_outcomes": null,
+    "topics": [
+      "Cellular concepts: frequency reuse, handoff, channel assignment, interference (co-channel and adjacent channel), cell splitting",
+      "Wireless standards: 2G (GSM), 3G (UMTS), 4G (LTE), 5G NR architectures, MIMO, OFDM",
+      "Wireless networks: Wi-Fi (802.11), Bluetooth, ZigBee, Wireless Sensor Networks (WSN), IoT architectures"
+    ]
+  }
+]
