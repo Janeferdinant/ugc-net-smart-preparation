@@ -31,7 +31,8 @@
       "question_type": "MCQ",
       "year": 2024,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 2,
@@ -52,7 +53,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "December",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 3,
@@ -73,7 +75,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 4,
@@ -94,7 +97,8 @@
       "question_type": "Statement Based",
       "year": 2022,
       "session": "December",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 5,
@@ -115,7 +119,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "December",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     }
   ]
 }

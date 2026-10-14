@@ -1,1 +1,178 @@
-[]
+[
+  {
+    "id": 31,
+    "subject_id": 4,
+    "unit_number": 1,
+    "title": "Search Algorithms & Heuristic Optimization",
+    "weightage_percent": 10,
+    "description": "State space search, uninformed vs informed search, evaluation functions, admissibility and consistency of heuristics.",
+    "topics_json": "[\"State Space Representation & Problem Formulation\", \"Uninformed Search: BFS, DFS, Depth-Limited Search, Iterative Deepening (IDDFS), Uniform Cost Search (UCS)\", \"Informed / Heuristic Search: Greedy Best-First Search, A* Algorithm (Proof of Admissibility & Consistency)\", \"Memory-Bounded Heuristic Search: Iterative Deepening A* (IDA*), Recursive Best-First Search (RBFS), Simplified Memory-Bounded A* (SMA*)\", \"Local Search & Global Optimization: Hill Climbing (Local Maxima, Ridges, Plateaux), Simulated Annealing (Metropolis Criterion), Genetic Algorithms (Crossover, Mutation, Fitness)\"]",
+    "learning_outcomes": "Master heuristic tree navigation, calculate effective branching factor, and prove admissibility conditions for A*.",
+    "topics": [
+      "State Space Representation & Problem Formulation",
+      "Uninformed Search: BFS, DFS, Depth-Limited Search, Iterative Deepening (IDDFS), Uniform Cost Search (UCS)",
+      "Informed / Heuristic Search: Greedy Best-First Search, A* Algorithm (Proof of Admissibility & Consistency)",
+      "Memory-Bounded Heuristic Search: Iterative Deepening A* (IDA*), Recursive Best-First Search (RBFS), Simplified Memory-Bounded A* (SMA*)",
+      "Local Search & Global Optimization: Hill Climbing (Local Maxima, Ridges, Plateaux), Simulated Annealing (Metropolis Criterion), Genetic Algorithms (Crossover, Mutation, Fitness)"
+    ]
+  },
+  {
+    "id": 32,
+    "subject_id": 4,
+    "unit_number": 2,
+    "title": "Adversarial Search & Game Playing",
+    "weightage_percent": 10,
+    "description": "Two-player deterministic and stochastic zero-sum games, minimax optimality, and game-tree pruning bounds.",
+    "topics_json": "[\"Optimal Decisions in Zero-Sum Games: Minimax Value, Depth-Bounded Evaluation Functions\", \"Alpha-Beta Pruning: Alpha Cutoff, Beta Cutoff, Best-Case O(b^(d/2)) Time Complexity Proof\", \"Evaluation Function Design: Weighted Linear Functions, Horizon Problem, Quiescence Search\", \"Games with Chance: Expectiminimax, Monte Carlo Tree Search (MCTS), Selection, Expansion, Simulation, Backpropagation\"]",
+    "learning_outcomes": "Compute game tree bounds, execute alpha-beta pruning without traversing redundant subtrees, and design heuristic utility functions.",
+    "topics": [
+      "Optimal Decisions in Zero-Sum Games: Minimax Value, Depth-Bounded Evaluation Functions",
+      "Alpha-Beta Pruning: Alpha Cutoff, Beta Cutoff, Best-Case O(b^(d/2)) Time Complexity Proof",
+      "Evaluation Function Design: Weighted Linear Functions, Horizon Problem, Quiescence Search",
+      "Games with Chance: Expectiminimax, Monte Carlo Tree Search (MCTS), Selection, Expansion, Simulation, Backpropagation"
+    ]
+  },
+  {
+    "id": 33,
+    "subject_id": 4,
+    "unit_number": 3,
+    "title": "Knowledge Representation, Predicate Logic & Reasoning",
+    "weightage_percent": 10,
+    "description": "Formal logic systems, theorem proving, resolution refutation, and ontologies.",
+    "topics_json": "[\"Propositional Logic: Syntax, Semantics, Tautology, Satisfiability (CNF, DNF), Horn Clauses\", \"First-Order Logic (FOL): Quantifiers (Universal, Existential), Domain of Discourse, Variable Binding\", \"Inference in FOL: Forward Chaining, Backward Chaining, Generalized Modus Ponens\", \"Unification Algorithm & Most General Unifier (MGU)\", \"Skolemization & Resolution Refutation: Converting to Clause Form, Eliminating Existential Quantifiers with Skolem Functions, Empty Clause Derivation\", \"Structured Knowledge Representations: Semantic Networks, Conceptual Dependency, Frames, Scripts\"]",
+    "learning_outcomes": "Formulate complex real-world logic into FOL, compute Skolem normal forms, and perform resolution theorem refutation.",
+    "topics": [
+      "Propositional Logic: Syntax, Semantics, Tautology, Satisfiability (CNF, DNF), Horn Clauses",
+      "First-Order Logic (FOL): Quantifiers (Universal, Existential), Domain of Discourse, Variable Binding",
+      "Inference in FOL: Forward Chaining, Backward Chaining, Generalized Modus Ponens",
+      "Unification Algorithm & Most General Unifier (MGU)",
+      "Skolemization & Resolution Refutation: Converting to Clause Form, Eliminating Existential Quantifiers with Skolem Functions, Empty Clause Derivation",
+      "Structured Knowledge Representations: Semantic Networks, Conceptual Dependency, Frames, Scripts"
+    ]
+  },
+  {
+    "id": 34,
+    "subject_id": 4,
+    "unit_number": 4,
+    "title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems",
+    "weightage_percent": 10,
+    "description": "Handling uncertainty in AI, conditional independence, belief networks, and fuzzy logic operations.",
+    "topics_json": "[\"Uncertainty & Axioms of Probability: Prior, Conditional, and Joint Probability Distributions\", \"Bayes Rule & Bayesian Networks: Directed Acyclic Graphs (DAG), Conditional Independence, d-separation, Markov Blanket\", \"Exact & Approximate Inference: Variable Elimination, Rejection Sampling, Markov Chain Monte Carlo (MCMC)\", \"Fuzzy Sets & Membership Functions: Triangular, Trapezoidal, Gaussian Memberships, Support, Core, Alpha-Cuts\", \"Fuzzy Logic Operations: T-Norm (Min/Product), S-Norm (Max/Probabilistic Sum), Fuzzy Complement\", \"Fuzzy Inference Systems (FIS): Mamdani vs Sugeno Models, Fuzzification, Rule Base, Defuzzification (Centroid, COG, Mean of Maxima)\"]",
+    "learning_outcomes": "Construct Bayesian belief networks, determine conditional independence via d-separation, and evaluate fuzzy Mamdani systems.",
+    "topics": [
+      "Uncertainty & Axioms of Probability: Prior, Conditional, and Joint Probability Distributions",
+      "Bayes Rule & Bayesian Networks: Directed Acyclic Graphs (DAG), Conditional Independence, d-separation, Markov Blanket",
+      "Exact & Approximate Inference: Variable Elimination, Rejection Sampling, Markov Chain Monte Carlo (MCMC)",
+      "Fuzzy Sets & Membership Functions: Triangular, Trapezoidal, Gaussian Memberships, Support, Core, Alpha-Cuts",
+      "Fuzzy Logic Operations: T-Norm (Min/Product), S-Norm (Max/Probabilistic Sum), Fuzzy Complement",
+      "Fuzzy Inference Systems (FIS): Mamdani vs Sugeno Models, Fuzzification, Rule Base, Defuzzification (Centroid, COG, Mean of Maxima)"
+    ]
+  },
+  {
+    "id": 35,
+    "subject_id": 4,
+    "unit_number": 5,
+    "title": "Classical Machine Learning & Statistical Learning",
+    "weightage_percent": 10,
+    "description": "Supervised and semi-supervised algorithms, decision theory, optimization loss functions, and generalization bounds.",
+    "topics_json": "[\"Supervised Learning Foundations: Bias-Variance Tradeoff, Overfitting, L1/L2 Regularization (Lasso & Ridge)\", \"Linear & Logistic Regression: Cost Functions, Gradient Descent, Stochastic Gradient Descent (SGD), Odds Ratio, Sigmoid Activation\", \"Decision Tree Induction: ID3, C4.5, CART, Entropy, Information Gain, Gain Ratio, Gini Impurity, Pruning\", \"Naive Bayes Classifier: Maximum A Posteriori (MAP), Maximum Likelihood Estimation (MLE), Laplace Smoothing\", \"k-Nearest Neighbors (k-NN): Distance Metrics (Euclidean, Manhattan, Minkowski, Cosine), Voronoi Cells, Curse of Dimensionality\", \"Support Vector Machines (SVM): Maximum Margin Hyperplane, Hard Margin vs Soft Margin (Slack Variables), Dual Formulation, Kernel Trick (RBF, Polynomial)\"]",
+    "learning_outcomes": "Calculate Entropy, Information Gain, and Gini Index on tabular datasets, and formulate SVM Lagrange dual problems.",
+    "topics": [
+      "Supervised Learning Foundations: Bias-Variance Tradeoff, Overfitting, L1/L2 Regularization (Lasso & Ridge)",
+      "Linear & Logistic Regression: Cost Functions, Gradient Descent, Stochastic Gradient Descent (SGD), Odds Ratio, Sigmoid Activation",
+      "Decision Tree Induction: ID3, C4.5, CART, Entropy, Information Gain, Gain Ratio, Gini Impurity, Pruning",
+      "Naive Bayes Classifier: Maximum A Posteriori (MAP), Maximum Likelihood Estimation (MLE), Laplace Smoothing",
+      "k-Nearest Neighbors (k-NN): Distance Metrics (Euclidean, Manhattan, Minkowski, Cosine), Voronoi Cells, Curse of Dimensionality",
+      "Support Vector Machines (SVM): Maximum Margin Hyperplane, Hard Margin vs Soft Margin (Slack Variables), Dual Formulation, Kernel Trick (RBF, Polynomial)"
+    ]
+  },
+  {
+    "id": 36,
+    "subject_id": 4,
+    "unit_number": 6,
+    "title": "Unsupervised Learning, Clustering & Association Rules",
+    "weightage_percent": 10,
+    "description": "Discovering latent patterns in unlabeled data, clustering metrics, matrix decomposition, and frequent itemset mining.",
+    "topics_json": "[\"Partitioning Clustering: k-Means Algorithm, Convergence Guarantee, k-Means++ Initialization, Elbow Method, Silhouette Score\", \"Hierarchical Clustering: Agglomerative vs Divisive, Linkage Criteria (Single, Complete, Average, Ward Linkage), Dendrograms\", \"Density-Based Clustering: DBSCAN, Core Points, Border Points, Noise, Epsilon Neighborhood, MinPts\", \"Dimensionality Reduction: Principal Component Analysis (PCA), Covariance Matrix, Eigenvalue Decomposition, Explained Variance Ratio, Singular Value Decomposition (SVD)\", \"Association Rule Mining: Market Basket Analysis, Support, Confidence, Lift, Conviction, Apriori Algorithm (Apriori Property / Downward Closure), FP-Growth Tree\"]",
+    "learning_outcomes": "Execute PCA projection matrices, trace Apriori candidate generation, and compute cluster Silhouette coefficients.",
+    "topics": [
+      "Partitioning Clustering: k-Means Algorithm, Convergence Guarantee, k-Means++ Initialization, Elbow Method, Silhouette Score",
+      "Hierarchical Clustering: Agglomerative vs Divisive, Linkage Criteria (Single, Complete, Average, Ward Linkage), Dendrograms",
+      "Density-Based Clustering: DBSCAN, Core Points, Border Points, Noise, Epsilon Neighborhood, MinPts",
+      "Dimensionality Reduction: Principal Component Analysis (PCA), Covariance Matrix, Eigenvalue Decomposition, Explained Variance Ratio, Singular Value Decomposition (SVD)",
+      "Association Rule Mining: Market Basket Analysis, Support, Confidence, Lift, Conviction, Apriori Algorithm (Apriori Property / Downward Closure), FP-Growth Tree"
+    ]
+  },
+  {
+    "id": 37,
+    "subject_id": 4,
+    "unit_number": 7,
+    "title": "Deep Learning & Neural Architectures",
+    "weightage_percent": 10,
+    "description": "Biological vs artificial neurons, backpropagation mathematical derivation, convolutional, recurrent, and transformer networks.",
+    "topics_json": "[\"Artificial Neurons: McCulloch-Pitts Model, Perceptron Learning Rule, Linear Separability, XOR Problem\", \"Multi-Layer Perceptron (MLP): Universal Approximation Theorem, Activation Functions (ReLU, Leaky ReLU, GELU, Softmax)\", \"Backpropagation Calculus: Chain Rule Derivation, Gradient Flow, Vanishing and Exploding Gradient Problem, Optimizers (Momentum, Adam, RMSProp)\", \"Convolutional Neural Networks (CNN): Convolution Operation, Kernel, Stride, Padding, Receptive Field, Pooling Layers (Max, Average)\", \"Recurrent Architectures: Recurrent Neural Networks (RNN), Backpropagation Through Time (BPTT), Long Short-Term Memory (LSTM) Gating Mechanisms, Gated Recurrent Units (GRU)\", \"Transformers: Self-Attention Mechanism, Scaled Dot-Product Attention, Multi-Head Attention, Positional Encoding, Encoder-Decoder Architectures (BERT, GPT)\"]",
+    "learning_outcomes": "Derive backpropagation weight update gradients, compute CNN feature map dimensions, and calculate scaled dot-product attention scores.",
+    "topics": [
+      "Artificial Neurons: McCulloch-Pitts Model, Perceptron Learning Rule, Linear Separability, XOR Problem",
+      "Multi-Layer Perceptron (MLP): Universal Approximation Theorem, Activation Functions (ReLU, Leaky ReLU, GELU, Softmax)",
+      "Backpropagation Calculus: Chain Rule Derivation, Gradient Flow, Vanishing and Exploding Gradient Problem, Optimizers (Momentum, Adam, RMSProp)",
+      "Convolutional Neural Networks (CNN): Convolution Operation, Kernel, Stride, Padding, Receptive Field, Pooling Layers (Max, Average)",
+      "Recurrent Architectures: Recurrent Neural Networks (RNN), Backpropagation Through Time (BPTT), Long Short-Term Memory (LSTM) Gating Mechanisms, Gated Recurrent Units (GRU)",
+      "Transformers: Self-Attention Mechanism, Scaled Dot-Product Attention, Multi-Head Attention, Positional Encoding, Encoder-Decoder Architectures (BERT, GPT)"
+    ]
+  },
+  {
+    "id": 38,
+    "subject_id": 4,
+    "unit_number": 8,
+    "title": "Natural Language Processing (NLP) & Computational Linguistics",
+    "weightage_percent": 10,
+    "description": "Text preprocessing, vector semantics, grammatical parsing, and language modeling.",
+    "topics_json": "[\"Text Processing & Normalization: Tokenization, Stemming (Porter, Snowball), Lemmatization, Stop-Word Filtering, Edit Distance (Levenshtein)\", \"Vector Space Models: Bag-of-Words (BoW), Term Frequency-Inverse Document Frequency (TF-IDF), Pointwise Mutual Information (PMI)\", \"Distributed Word Representations: Word2Vec (Continuous Bag-of-Words & Skip-Gram), Hierarchical Softmax, Negative Sampling, GloVe\", \"Formal Grammars & Parsing: Chomsky Hierarchy (Regular, Context-Free, Context-Sensitive, Recursively Enumerable), Context-Free Grammars (CFG)\", \"Parsing Algorithms: Top-Down vs Bottom-Up Parsing, Cocke-Younger-Kasami (CYK) Algorithm, Shift-Reduce Parsing\", \"Modern Sequence Models: Seq2Seq with Attention, BLEU Score, Perplexity, Subword Tokenization (BPE, WordPiece)\"]",
+    "learning_outcomes": "Calculate TF-IDF matrices, run CYK chart parsing on Chomsky Normal Form grammars, and evaluate translation outputs using BLEU score.",
+    "topics": [
+      "Text Processing & Normalization: Tokenization, Stemming (Porter, Snowball), Lemmatization, Stop-Word Filtering, Edit Distance (Levenshtein)",
+      "Vector Space Models: Bag-of-Words (BoW), Term Frequency-Inverse Document Frequency (TF-IDF), Pointwise Mutual Information (PMI)",
+      "Distributed Word Representations: Word2Vec (Continuous Bag-of-Words & Skip-Gram), Hierarchical Softmax, Negative Sampling, GloVe",
+      "Formal Grammars & Parsing: Chomsky Hierarchy (Regular, Context-Free, Context-Sensitive, Recursively Enumerable), Context-Free Grammars (CFG)",
+      "Parsing Algorithms: Top-Down vs Bottom-Up Parsing, Cocke-Younger-Kasami (CYK) Algorithm, Shift-Reduce Parsing",
+      "Modern Sequence Models: Seq2Seq with Attention, BLEU Score, Perplexity, Subword Tokenization (BPE, WordPiece)"
+    ]
+  },
+  {
+    "id": 39,
+    "subject_id": 4,
+    "unit_number": 9,
+    "title": "Big Data Architectures, Distributed Computing & NoSQL",
+    "weightage_percent": 10,
+    "description": "Data processing at scale, distributed storage, parallel execution models, and non-relational database design.",
+    "topics_json": "[\"Big Data Characteristics: 5 V's (Volume, Velocity, Variety, Veracity, Value), Scaling (Vertical vs Horizontal)\", \"Hadoop Distributed File System (HDFS): NameNode, DataNode, Block Replication, Rack Awareness, Heartbeat Mechanism\", \"MapReduce Programming Paradigm: Map Function, Shuffle & Sort Phase, Reduce Function, Combiner, Partitioner, Fault Tolerance\", \"Apache Spark Architecture: Resilient Distributed Datasets (RDD), Transformations (Narrow vs Wide Dependencies), Actions, Spark DataFrames, Directed Acyclic Graph (DAG) Execution\", \"NoSQL Data Stores: CAP Theorem (Consistency, Availability, Partition Tolerance), BASE Properties (Basically Available, Soft state, Eventual consistency)\", \"NoSQL Categories: Key-Value (Redis), Document-Store (MongoDB), Column-Family (Apache Cassandra, HBase), Graph Databases (Neo4j)\"]",
+    "learning_outcomes": "Trace MapReduce word count and relational joins, apply CAP theorem trade-offs, and construct Spark RDD execution DAGs.",
+    "topics": [
+      "Big Data Characteristics: 5 V's (Volume, Velocity, Variety, Veracity, Value), Scaling (Vertical vs Horizontal)",
+      "Hadoop Distributed File System (HDFS): NameNode, DataNode, Block Replication, Rack Awareness, Heartbeat Mechanism",
+      "MapReduce Programming Paradigm: Map Function, Shuffle & Sort Phase, Reduce Function, Combiner, Partitioner, Fault Tolerance",
+      "Apache Spark Architecture: Resilient Distributed Datasets (RDD), Transformations (Narrow vs Wide Dependencies), Actions, Spark DataFrames, Directed Acyclic Graph (DAG) Execution",
+      "NoSQL Data Stores: CAP Theorem (Consistency, Availability, Partition Tolerance), BASE Properties (Basically Available, Soft state, Eventual consistency)",
+      "NoSQL Categories: Key-Value (Redis), Document-Store (MongoDB), Column-Family (Apache Cassandra, HBase), Graph Databases (Neo4j)"
+    ]
+  },
+  {
+    "id": 40,
+    "subject_id": 4,
+    "unit_number": 10,
+    "title": "Cloud Computing, Virtualization & MLOps",
+    "weightage_percent": 10,
+    "description": "Cloud service paradigms, containerization, distributed machine learning pipelines, and production model governance.",
+    "topics_json": "[\"Cloud Service Models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS)\", \"Cloud Deployment Models: Public, Private, Hybrid, Multi-Cloud, Community\", \"Virtualization Technology: Hypervisor Architecture (Type 1 Bare-Metal vs Type 2 Hosted), Hardware Virtualization vs OS-Level Containerization\", \"Containers & Orchestration: Docker Images, Layers, Container Runtime, Kubernetes Architecture (Control Plane, Worker Nodes, Pods, Services)\", \"Machine Learning Operations (MLOps): Continuous Training (CT), Continuous Delivery (CD4ML), Feature Stores, Data Drift vs Concept Drift\", \"Model Serving & Scalability: REST/gRPC Model Microservices, Batch vs Real-Time Streaming Inference, Model Monitoring and Latency Benchmarks\"]",
+    "learning_outcomes": "Differentiate hypervisor types from container namespaces, identify concept drift in streaming data, and architect MLOps pipelines.",
+    "topics": [
+      "Cloud Service Models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS)",
+      "Cloud Deployment Models: Public, Private, Hybrid, Multi-Cloud, Community",
+      "Virtualization Technology: Hypervisor Architecture (Type 1 Bare-Metal vs Type 2 Hosted), Hardware Virtualization vs OS-Level Containerization",
+      "Containers & Orchestration: Docker Images, Layers, Container Runtime, Kubernetes Architecture (Control Plane, Worker Nodes, Pods, Services)",
+      "Machine Learning Operations (MLOps): Continuous Training (CT), Continuous Delivery (CD4ML), Feature Stores, Data Drift vs Concept Drift",
+      "Model Serving & Scalability: REST/gRPC Model Microservices, Batch vs Real-Time Streaming Inference, Model Monitoring and Latency Benchmarks"
+    ]
+  }
+]

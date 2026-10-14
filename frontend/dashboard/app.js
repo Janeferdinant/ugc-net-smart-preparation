@@ -103,7 +103,7 @@ class UgcNetApp {
                 UGC NET Smart Portal
                 <span class="text-[10px] font-mono px-1.5 py-0.2 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30">NTA Verified</span>
               </div>
-              <div class="text-[11px] text-slate-400 font-mono">Jane Rose | Asst. Professor | CSE</div>
+              <div class="text-[11px] text-slate-400 font-mono">Jane Rose NF | Asst. Professor | CSE</div>
             </div>
           </div>
         </div>
@@ -111,9 +111,9 @@ class UgcNetApp {
         <!-- Subject Filter Dropdown & Search -->
         <div class="hidden md:flex items-center gap-3">
           <select id="header-subject-select" class="px-3 py-1.5 bg-slate-900/80 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-sky-400">
-            <option value="">All Subjects (Paper 1 + CS + Electronics)</option>
+            <option value="">All Subjects (Paper 1 + CS + AI & DS + Electronics)</option>
             ${this.subjects.map(s => `
-              <option value="${s.id}">${s.is_official ? '🏛️ Official: ' : '✨ Supplementary: '} ${s.name}</option>
+              <option value="${s.id}" ${this.selectedSubjectId === s.id ? 'selected' : ''}>${s.is_official ? '🏛️ Official: ' : '✨ Supplementary: '} ${s.name}</option>
             `).join('')}
           </select>
         </div>
@@ -137,6 +137,12 @@ class UgcNetApp {
           <nav class="space-y-1 text-xs">
             <button data-tab="dashboard" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition text-slate-300 hover:bg-slate-800/60 text-left">
               <span>📊</span> Dashboard Overview
+            </button>
+            <button data-tab="study-plan" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl transition text-slate-300 hover:bg-slate-800/60 text-left border border-emerald-500/20 bg-emerald-950/20">
+              <div class="flex items-center gap-3 font-semibold text-emerald-300">
+                <span>📅</span> 30-Day AI & DS Plan
+              </div>
+              <span class="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 animate-pulse">NEW</span>
             </button>
             <button data-tab="papers" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition text-slate-300 hover:bg-slate-800/60 text-left">
               <span>📄</span> Previous Year Papers (PYQs)
@@ -187,11 +193,11 @@ class UgcNetApp {
         <button data-tab="dashboard" class="mobile-nav-btn flex flex-col items-center py-1">
           <span class="text-base">📊</span> Home
         </button>
-        <button data-tab="papers" class="mobile-nav-btn flex flex-col items-center py-1">
-          <span class="text-base">📄</span> Papers
+        <button data-tab="study-plan" class="mobile-nav-btn flex flex-col items-center py-1 text-emerald-400 font-bold">
+          <span class="text-base">📅</span> 30D Plan
         </button>
-        <button data-tab="questions" class="mobile-nav-btn flex flex-col items-center py-1">
-          <span class="text-base">💡</span> Solved
+        <button data-tab="syllabus" class="mobile-nav-btn flex flex-col items-center py-1">
+          <span class="text-base">📑</span> Syllabus
         </button>
         <button data-tab="mock-tests" class="mobile-nav-btn flex flex-col items-center py-1">
           <span class="text-base">⏱️</span> Quiz
@@ -205,13 +211,13 @@ class UgcNetApp {
       <footer class="glass-header mt-12 border-t border-slate-800/80 py-8 px-6 text-center text-xs text-slate-400">
         <div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div class="text-left">
-            <div class="font-bold text-slate-200 text-sm">Jane Rose | Asst. Professor | CSE</div>
+            <div class="font-bold text-slate-200 text-sm">Jane Rose NF | Asst. Professor | CSE</div>
             <div class="text-[11px] text-slate-500 mt-0.5">UGC NET Smart Preparation & Resource Portal • APJ Abdul Kalam Technological University & UGC Standards</div>
           </div>
           <div class="flex flex-wrap gap-4 text-[11px] font-mono text-slate-400">
             <a href="#audit" onclick="window.appInstance.switchTab('audit')" class="hover:text-sky-400">Source Policy</a>
             <a href="#audit" onclick="window.appInstance.switchTab('audit')" class="hover:text-sky-400">Attribution & Copyright</a>
-            <span>v1.0.0 Stable</span>
+            <span>Jane Rose NF • v1.2.0</span>
           </div>
         </div>
       </footer>
@@ -368,6 +374,9 @@ class UgcNetApp {
         break;
       case 'syllabus':
         this.renderSyllabusView(content);
+        break;
+      case 'study-plan':
+        this.renderStudyPlanView(content);
         break;
       case 'questions':
         this.renderQuestionsView(content);

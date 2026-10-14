@@ -65,16 +65,49 @@ export class KnowledgeGraphView {
           <canvas id="kg-canvas" class="w-full h-full cursor-grab active:cursor-grabbing"></canvas>
           
           <!-- Node Details Floating Drawer -->
-          <div id="kg-node-drawer" class="hidden absolute top-4 right-4 w-72 max-w-[90%] bg-slate-900/95 backdrop-blur-md border border-slate-700 rounded-xl p-4 shadow-2xl z-20">
-            <div class="flex justify-between items-start mb-2">
-              <span id="kg-drawer-badge" class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-sky-500/20 text-sky-400 border border-sky-500/30">Unit</span>
-              <button id="kg-drawer-close" class="text-slate-400 hover:text-white text-sm">✕</button>
+          <div id="kg-node-drawer" class="hidden absolute top-4 right-4 w-80 sm:w-96 max-h-[90%] overflow-y-auto bg-slate-950/95 backdrop-blur-xl border border-sky-500/30 rounded-2xl p-5 shadow-2xl shadow-sky-950/50 z-20 space-y-4">
+            <div class="flex justify-between items-start pb-2 border-b border-slate-800">
+              <span id="kg-drawer-badge" class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-sky-500/20 text-sky-400 border border-sky-500/30">TOPIC</span>
+              <button id="kg-drawer-close" class="w-6 h-6 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center text-xs">✕</button>
             </div>
-            <h4 id="kg-drawer-title" class="text-sm font-bold text-white mb-2 leading-tight">Title</h4>
-            <p id="kg-drawer-desc" class="text-xs text-slate-300 mb-3 leading-relaxed">Description</p>
-            <div class="flex gap-2">
-              <button id="kg-drawer-action" class="w-full py-1.5 bg-sky-600 hover:bg-sky-500 text-white rounded-lg text-xs font-medium transition">
+            
+            <div>
+              <h4 id="kg-drawer-title" class="text-base font-bold text-white leading-tight">Title</h4>
+              <p id="kg-drawer-desc" class="text-xs text-slate-300 mt-1 leading-relaxed">Description</p>
+            </div>
+
+            <!-- Key Analytical Formula -->
+            <div id="kg-formula-box" class="p-3 rounded-xl bg-indigo-950/40 border border-indigo-500/30">
+              <div class="text-[10px] font-mono uppercase font-bold text-indigo-400 tracking-wider mb-1 flex items-center gap-1.5">
+                <span>📐</span> Key Analytical Formula / Theorem
+              </div>
+              <div id="kg-drawer-formula" class="text-xs font-mono text-indigo-200 break-words leading-relaxed">f(n) = g(n) + h(n)</div>
+            </div>
+
+            <!-- Real-Time Industry Application -->
+            <div id="kg-realtime-box" class="p-3 rounded-xl bg-emerald-950/40 border border-emerald-500/30">
+              <div class="text-[10px] font-mono uppercase font-bold text-emerald-400 tracking-wider mb-1 flex items-center gap-1.5">
+                <span>⚡</span> Real-Time Application & Industry Use
+              </div>
+              <div id="kg-drawer-realtime" class="text-xs text-emerald-200 leading-relaxed">GPS navigation routing, autonomous robotics, warehouse fleet dispatching.</div>
+            </div>
+
+            <!-- Official UGC NET PYQ Sample Walkthrough -->
+            <div id="kg-pyq-box" class="p-3 rounded-xl bg-sky-950/40 border border-sky-500/30 space-y-2">
+              <div class="text-[10px] font-mono uppercase font-bold text-sky-400 tracking-wider flex items-center justify-between">
+                <span>🎓 Official UGC NET PYQ Demo</span>
+                <span id="kg-drawer-pyq-key" class="px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[9px]">Key: Verified</span>
+              </div>
+              <div id="kg-drawer-pyq-text" class="text-xs text-slate-200 font-medium leading-relaxed">Sample question text goes here...</div>
+              <div id="kg-drawer-pyq-expl" class="text-[11px] text-slate-400 p-2 rounded bg-slate-900/80 border border-slate-800 leading-relaxed">Solution walkthrough...</div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 pt-1">
+              <button id="kg-drawer-action" class="py-2 px-3 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-bold transition shadow-lg shadow-sky-600/30 text-center">
                 Explore Questions
+              </button>
+              <button id="kg-drawer-plan" class="py-2 px-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold transition shadow-lg shadow-emerald-600/30 text-center">
+                30-Day Plan 📅
               </button>
             </div>
           </div>
@@ -97,25 +130,31 @@ export class KnowledgeGraphView {
     }
 
     if (this.nodes.length === 0) {
-      // High-quality client fallback
+      // High-quality comprehensive AI & Data Science taxonomy fallback
       this.nodes = [
-        { id: "root", label: "UGC NET Computer Science", group: "root", size: 28, color: "#3B82F6", x: 300, y: 220 },
-        { id: "u1", label: "Discrete Structures & Opt", group: "unit", size: 20, color: "#10B981", x: 180, y: 120 },
-        { id: "u2", label: "Computer Architecture", group: "unit", size: 20, color: "#10B981", x: 420, y: 120 },
-        { id: "u4", label: "Database Systems (DBMS)", group: "unit", size: 20, color: "#10B981", x: 160, y: 320 },
-        { id: "u8", label: "Theory of Computation", group: "unit", size: 20, color: "#10B981", x: 440, y: 320 },
-        { id: "u10", label: "Artificial Intelligence", group: "unit", size: 20, color: "#10B981", x: 300, y: 400 },
-        { id: "t1", label: "Graph Theory & Euler Paths", group: "topic", size: 13, color: "#A855F7", x: 80, y: 80 },
-        { id: "t2", label: "BCNF Normalization", group: "topic", size: 13, color: "#A855F7", x: 80, y: 360 },
-        { id: "t3", label: "Turing Decidability", group: "topic", size: 13, color: "#A855F7", x: 520, y: 360 },
-        { id: "t4", label: "A* Search & Admissibility", group: "topic", size: 13, color: "#A855F7", x: 300, y: 470 }
+        { id: "root", label: "UGC NET AI & Data Science", full_title: "Artificial Intelligence & Data Science (UGC NET)", group: "root", size: 30, color: "#3B82F6", x: 300, y: 220, description: "Master UGC NET Curriculum for AI, Machine Learning, Deep Learning, Big Data and Cloud Systems.", key_formula: "Comprehensive Examination Taxonomy", real_time_application: "Next-Generation Enterprise AI Systems" },
+        { id: "u1", label: "Search & Optimization", full_title: "Unit 1: Search & Optimization Strategies", group: "unit", size: 20, color: "#10B981", x: 160, y: 100, description: "Uninformed vs Informed Heuristic Search, A*, AO*, Simulated Annealing, Genetic Algorithms.", key_formula: "A* Admissibility: h(n) <= h*(n); Time O(b^d)", real_time_application: "Warehouse AGV fleet routing and GPS pathfinding." },
+        { id: "u2", label: "Adversarial Game Playing", full_title: "Unit 2: Adversarial Search & Minimax", group: "unit", size: 20, color: "#10B981", x: 380, y: 90, description: "Two-player zero-sum games, Minimax theorem, Alpha-Beta pruning, Expectiminimax.", key_formula: "Alpha-Beta best-case complexity: O(b^(d/2))", real_time_application: "Algorithmic high-frequency financial trading bidding engines." },
+        { id: "u3", label: "Logic & Knowledge Rep", full_title: "Unit 3: Predicate Logic & Skolemization", group: "unit", size: 20, color: "#10B981", x: 480, y: 220, description: "Propositional and First-Order Logic, Skolem normal form, Unification, Resolution Refutation.", key_formula: "Resolution rule: (A v B) and (~A v C) => (B v C)", real_time_application: "Automated legal contract clause verification." },
+        { id: "u4", label: "Probabilistic & Fuzzy AI", full_title: "Unit 4: Bayesian Networks & Fuzzy Systems", group: "unit", size: 20, color: "#10B981", x: 420, y: 350, description: "Bayes rule, Belief Networks, d-separation, Fuzzy sets, Mamdani and Sugeno controllers.", key_formula: "Centroid COG: z* = Integral(z*mu(z)dz) / Integral(mu(z)dz)", real_time_application: "Bullet train anti-lock braking and medical diagnostics." },
+        { id: "u5", label: "Machine Learning (SVM/Trees)", full_title: "Unit 5: Classical Supervised Learning", group: "unit", size: 20, color: "#10B981", x: 260, y: 380, description: "Decision Trees, ID3 Entropy, Information Gain, Gini index, Naive Bayes, SVM Maximum Margin.", key_formula: "Shannon Entropy: H(S) = -Sum(p_i * log2(p_i))", real_time_application: "Credit card fraud prevention and loan default risk scoring." },
+        { id: "u7", label: "Deep Learning & Neural Nets", full_title: "Unit 7: Deep Learning & Transformers", group: "unit", size: 20, color: "#10B981", x: 120, y: 260, description: "Multi-Layer Perceptrons, Backpropagation Chain Rule, CNN feature maps, Attention mechanism.", key_formula: "Attention(Q, K, V) = softmax((Q*K^T)/sqrt(d_k)) * V", real_time_application: "Autonomous driving perception and Large Language Models (ChatGPT)." },
+        { id: "u9", label: "Big Data & Cloud (Hadoop/Spark)", full_title: "Unit 9: Distributed Big Data & NoSQL", group: "unit", size: 20, color: "#10B981", x: 120, y: 180, description: "HDFS architecture, MapReduce, Apache Spark RDDs, CAP theorem, Docker, Kubernetes.", key_formula: "CAP Theorem: Max 2 of {Consistency, Availability, Partition}", real_time_application: "Global e-commerce recommendation engines and log analysis." },
+        // Topic nodes
+        { id: "t1", label: "A* Search & Consistency", full_title: "A* Heuristic Search & Admissibility Proofs", group: "topic", size: 14, color: "#A855F7", x: 60, y: 60, description: "Heuristic search algorithm that guarantees shortest path if heuristic is admissible and consistent.", key_formula: "f(n) = g(n) + h(n), h(n) <= h*(n)", real_time_application: "Google Maps shortest driving route computation." },
+        { id: "t2", label: "Alpha-Beta Cutoffs", full_title: "Alpha-Beta Pruning Bounds & Orderings", group: "topic", size: 14, color: "#A855F7", x: 460, y: 50, description: "Prunes subtrees that cannot influence the final minimax decision.", key_formula: "Cutoff condition: alpha >= beta", real_time_application: "Stockfish Chess engine search depth expansion." },
+        { id: "t3", label: "Skolem Normal Form", full_title: "Skolemization in First-Order Logic", group: "topic", size: 14, color: "#A855F7", x: 560, y: 260, description: "Replaces existential quantifiers within scope of universal quantifiers with Skolem functions.", key_formula: "forall x exists y P(x,y) => forall x P(x, f(x))", real_time_application: "Automated theorem proving in compilers and SAT solvers." },
+        { id: "t4", label: "SVM Maximum Margin", full_title: "Support Vector Machines & Kernel Trick", group: "topic", size: 14, color: "#A855F7", x: 260, y: 460, description: "Finds the optimal separating hyperplane with maximum geometric margin 2/||w||.", key_formula: "Margin = 2 / ||w||; RBF Kernel: K(x,z) = exp(-gamma||x-z||^2)", real_time_application: "Cancer genomics microarray classification." },
+        { id: "t5", label: "Transformer Attention", full_title: "Multi-Head Self-Attention in Transformers", group: "topic", size: 14, color: "#A855F7", x: 40, y: 320, description: "Computes pairwise token relationships across entire sequences simultaneously without recurrence.", key_formula: "softmax((Q * K^T) / sqrt(d_k)) * V", real_time_application: "Large Language Models, ChatGPT, machine translation." }
       ];
       this.links = [
         { source: "root", target: "u1" }, { source: "root", target: "u2" },
-        { source: "root", target: "u4" }, { source: "root", target: "u8" },
-        { source: "root", target: "u10" },
-        { source: "u1", target: "t1" }, { source: "u4", target: "t2" },
-        { source: "u8", target: "t3" }, { source: "u10", target: "t4" }
+        { source: "root", target: "u3" }, { source: "root", target: "u4" },
+        { source: "root", target: "u5" }, { source: "root", target: "u7" },
+        { source: "root", target: "u9" },
+        { source: "u1", target: "t1" }, { source: "u2", target: "t2" },
+        { source: "u3", target: "t3" }, { source: "u5", target: "t4" },
+        { source: "u7", target: "t5" }
       ];
     }
   }
@@ -202,6 +241,18 @@ export class KnowledgeGraphView {
       document.getElementById('kg-node-drawer')?.classList.add('hidden');
     });
 
+    document.getElementById('kg-drawer-action')?.addEventListener('click', () => {
+      if (window.appInstance) {
+        window.appInstance.switchTab('questions');
+      }
+    });
+
+    document.getElementById('kg-drawer-plan')?.addEventListener('click', () => {
+      if (window.appInstance) {
+        window.appInstance.switchTab('study-plan');
+      }
+    });
+
     document.getElementById('kg-view-toggle')?.addEventListener('click', () => {
       this.toggleViewMode();
     });
@@ -213,11 +264,37 @@ export class KnowledgeGraphView {
     const badge = document.getElementById('kg-drawer-badge');
     const title = document.getElementById('kg-drawer-title');
     const desc = document.getElementById('kg-drawer-desc');
+    const formula = document.getElementById('kg-drawer-formula');
+    const realtime = document.getElementById('kg-drawer-realtime');
+    const pyqText = document.getElementById('kg-drawer-pyq-text');
+    const pyqExpl = document.getElementById('kg-drawer-pyq-expl');
+    const pyqKey = document.getElementById('kg-drawer-pyq-key');
 
     if (drawer && badge && title && desc) {
-      badge.textContent = node.group.toUpperCase();
+      badge.textContent = (node.unit_number ? `UNIT ${node.unit_number} • ` : '') + node.group.toUpperCase();
       title.textContent = node.full_title || node.label;
-      desc.textContent = `Official syllabus topic linked with verified UGC NET previous year questions, solutions, and conceptual formulas.`;
+      desc.textContent = node.description || `Targeted UGC NET exam topic with verified question solutions, formulas, and industrial applications.`;
+
+      if (formula) {
+        formula.textContent = node.key_formula || "Analytical formulation & exam bounds";
+      }
+      if (realtime) {
+        realtime.textContent = node.real_time_application || "Applied computer systems, industrial software engineering, and analytics.";
+      }
+
+      if (pyqText && pyqExpl) {
+        if (node.sample_question) {
+          const sq = node.sample_question;
+          pyqText.textContent = sq.question_text;
+          pyqExpl.innerHTML = `<span class="text-emerald-400 font-bold">Official Key: Option ${sq.correct_option}</span><br><span class="text-slate-300 mt-1 block">${sq.explanation || sq.numerical_formula || ''}</span>`;
+          if (pyqKey) pyqKey.textContent = `Official NTA Key: ${sq.correct_option}`;
+        } else {
+          pyqText.textContent = `Verified PYQ: Analytical formulation and exam questions for ${node.label}.`;
+          pyqExpl.textContent = `Step-by-step problem walkthrough and real-time application available in the 30-Day Master Study Plan.`;
+          if (pyqKey) pyqKey.textContent = "Verified PYQ";
+        }
+      }
+
       drawer.classList.remove('hidden');
     }
     this.render();

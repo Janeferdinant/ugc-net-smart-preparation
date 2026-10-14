@@ -31,7 +31,8 @@
       "question_type": "MCQ",
       "year": 2024,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 7,
@@ -52,7 +53,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "December",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 8,
@@ -73,7 +75,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 9,
@@ -94,7 +97,8 @@
       "question_type": "MCQ",
       "year": 2022,
       "session": "December",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 10,
@@ -115,7 +119,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "December",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 11,
@@ -136,7 +141,8 @@
       "question_type": "MCQ",
       "year": 2024,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 12,
@@ -157,7 +163,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     }
   ]
 }

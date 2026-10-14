@@ -3,9 +3,13 @@
     {
       "id": "sub-5",
       "label": "Data Science & Advanced Analytics",
+      "full_title": "Data Science & Advanced Analytics",
       "group": "root",
       "size": 32,
-      "color": "#3B82F6"
+      "color": "#3B82F6",
+      "description": "Supplementary applied domain covering big data systems (Hadoop/Spark), probabilistic models, statistical inferencing, data pipelines, and business intelligence.",
+      "key_formula": "UGC NET Comprehensive Syllabi Hierarchy",
+      "real_time_application": "Academic Curriculum Taxonomy & Research Roadmaps"
     }
   ],
   "links": []

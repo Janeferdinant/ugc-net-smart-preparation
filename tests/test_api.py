@@ -74,5 +74,15 @@ class TestUgcNetApi(unittest.TestCase):
         self.assertIn("links", kg)
         self.assertGreaterEqual(len(kg["nodes"]), 11)
 
+    def test_study_plan_30_days(self):
+        plan = UgcNetService.get_study_plan_30_days()
+        self.assertEqual(len(plan), 30)
+        day1 = plan[0]
+        self.assertEqual(day1["day_number"], 1)
+        self.assertIn("core_topics", day1)
+        self.assertIn("key_formula", day1)
+        self.assertIn("real_time_application", day1)
+        self.assertIn("problem_demo_walkthrough", day1)
+
 if __name__ == "__main__":
     unittest.main()

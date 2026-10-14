@@ -306,7 +306,7 @@ class UgcNetService:
 
     @staticmethod
     def get_knowledge_graph(subject_id: int) -> Dict[str, Any]:
-        """Generates directed knowledge graph nodes & links for a subject."""
+        """Generates directed knowledge graph nodes & links for a subject with rich topic details."""
         conn = get_db_connection()
         cursor = conn.cursor()
 
@@ -319,9 +319,13 @@ class UgcNetService:
         nodes = [{
             "id": f"sub-{sub['id']}",
             "label": sub["name"],
+            "full_title": sub["name"],
             "group": "root",
             "size": 32,
-            "color": "#3B82F6"
+            "color": "#3B82F6",
+            "description": sub["description"] or "Master Academic Taxonomy & Knowledge Map",
+            "key_formula": "UGC NET Comprehensive Syllabi Hierarchy",
+            "real_time_application": "Academic Curriculum Taxonomy & Research Roadmaps"
         }]
         links = []
 
@@ -330,13 +334,26 @@ class UgcNetService:
 
         for u in units:
             unit_node_id = f"unit-{u['id']}"
+            cursor.execute("""
+                SELECT question_text, option_a, option_b, option_c, option_d, correct_option, explanation, numerical_formula, real_time_application 
+                FROM questions WHERE unit_id = ? LIMIT 1
+            """, (u["id"],))
+            sample_q = cursor.fetchone()
+            sample_dict = dict(sample_q) if sample_q else None
+
             nodes.append({
                 "id": unit_node_id,
-                "label": u["title"],
+                "label": f"Unit {u['unit_number']}: {u['title']}",
+                "full_title": u["title"],
                 "group": "unit",
                 "unit_number": u["unit_number"],
                 "size": 22,
-                "color": "#10B981"
+                "color": "#10B981",
+                "description": u["description"] or "Core foundational curriculum unit for examination.",
+                "learning_outcomes": u["learning_outcomes"] or "",
+                "key_formula": sample_dict.get("numerical_formula") if sample_dict else "Standard unit analytical formulation",
+                "real_time_application": sample_dict.get("real_time_application") if sample_dict else "Industrial & academic domain applications",
+                "sample_question": sample_dict
             })
             links.append({
                 "source": f"sub-{sub['id']}",
@@ -349,11 +366,17 @@ class UgcNetService:
                 topic_id = f"top-{u['id']}-{idx}"
                 nodes.append({
                     "id": topic_id,
-                    "label": top[:35] + ("..." if len(top) > 35 else ""),
+                    "label": top[:32] + ("..." if len(top) > 32 else ""),
                     "full_title": top,
                     "group": "topic",
-                    "size": 14,
-                    "color": "#8B5CF6"
+                    "unit_title": u["title"],
+                    "unit_number": u["unit_number"],
+                    "size": 15,
+                    "color": "#8B5CF6",
+                    "description": f"Targeted exam topic in {u['title']}: {top}",
+                    "key_formula": sample_dict.get("numerical_formula") if sample_dict else "Algorithmic theorem and boundary formulation",
+                    "real_time_application": sample_dict.get("real_time_application") if sample_dict else "Applied software engineering and data pipelines",
+                    "sample_question": sample_dict
                 })
                 links.append({
                     "source": unit_node_id,
@@ -363,6 +386,21 @@ class UgcNetService:
 
         conn.close()
         return {"nodes": nodes, "links": links}
+
+    @staticmethod
+    def get_study_plan_30_days() -> List[Dict[str, Any]]:
+        """Returns the full 30-Day Master Study Plan for AI & Data Science with PYQs and real-time demos."""
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM study_plan_30_days ORDER BY day_number ASC")
+        rows = []
+        for r in cursor.fetchall():
+            item = dict(r)
+            item["core_topics"] = json.loads(item["core_topics_json"])
+            item["pyq_options"] = json.loads(item["pyq_options_json"]) if item["pyq_options_json"] else {}
+            rows.append(item)
+        conn.close()
+        return rows
 
     @staticmethod
     def get_career_resources() -> List[Dict[str, Any]]:

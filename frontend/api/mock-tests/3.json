@@ -31,7 +31,8 @@
       "question_type": "MCQ",
       "year": 2024,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 14,
@@ -52,7 +53,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "December",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     },
     {
       "id": 15,
@@ -73,7 +75,8 @@
       "question_type": "MCQ",
       "year": 2023,
       "session": "June",
-      "is_official_pyq": 1
+      "is_official_pyq": 1,
+      "real_time_application": null
     }
   ]
 }

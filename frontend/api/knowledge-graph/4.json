@@ -2,11 +2,1176 @@
   "nodes": [
     {
       "id": "sub-4",
-      "label": "Artificial Intelligence & Machine Learning",
+      "label": "Artificial Intelligence & Data Science (UGC NET)",
+      "full_title": "Artificial Intelligence & Data Science (UGC NET)",
       "group": "root",
       "size": 32,
-      "color": "#3B82F6"
+      "color": "#3B82F6",
+      "description": "Comprehensive UGC NET Syllabus (Paper 2 Units 9 & 10) covering Search, Knowledge Representation, ML, Deep Learning, Big Data & Cloud Systems.",
+      "key_formula": "UGC NET Comprehensive Syllabi Hierarchy",
+      "real_time_application": "Academic Curriculum Taxonomy & Research Roadmaps"
+    },
+    {
+      "id": "unit-31",
+      "label": "Unit 1: Search Algorithms & Heuristic Optimization",
+      "full_title": "Search Algorithms & Heuristic Optimization",
+      "group": "unit",
+      "unit_number": 1,
+      "size": 22,
+      "color": "#10B981",
+      "description": "State space search, uninformed vs informed search, evaluation functions, admissibility and consistency of heuristics.",
+      "learning_outcomes": "Master heuristic tree navigation, calculate effective branching factor, and prove admissibility conditions for A*.",
+      "key_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+      "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal.",
+      "sample_question": {
+        "question_text": "In Breadth-First Search, if the branching factor is b and depth of shallowest solution is d, what is the space complexity?",
+        "option_a": "O(d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(b * d)",
+        "option_d": "O(d^b)",
+        "correct_option": "B",
+        "explanation": "BFS stores all generated nodes in memory at the current frontier level. At depth d, there are b^d leaf nodes in memory. Hence space complexity is O(b^d).",
+        "numerical_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+        "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal."
+      }
+    },
+    {
+      "id": "top-31-0",
+      "label": "State Space Representation & Pro...",
+      "full_title": "State Space Representation & Problem Formulation",
+      "group": "topic",
+      "unit_title": "Search Algorithms & Heuristic Optimization",
+      "unit_number": 1,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Search Algorithms & Heuristic Optimization: State Space Representation & Problem Formulation",
+      "key_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+      "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal.",
+      "sample_question": {
+        "question_text": "In Breadth-First Search, if the branching factor is b and depth of shallowest solution is d, what is the space complexity?",
+        "option_a": "O(d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(b * d)",
+        "option_d": "O(d^b)",
+        "correct_option": "B",
+        "explanation": "BFS stores all generated nodes in memory at the current frontier level. At depth d, there are b^d leaf nodes in memory. Hence space complexity is O(b^d).",
+        "numerical_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+        "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal."
+      }
+    },
+    {
+      "id": "top-31-1",
+      "label": "Uninformed Search: BFS, DFS, Dep...",
+      "full_title": "Uninformed Search: BFS, DFS, Depth-Limited Search, Iterative Deepening (IDDFS), Uniform Cost Search (UCS)",
+      "group": "topic",
+      "unit_title": "Search Algorithms & Heuristic Optimization",
+      "unit_number": 1,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Search Algorithms & Heuristic Optimization: Uninformed Search: BFS, DFS, Depth-Limited Search, Iterative Deepening (IDDFS), Uniform Cost Search (UCS)",
+      "key_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+      "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal.",
+      "sample_question": {
+        "question_text": "In Breadth-First Search, if the branching factor is b and depth of shallowest solution is d, what is the space complexity?",
+        "option_a": "O(d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(b * d)",
+        "option_d": "O(d^b)",
+        "correct_option": "B",
+        "explanation": "BFS stores all generated nodes in memory at the current frontier level. At depth d, there are b^d leaf nodes in memory. Hence space complexity is O(b^d).",
+        "numerical_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+        "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal."
+      }
+    },
+    {
+      "id": "top-31-2",
+      "label": "Informed / Heuristic Search: Gre...",
+      "full_title": "Informed / Heuristic Search: Greedy Best-First Search, A* Algorithm (Proof of Admissibility & Consistency)",
+      "group": "topic",
+      "unit_title": "Search Algorithms & Heuristic Optimization",
+      "unit_number": 1,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Search Algorithms & Heuristic Optimization: Informed / Heuristic Search: Greedy Best-First Search, A* Algorithm (Proof of Admissibility & Consistency)",
+      "key_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+      "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal.",
+      "sample_question": {
+        "question_text": "In Breadth-First Search, if the branching factor is b and depth of shallowest solution is d, what is the space complexity?",
+        "option_a": "O(d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(b * d)",
+        "option_d": "O(d^b)",
+        "correct_option": "B",
+        "explanation": "BFS stores all generated nodes in memory at the current frontier level. At depth d, there are b^d leaf nodes in memory. Hence space complexity is O(b^d).",
+        "numerical_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+        "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal."
+      }
+    },
+    {
+      "id": "unit-32",
+      "label": "Unit 2: Adversarial Search & Game Playing",
+      "full_title": "Adversarial Search & Game Playing",
+      "group": "unit",
+      "unit_number": 2,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Two-player deterministic and stochastic zero-sum games, minimax optimality, and game-tree pruning bounds.",
+      "learning_outcomes": "Compute game tree bounds, execute alpha-beta pruning without traversing redundant subtrees, and design heuristic utility functions.",
+      "key_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+      "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation).",
+      "sample_question": {
+        "question_text": "In a two-player zero-sum game with branching factor b and game depth d, the time complexity of the Minimax algorithm is:",
+        "option_a": "O(b * d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(d^b)",
+        "option_d": "O(b^(d/2))",
+        "correct_option": "B",
+        "explanation": "Minimax traverses all states in the complete game tree up to maximum depth d with branching factor b, yielding exact time complexity O(b^d).",
+        "numerical_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+        "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation)."
+      }
+    },
+    {
+      "id": "top-32-0",
+      "label": "Optimal Decisions in Zero-Sum Ga...",
+      "full_title": "Optimal Decisions in Zero-Sum Games: Minimax Value, Depth-Bounded Evaluation Functions",
+      "group": "topic",
+      "unit_title": "Adversarial Search & Game Playing",
+      "unit_number": 2,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Adversarial Search & Game Playing: Optimal Decisions in Zero-Sum Games: Minimax Value, Depth-Bounded Evaluation Functions",
+      "key_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+      "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation).",
+      "sample_question": {
+        "question_text": "In a two-player zero-sum game with branching factor b and game depth d, the time complexity of the Minimax algorithm is:",
+        "option_a": "O(b * d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(d^b)",
+        "option_d": "O(b^(d/2))",
+        "correct_option": "B",
+        "explanation": "Minimax traverses all states in the complete game tree up to maximum depth d with branching factor b, yielding exact time complexity O(b^d).",
+        "numerical_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+        "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation)."
+      }
+    },
+    {
+      "id": "top-32-1",
+      "label": "Alpha-Beta Pruning: Alpha Cutoff...",
+      "full_title": "Alpha-Beta Pruning: Alpha Cutoff, Beta Cutoff, Best-Case O(b^(d/2)) Time Complexity Proof",
+      "group": "topic",
+      "unit_title": "Adversarial Search & Game Playing",
+      "unit_number": 2,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Adversarial Search & Game Playing: Alpha-Beta Pruning: Alpha Cutoff, Beta Cutoff, Best-Case O(b^(d/2)) Time Complexity Proof",
+      "key_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+      "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation).",
+      "sample_question": {
+        "question_text": "In a two-player zero-sum game with branching factor b and game depth d, the time complexity of the Minimax algorithm is:",
+        "option_a": "O(b * d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(d^b)",
+        "option_d": "O(b^(d/2))",
+        "correct_option": "B",
+        "explanation": "Minimax traverses all states in the complete game tree up to maximum depth d with branching factor b, yielding exact time complexity O(b^d).",
+        "numerical_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+        "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation)."
+      }
+    },
+    {
+      "id": "top-32-2",
+      "label": "Evaluation Function Design: Weig...",
+      "full_title": "Evaluation Function Design: Weighted Linear Functions, Horizon Problem, Quiescence Search",
+      "group": "topic",
+      "unit_title": "Adversarial Search & Game Playing",
+      "unit_number": 2,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Adversarial Search & Game Playing: Evaluation Function Design: Weighted Linear Functions, Horizon Problem, Quiescence Search",
+      "key_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+      "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation).",
+      "sample_question": {
+        "question_text": "In a two-player zero-sum game with branching factor b and game depth d, the time complexity of the Minimax algorithm is:",
+        "option_a": "O(b * d)",
+        "option_b": "O(b^d)",
+        "option_c": "O(d^b)",
+        "option_d": "O(b^(d/2))",
+        "correct_option": "B",
+        "explanation": "Minimax traverses all states in the complete game tree up to maximum depth d with branching factor b, yielding exact time complexity O(b^d).",
+        "numerical_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+        "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation)."
+      }
+    },
+    {
+      "id": "unit-33",
+      "label": "Unit 3: Knowledge Representation, Predicate Logic & Reasoning",
+      "full_title": "Knowledge Representation, Predicate Logic & Reasoning",
+      "group": "unit",
+      "unit_number": 3,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Formal logic systems, theorem proving, resolution refutation, and ontologies.",
+      "learning_outcomes": "Formulate complex real-world logic into FOL, compute Skolem normal forms, and perform resolution theorem refutation.",
+      "key_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+      "real_time_application": "End-to-end autonomous navigation and routing engines.",
+      "sample_question": {
+        "question_text": "Which search algorithm combines the linear space complexity of DFS with the completeness of BFS?",
+        "option_a": "Uniform Cost Search",
+        "option_b": "Iterative Deepening Depth-First Search (IDDFS)",
+        "option_c": "Greedy Best-First Search",
+        "option_d": "Bidirectional Search",
+        "correct_option": "B",
+        "explanation": "IDDFS runs DFS with incrementally increasing depth limits. It is complete, optimal for uniform step costs, and retains linear space complexity O(bd).",
+        "numerical_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+        "real_time_application": "End-to-end autonomous navigation and routing engines."
+      }
+    },
+    {
+      "id": "top-33-0",
+      "label": "Propositional Logic: Syntax, Sem...",
+      "full_title": "Propositional Logic: Syntax, Semantics, Tautology, Satisfiability (CNF, DNF), Horn Clauses",
+      "group": "topic",
+      "unit_title": "Knowledge Representation, Predicate Logic & Reasoning",
+      "unit_number": 3,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Knowledge Representation, Predicate Logic & Reasoning: Propositional Logic: Syntax, Semantics, Tautology, Satisfiability (CNF, DNF), Horn Clauses",
+      "key_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+      "real_time_application": "End-to-end autonomous navigation and routing engines.",
+      "sample_question": {
+        "question_text": "Which search algorithm combines the linear space complexity of DFS with the completeness of BFS?",
+        "option_a": "Uniform Cost Search",
+        "option_b": "Iterative Deepening Depth-First Search (IDDFS)",
+        "option_c": "Greedy Best-First Search",
+        "option_d": "Bidirectional Search",
+        "correct_option": "B",
+        "explanation": "IDDFS runs DFS with incrementally increasing depth limits. It is complete, optimal for uniform step costs, and retains linear space complexity O(bd).",
+        "numerical_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+        "real_time_application": "End-to-end autonomous navigation and routing engines."
+      }
+    },
+    {
+      "id": "top-33-1",
+      "label": "First-Order Logic (FOL): Quantif...",
+      "full_title": "First-Order Logic (FOL): Quantifiers (Universal, Existential), Domain of Discourse, Variable Binding",
+      "group": "topic",
+      "unit_title": "Knowledge Representation, Predicate Logic & Reasoning",
+      "unit_number": 3,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Knowledge Representation, Predicate Logic & Reasoning: First-Order Logic (FOL): Quantifiers (Universal, Existential), Domain of Discourse, Variable Binding",
+      "key_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+      "real_time_application": "End-to-end autonomous navigation and routing engines.",
+      "sample_question": {
+        "question_text": "Which search algorithm combines the linear space complexity of DFS with the completeness of BFS?",
+        "option_a": "Uniform Cost Search",
+        "option_b": "Iterative Deepening Depth-First Search (IDDFS)",
+        "option_c": "Greedy Best-First Search",
+        "option_d": "Bidirectional Search",
+        "correct_option": "B",
+        "explanation": "IDDFS runs DFS with incrementally increasing depth limits. It is complete, optimal for uniform step costs, and retains linear space complexity O(bd).",
+        "numerical_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+        "real_time_application": "End-to-end autonomous navigation and routing engines."
+      }
+    },
+    {
+      "id": "top-33-2",
+      "label": "Inference in FOL: Forward Chaini...",
+      "full_title": "Inference in FOL: Forward Chaining, Backward Chaining, Generalized Modus Ponens",
+      "group": "topic",
+      "unit_title": "Knowledge Representation, Predicate Logic & Reasoning",
+      "unit_number": 3,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Knowledge Representation, Predicate Logic & Reasoning: Inference in FOL: Forward Chaining, Backward Chaining, Generalized Modus Ponens",
+      "key_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+      "real_time_application": "End-to-end autonomous navigation and routing engines.",
+      "sample_question": {
+        "question_text": "Which search algorithm combines the linear space complexity of DFS with the completeness of BFS?",
+        "option_a": "Uniform Cost Search",
+        "option_b": "Iterative Deepening Depth-First Search (IDDFS)",
+        "option_c": "Greedy Best-First Search",
+        "option_d": "Bidirectional Search",
+        "correct_option": "B",
+        "explanation": "IDDFS runs DFS with incrementally increasing depth limits. It is complete, optimal for uniform step costs, and retains linear space complexity O(bd).",
+        "numerical_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+        "real_time_application": "End-to-end autonomous navigation and routing engines."
+      }
+    },
+    {
+      "id": "unit-34",
+      "label": "Unit 4: Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems",
+      "full_title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems",
+      "group": "unit",
+      "unit_number": 4,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Handling uncertainty in AI, conditional independence, belief networks, and fuzzy logic operations.",
+      "learning_outcomes": "Construct Bayesian belief networks, determine conditional independence via d-separation, and evaluate fuzzy Mamdani systems.",
+      "key_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+      "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine).",
+      "sample_question": {
+        "question_text": "Which substitution represents the Most General Unifier (MGU) for P(x, f(y)) and P(a, f(b))?",
+        "option_a": "{x/a, y/b}",
+        "option_b": "{x/f(b), y/a}",
+        "option_c": "{x/b, y/a}",
+        "option_d": "{x/a, y/f(b)}",
+        "correct_option": "A",
+        "explanation": "Matching terms pairwise: x unifies with a ({x/a}), and f(y) unifies with f(b) which yields y unifies with b ({y/b}). The combined MGU is {x/a, y/b}.",
+        "numerical_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+        "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine)."
+      }
+    },
+    {
+      "id": "top-34-0",
+      "label": "Uncertainty & Axioms of Probabil...",
+      "full_title": "Uncertainty & Axioms of Probability: Prior, Conditional, and Joint Probability Distributions",
+      "group": "topic",
+      "unit_title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems",
+      "unit_number": 4,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems: Uncertainty & Axioms of Probability: Prior, Conditional, and Joint Probability Distributions",
+      "key_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+      "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine).",
+      "sample_question": {
+        "question_text": "Which substitution represents the Most General Unifier (MGU) for P(x, f(y)) and P(a, f(b))?",
+        "option_a": "{x/a, y/b}",
+        "option_b": "{x/f(b), y/a}",
+        "option_c": "{x/b, y/a}",
+        "option_d": "{x/a, y/f(b)}",
+        "correct_option": "A",
+        "explanation": "Matching terms pairwise: x unifies with a ({x/a}), and f(y) unifies with f(b) which yields y unifies with b ({y/b}). The combined MGU is {x/a, y/b}.",
+        "numerical_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+        "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine)."
+      }
+    },
+    {
+      "id": "top-34-1",
+      "label": "Bayes Rule & Bayesian Networks: ...",
+      "full_title": "Bayes Rule & Bayesian Networks: Directed Acyclic Graphs (DAG), Conditional Independence, d-separation, Markov Blanket",
+      "group": "topic",
+      "unit_title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems",
+      "unit_number": 4,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems: Bayes Rule & Bayesian Networks: Directed Acyclic Graphs (DAG), Conditional Independence, d-separation, Markov Blanket",
+      "key_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+      "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine).",
+      "sample_question": {
+        "question_text": "Which substitution represents the Most General Unifier (MGU) for P(x, f(y)) and P(a, f(b))?",
+        "option_a": "{x/a, y/b}",
+        "option_b": "{x/f(b), y/a}",
+        "option_c": "{x/b, y/a}",
+        "option_d": "{x/a, y/f(b)}",
+        "correct_option": "A",
+        "explanation": "Matching terms pairwise: x unifies with a ({x/a}), and f(y) unifies with f(b) which yields y unifies with b ({y/b}). The combined MGU is {x/a, y/b}.",
+        "numerical_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+        "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine)."
+      }
+    },
+    {
+      "id": "top-34-2",
+      "label": "Exact & Approximate Inference: V...",
+      "full_title": "Exact & Approximate Inference: Variable Elimination, Rejection Sampling, Markov Chain Monte Carlo (MCMC)",
+      "group": "topic",
+      "unit_title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems",
+      "unit_number": 4,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems: Exact & Approximate Inference: Variable Elimination, Rejection Sampling, Markov Chain Monte Carlo (MCMC)",
+      "key_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+      "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine).",
+      "sample_question": {
+        "question_text": "Which substitution represents the Most General Unifier (MGU) for P(x, f(y)) and P(a, f(b))?",
+        "option_a": "{x/a, y/b}",
+        "option_b": "{x/f(b), y/a}",
+        "option_c": "{x/b, y/a}",
+        "option_d": "{x/a, y/f(b)}",
+        "correct_option": "A",
+        "explanation": "Matching terms pairwise: x unifies with a ({x/a}), and f(y) unifies with f(b) which yields y unifies with b ({y/b}). The combined MGU is {x/a, y/b}.",
+        "numerical_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+        "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine)."
+      }
+    },
+    {
+      "id": "unit-35",
+      "label": "Unit 5: Classical Machine Learning & Statistical Learning",
+      "full_title": "Classical Machine Learning & Statistical Learning",
+      "group": "unit",
+      "unit_number": 5,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Supervised and semi-supervised algorithms, decision theory, optimization loss functions, and generalization bounds.",
+      "learning_outcomes": "Calculate Entropy, Information Gain, and Gini Index on tabular datasets, and formulate SVM Lagrange dual problems.",
+      "key_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+      "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors.",
+      "sample_question": {
+        "question_text": "If A is a fuzzy set with membership mu_A(x) = 0.7 and B is a fuzzy set with mu_B(x) = 0.4, the membership value in (A n ~B) is:",
+        "option_a": "0.3",
+        "option_b": "0.6",
+        "option_c": "0.4",
+        "option_d": "0.7",
+        "correct_option": "B",
+        "explanation": "Complement mu_{~B}(x) = 1 - 0.4 = 0.6. Intersection is the minimum: min(0.7, 0.6) = 0.6.",
+        "numerical_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+        "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors."
+      }
+    },
+    {
+      "id": "top-35-0",
+      "label": "Supervised Learning Foundations:...",
+      "full_title": "Supervised Learning Foundations: Bias-Variance Tradeoff, Overfitting, L1/L2 Regularization (Lasso & Ridge)",
+      "group": "topic",
+      "unit_title": "Classical Machine Learning & Statistical Learning",
+      "unit_number": 5,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Classical Machine Learning & Statistical Learning: Supervised Learning Foundations: Bias-Variance Tradeoff, Overfitting, L1/L2 Regularization (Lasso & Ridge)",
+      "key_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+      "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors.",
+      "sample_question": {
+        "question_text": "If A is a fuzzy set with membership mu_A(x) = 0.7 and B is a fuzzy set with mu_B(x) = 0.4, the membership value in (A n ~B) is:",
+        "option_a": "0.3",
+        "option_b": "0.6",
+        "option_c": "0.4",
+        "option_d": "0.7",
+        "correct_option": "B",
+        "explanation": "Complement mu_{~B}(x) = 1 - 0.4 = 0.6. Intersection is the minimum: min(0.7, 0.6) = 0.6.",
+        "numerical_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+        "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors."
+      }
+    },
+    {
+      "id": "top-35-1",
+      "label": "Linear & Logistic Regression: Co...",
+      "full_title": "Linear & Logistic Regression: Cost Functions, Gradient Descent, Stochastic Gradient Descent (SGD), Odds Ratio, Sigmoid Activation",
+      "group": "topic",
+      "unit_title": "Classical Machine Learning & Statistical Learning",
+      "unit_number": 5,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Classical Machine Learning & Statistical Learning: Linear & Logistic Regression: Cost Functions, Gradient Descent, Stochastic Gradient Descent (SGD), Odds Ratio, Sigmoid Activation",
+      "key_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+      "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors.",
+      "sample_question": {
+        "question_text": "If A is a fuzzy set with membership mu_A(x) = 0.7 and B is a fuzzy set with mu_B(x) = 0.4, the membership value in (A n ~B) is:",
+        "option_a": "0.3",
+        "option_b": "0.6",
+        "option_c": "0.4",
+        "option_d": "0.7",
+        "correct_option": "B",
+        "explanation": "Complement mu_{~B}(x) = 1 - 0.4 = 0.6. Intersection is the minimum: min(0.7, 0.6) = 0.6.",
+        "numerical_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+        "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors."
+      }
+    },
+    {
+      "id": "top-35-2",
+      "label": "Decision Tree Induction: ID3, C4...",
+      "full_title": "Decision Tree Induction: ID3, C4.5, CART, Entropy, Information Gain, Gain Ratio, Gini Impurity, Pruning",
+      "group": "topic",
+      "unit_title": "Classical Machine Learning & Statistical Learning",
+      "unit_number": 5,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Classical Machine Learning & Statistical Learning: Decision Tree Induction: ID3, C4.5, CART, Entropy, Information Gain, Gain Ratio, Gini Impurity, Pruning",
+      "key_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+      "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors.",
+      "sample_question": {
+        "question_text": "If A is a fuzzy set with membership mu_A(x) = 0.7 and B is a fuzzy set with mu_B(x) = 0.4, the membership value in (A n ~B) is:",
+        "option_a": "0.3",
+        "option_b": "0.6",
+        "option_c": "0.4",
+        "option_d": "0.7",
+        "correct_option": "B",
+        "explanation": "Complement mu_{~B}(x) = 1 - 0.4 = 0.6. Intersection is the minimum: min(0.7, 0.6) = 0.6.",
+        "numerical_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+        "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors."
+      }
+    },
+    {
+      "id": "unit-36",
+      "label": "Unit 6: Unsupervised Learning, Clustering & Association Rules",
+      "full_title": "Unsupervised Learning, Clustering & Association Rules",
+      "group": "unit",
+      "unit_number": 6,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Discovering latent patterns in unlabeled data, clustering metrics, matrix decomposition, and frequent itemset mining.",
+      "learning_outcomes": "Execute PCA projection matrices, trace Apriori candidate generation, and compute cluster Silhouette coefficients.",
+      "key_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+      "real_time_application": "Loan credit approval engines and clinical triage risk classification.",
+      "sample_question": {
+        "question_text": "In the ID3 algorithm, if a dataset S has 9 positive and 5 negative examples, the entropy Entropy(S) is calculated using:",
+        "option_a": "-(9/14)*log2(9/14) - (5/14)*log2(5/14)",
+        "option_b": "(9/14)*log2(9/14) + (5/14)*log2(5/14)",
+        "option_c": "1 - (9/14)^2 - (5/14)^2",
+        "option_d": "log2(14/9)",
+        "correct_option": "A",
+        "explanation": "Shannon Entropy is defined as -Sum(p_i * log2(p_i)). With p(+) = 9/14 and p(-) = 5/14, Entropy = -(9/14)*log2(9/14) - (5/14)*log2(5/14) approx 0.940 bits.",
+        "numerical_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+        "real_time_application": "Loan credit approval engines and clinical triage risk classification."
+      }
+    },
+    {
+      "id": "top-36-0",
+      "label": "Partitioning Clustering: k-Means...",
+      "full_title": "Partitioning Clustering: k-Means Algorithm, Convergence Guarantee, k-Means++ Initialization, Elbow Method, Silhouette Score",
+      "group": "topic",
+      "unit_title": "Unsupervised Learning, Clustering & Association Rules",
+      "unit_number": 6,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Unsupervised Learning, Clustering & Association Rules: Partitioning Clustering: k-Means Algorithm, Convergence Guarantee, k-Means++ Initialization, Elbow Method, Silhouette Score",
+      "key_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+      "real_time_application": "Loan credit approval engines and clinical triage risk classification.",
+      "sample_question": {
+        "question_text": "In the ID3 algorithm, if a dataset S has 9 positive and 5 negative examples, the entropy Entropy(S) is calculated using:",
+        "option_a": "-(9/14)*log2(9/14) - (5/14)*log2(5/14)",
+        "option_b": "(9/14)*log2(9/14) + (5/14)*log2(5/14)",
+        "option_c": "1 - (9/14)^2 - (5/14)^2",
+        "option_d": "log2(14/9)",
+        "correct_option": "A",
+        "explanation": "Shannon Entropy is defined as -Sum(p_i * log2(p_i)). With p(+) = 9/14 and p(-) = 5/14, Entropy = -(9/14)*log2(9/14) - (5/14)*log2(5/14) approx 0.940 bits.",
+        "numerical_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+        "real_time_application": "Loan credit approval engines and clinical triage risk classification."
+      }
+    },
+    {
+      "id": "top-36-1",
+      "label": "Hierarchical Clustering: Agglome...",
+      "full_title": "Hierarchical Clustering: Agglomerative vs Divisive, Linkage Criteria (Single, Complete, Average, Ward Linkage), Dendrograms",
+      "group": "topic",
+      "unit_title": "Unsupervised Learning, Clustering & Association Rules",
+      "unit_number": 6,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Unsupervised Learning, Clustering & Association Rules: Hierarchical Clustering: Agglomerative vs Divisive, Linkage Criteria (Single, Complete, Average, Ward Linkage), Dendrograms",
+      "key_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+      "real_time_application": "Loan credit approval engines and clinical triage risk classification.",
+      "sample_question": {
+        "question_text": "In the ID3 algorithm, if a dataset S has 9 positive and 5 negative examples, the entropy Entropy(S) is calculated using:",
+        "option_a": "-(9/14)*log2(9/14) - (5/14)*log2(5/14)",
+        "option_b": "(9/14)*log2(9/14) + (5/14)*log2(5/14)",
+        "option_c": "1 - (9/14)^2 - (5/14)^2",
+        "option_d": "log2(14/9)",
+        "correct_option": "A",
+        "explanation": "Shannon Entropy is defined as -Sum(p_i * log2(p_i)). With p(+) = 9/14 and p(-) = 5/14, Entropy = -(9/14)*log2(9/14) - (5/14)*log2(5/14) approx 0.940 bits.",
+        "numerical_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+        "real_time_application": "Loan credit approval engines and clinical triage risk classification."
+      }
+    },
+    {
+      "id": "top-36-2",
+      "label": "Density-Based Clustering: DBSCAN...",
+      "full_title": "Density-Based Clustering: DBSCAN, Core Points, Border Points, Noise, Epsilon Neighborhood, MinPts",
+      "group": "topic",
+      "unit_title": "Unsupervised Learning, Clustering & Association Rules",
+      "unit_number": 6,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Unsupervised Learning, Clustering & Association Rules: Density-Based Clustering: DBSCAN, Core Points, Border Points, Noise, Epsilon Neighborhood, MinPts",
+      "key_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+      "real_time_application": "Loan credit approval engines and clinical triage risk classification.",
+      "sample_question": {
+        "question_text": "In the ID3 algorithm, if a dataset S has 9 positive and 5 negative examples, the entropy Entropy(S) is calculated using:",
+        "option_a": "-(9/14)*log2(9/14) - (5/14)*log2(5/14)",
+        "option_b": "(9/14)*log2(9/14) + (5/14)*log2(5/14)",
+        "option_c": "1 - (9/14)^2 - (5/14)^2",
+        "option_d": "log2(14/9)",
+        "correct_option": "A",
+        "explanation": "Shannon Entropy is defined as -Sum(p_i * log2(p_i)). With p(+) = 9/14 and p(-) = 5/14, Entropy = -(9/14)*log2(9/14) - (5/14)*log2(5/14) approx 0.940 bits.",
+        "numerical_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+        "real_time_application": "Loan credit approval engines and clinical triage risk classification."
+      }
+    },
+    {
+      "id": "unit-37",
+      "label": "Unit 7: Deep Learning & Neural Architectures",
+      "full_title": "Deep Learning & Neural Architectures",
+      "group": "unit",
+      "unit_number": 7,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Biological vs artificial neurons, backpropagation mathematical derivation, convolutional, recurrent, and transformer networks.",
+      "learning_outcomes": "Derive backpropagation weight update gradients, compute CNN feature map dimensions, and calculate scaled dot-product attention scores.",
+      "key_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+      "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis.",
+      "sample_question": {
+        "question_text": "In Principal Component Analysis (PCA), the first principal component corresponds to:",
+        "option_a": "The eigenvector associated with the smallest eigenvalue",
+        "option_b": "The eigenvector associated with the largest eigenvalue",
+        "option_c": "The mean of the feature vector",
+        "option_d": "The determinant of the covariance matrix",
+        "correct_option": "B",
+        "explanation": "The first principal component captures the maximum variance in the data, which mathematically corresponds to the eigenvector of the sample covariance matrix that has the largest eigenvalue.",
+        "numerical_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+        "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis."
+      }
+    },
+    {
+      "id": "top-37-0",
+      "label": "Artificial Neurons: McCulloch-Pi...",
+      "full_title": "Artificial Neurons: McCulloch-Pitts Model, Perceptron Learning Rule, Linear Separability, XOR Problem",
+      "group": "topic",
+      "unit_title": "Deep Learning & Neural Architectures",
+      "unit_number": 7,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Deep Learning & Neural Architectures: Artificial Neurons: McCulloch-Pitts Model, Perceptron Learning Rule, Linear Separability, XOR Problem",
+      "key_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+      "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis.",
+      "sample_question": {
+        "question_text": "In Principal Component Analysis (PCA), the first principal component corresponds to:",
+        "option_a": "The eigenvector associated with the smallest eigenvalue",
+        "option_b": "The eigenvector associated with the largest eigenvalue",
+        "option_c": "The mean of the feature vector",
+        "option_d": "The determinant of the covariance matrix",
+        "correct_option": "B",
+        "explanation": "The first principal component captures the maximum variance in the data, which mathematically corresponds to the eigenvector of the sample covariance matrix that has the largest eigenvalue.",
+        "numerical_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+        "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis."
+      }
+    },
+    {
+      "id": "top-37-1",
+      "label": "Multi-Layer Perceptron (MLP): Un...",
+      "full_title": "Multi-Layer Perceptron (MLP): Universal Approximation Theorem, Activation Functions (ReLU, Leaky ReLU, GELU, Softmax)",
+      "group": "topic",
+      "unit_title": "Deep Learning & Neural Architectures",
+      "unit_number": 7,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Deep Learning & Neural Architectures: Multi-Layer Perceptron (MLP): Universal Approximation Theorem, Activation Functions (ReLU, Leaky ReLU, GELU, Softmax)",
+      "key_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+      "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis.",
+      "sample_question": {
+        "question_text": "In Principal Component Analysis (PCA), the first principal component corresponds to:",
+        "option_a": "The eigenvector associated with the smallest eigenvalue",
+        "option_b": "The eigenvector associated with the largest eigenvalue",
+        "option_c": "The mean of the feature vector",
+        "option_d": "The determinant of the covariance matrix",
+        "correct_option": "B",
+        "explanation": "The first principal component captures the maximum variance in the data, which mathematically corresponds to the eigenvector of the sample covariance matrix that has the largest eigenvalue.",
+        "numerical_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+        "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis."
+      }
+    },
+    {
+      "id": "top-37-2",
+      "label": "Backpropagation Calculus: Chain ...",
+      "full_title": "Backpropagation Calculus: Chain Rule Derivation, Gradient Flow, Vanishing and Exploding Gradient Problem, Optimizers (Momentum, Adam, RMSProp)",
+      "group": "topic",
+      "unit_title": "Deep Learning & Neural Architectures",
+      "unit_number": 7,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Deep Learning & Neural Architectures: Backpropagation Calculus: Chain Rule Derivation, Gradient Flow, Vanishing and Exploding Gradient Problem, Optimizers (Momentum, Adam, RMSProp)",
+      "key_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+      "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis.",
+      "sample_question": {
+        "question_text": "In Principal Component Analysis (PCA), the first principal component corresponds to:",
+        "option_a": "The eigenvector associated with the smallest eigenvalue",
+        "option_b": "The eigenvector associated with the largest eigenvalue",
+        "option_c": "The mean of the feature vector",
+        "option_d": "The determinant of the covariance matrix",
+        "correct_option": "B",
+        "explanation": "The first principal component captures the maximum variance in the data, which mathematically corresponds to the eigenvector of the sample covariance matrix that has the largest eigenvalue.",
+        "numerical_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+        "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis."
+      }
+    },
+    {
+      "id": "unit-38",
+      "label": "Unit 8: Natural Language Processing (NLP) & Computational Linguistics",
+      "full_title": "Natural Language Processing (NLP) & Computational Linguistics",
+      "group": "unit",
+      "unit_number": 8,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Text preprocessing, vector semantics, grammatical parsing, and language modeling.",
+      "learning_outcomes": "Calculate TF-IDF matrices, run CYK chart parsing on Chomsky Normal Form grammars, and evaluate translation outputs using BLEU score.",
+      "key_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+      "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation.",
+      "sample_question": {
+        "question_text": "In the Transformer attention mechanism, why is the dot product Q * K^T scaled by 1/sqrt(d_k)?",
+        "option_a": "To convert vectors to unit length",
+        "option_b": "To prevent extremely large values that push the Softmax function into regions with near-zero gradients",
+        "option_c": "To eliminate the need for positional encoding",
+        "option_d": "To invert the matrix",
+        "correct_option": "B",
+        "explanation": "For large key dimensions d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. Dividing by sqrt(d_k) stabilizes the gradient flow.",
+        "numerical_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+        "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation."
+      }
+    },
+    {
+      "id": "top-38-0",
+      "label": "Text Processing & Normalization:...",
+      "full_title": "Text Processing & Normalization: Tokenization, Stemming (Porter, Snowball), Lemmatization, Stop-Word Filtering, Edit Distance (Levenshtein)",
+      "group": "topic",
+      "unit_title": "Natural Language Processing (NLP) & Computational Linguistics",
+      "unit_number": 8,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Natural Language Processing (NLP) & Computational Linguistics: Text Processing & Normalization: Tokenization, Stemming (Porter, Snowball), Lemmatization, Stop-Word Filtering, Edit Distance (Levenshtein)",
+      "key_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+      "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation.",
+      "sample_question": {
+        "question_text": "In the Transformer attention mechanism, why is the dot product Q * K^T scaled by 1/sqrt(d_k)?",
+        "option_a": "To convert vectors to unit length",
+        "option_b": "To prevent extremely large values that push the Softmax function into regions with near-zero gradients",
+        "option_c": "To eliminate the need for positional encoding",
+        "option_d": "To invert the matrix",
+        "correct_option": "B",
+        "explanation": "For large key dimensions d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. Dividing by sqrt(d_k) stabilizes the gradient flow.",
+        "numerical_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+        "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation."
+      }
+    },
+    {
+      "id": "top-38-1",
+      "label": "Vector Space Models: Bag-of-Word...",
+      "full_title": "Vector Space Models: Bag-of-Words (BoW), Term Frequency-Inverse Document Frequency (TF-IDF), Pointwise Mutual Information (PMI)",
+      "group": "topic",
+      "unit_title": "Natural Language Processing (NLP) & Computational Linguistics",
+      "unit_number": 8,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Natural Language Processing (NLP) & Computational Linguistics: Vector Space Models: Bag-of-Words (BoW), Term Frequency-Inverse Document Frequency (TF-IDF), Pointwise Mutual Information (PMI)",
+      "key_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+      "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation.",
+      "sample_question": {
+        "question_text": "In the Transformer attention mechanism, why is the dot product Q * K^T scaled by 1/sqrt(d_k)?",
+        "option_a": "To convert vectors to unit length",
+        "option_b": "To prevent extremely large values that push the Softmax function into regions with near-zero gradients",
+        "option_c": "To eliminate the need for positional encoding",
+        "option_d": "To invert the matrix",
+        "correct_option": "B",
+        "explanation": "For large key dimensions d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. Dividing by sqrt(d_k) stabilizes the gradient flow.",
+        "numerical_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+        "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation."
+      }
+    },
+    {
+      "id": "top-38-2",
+      "label": "Distributed Word Representations...",
+      "full_title": "Distributed Word Representations: Word2Vec (Continuous Bag-of-Words & Skip-Gram), Hierarchical Softmax, Negative Sampling, GloVe",
+      "group": "topic",
+      "unit_title": "Natural Language Processing (NLP) & Computational Linguistics",
+      "unit_number": 8,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Natural Language Processing (NLP) & Computational Linguistics: Distributed Word Representations: Word2Vec (Continuous Bag-of-Words & Skip-Gram), Hierarchical Softmax, Negative Sampling, GloVe",
+      "key_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+      "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation.",
+      "sample_question": {
+        "question_text": "In the Transformer attention mechanism, why is the dot product Q * K^T scaled by 1/sqrt(d_k)?",
+        "option_a": "To convert vectors to unit length",
+        "option_b": "To prevent extremely large values that push the Softmax function into regions with near-zero gradients",
+        "option_c": "To eliminate the need for positional encoding",
+        "option_d": "To invert the matrix",
+        "correct_option": "B",
+        "explanation": "For large key dimensions d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. Dividing by sqrt(d_k) stabilizes the gradient flow.",
+        "numerical_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+        "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation."
+      }
+    },
+    {
+      "id": "unit-39",
+      "label": "Unit 9: Big Data Architectures, Distributed Computing & NoSQL",
+      "full_title": "Big Data Architectures, Distributed Computing & NoSQL",
+      "group": "unit",
+      "unit_number": 9,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Data processing at scale, distributed storage, parallel execution models, and non-relational database design.",
+      "learning_outcomes": "Trace MapReduce word count and relational joins, apply CAP theorem trade-offs, and construct Spark RDD execution DAGs.",
+      "key_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+      "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs).",
+      "sample_question": {
+        "question_text": "In the Hadoop MapReduce framework, what operation occurs between the Map phase and the Reduce phase?",
+        "option_a": "Block Replication",
+        "option_b": "Shuffle and Sort",
+        "option_c": "Speculative Execution",
+        "option_d": "Data Serialization",
+        "correct_option": "B",
+        "explanation": "The intermediate key-value pairs produced by Mappers undergo Shuffle and Sort, which aggregates all values associated with the same intermediate key before feeding them to the appropriate Reducer.",
+        "numerical_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+        "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs)."
+      }
+    },
+    {
+      "id": "top-39-0",
+      "label": "Big Data Characteristics: 5 V's ...",
+      "full_title": "Big Data Characteristics: 5 V's (Volume, Velocity, Variety, Veracity, Value), Scaling (Vertical vs Horizontal)",
+      "group": "topic",
+      "unit_title": "Big Data Architectures, Distributed Computing & NoSQL",
+      "unit_number": 9,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Big Data Architectures, Distributed Computing & NoSQL: Big Data Characteristics: 5 V's (Volume, Velocity, Variety, Veracity, Value), Scaling (Vertical vs Horizontal)",
+      "key_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+      "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs).",
+      "sample_question": {
+        "question_text": "In the Hadoop MapReduce framework, what operation occurs between the Map phase and the Reduce phase?",
+        "option_a": "Block Replication",
+        "option_b": "Shuffle and Sort",
+        "option_c": "Speculative Execution",
+        "option_d": "Data Serialization",
+        "correct_option": "B",
+        "explanation": "The intermediate key-value pairs produced by Mappers undergo Shuffle and Sort, which aggregates all values associated with the same intermediate key before feeding them to the appropriate Reducer.",
+        "numerical_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+        "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs)."
+      }
+    },
+    {
+      "id": "top-39-1",
+      "label": "Hadoop Distributed File System (...",
+      "full_title": "Hadoop Distributed File System (HDFS): NameNode, DataNode, Block Replication, Rack Awareness, Heartbeat Mechanism",
+      "group": "topic",
+      "unit_title": "Big Data Architectures, Distributed Computing & NoSQL",
+      "unit_number": 9,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Big Data Architectures, Distributed Computing & NoSQL: Hadoop Distributed File System (HDFS): NameNode, DataNode, Block Replication, Rack Awareness, Heartbeat Mechanism",
+      "key_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+      "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs).",
+      "sample_question": {
+        "question_text": "In the Hadoop MapReduce framework, what operation occurs between the Map phase and the Reduce phase?",
+        "option_a": "Block Replication",
+        "option_b": "Shuffle and Sort",
+        "option_c": "Speculative Execution",
+        "option_d": "Data Serialization",
+        "correct_option": "B",
+        "explanation": "The intermediate key-value pairs produced by Mappers undergo Shuffle and Sort, which aggregates all values associated with the same intermediate key before feeding them to the appropriate Reducer.",
+        "numerical_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+        "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs)."
+      }
+    },
+    {
+      "id": "top-39-2",
+      "label": "MapReduce Programming Paradigm: ...",
+      "full_title": "MapReduce Programming Paradigm: Map Function, Shuffle & Sort Phase, Reduce Function, Combiner, Partitioner, Fault Tolerance",
+      "group": "topic",
+      "unit_title": "Big Data Architectures, Distributed Computing & NoSQL",
+      "unit_number": 9,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Big Data Architectures, Distributed Computing & NoSQL: MapReduce Programming Paradigm: Map Function, Shuffle & Sort Phase, Reduce Function, Combiner, Partitioner, Fault Tolerance",
+      "key_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+      "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs).",
+      "sample_question": {
+        "question_text": "In the Hadoop MapReduce framework, what operation occurs between the Map phase and the Reduce phase?",
+        "option_a": "Block Replication",
+        "option_b": "Shuffle and Sort",
+        "option_c": "Speculative Execution",
+        "option_d": "Data Serialization",
+        "correct_option": "B",
+        "explanation": "The intermediate key-value pairs produced by Mappers undergo Shuffle and Sort, which aggregates all values associated with the same intermediate key before feeding them to the appropriate Reducer.",
+        "numerical_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+        "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs)."
+      }
+    },
+    {
+      "id": "unit-40",
+      "label": "Unit 10: Cloud Computing, Virtualization & MLOps",
+      "full_title": "Cloud Computing, Virtualization & MLOps",
+      "group": "unit",
+      "unit_number": 10,
+      "size": 22,
+      "color": "#10B981",
+      "description": "Cloud service paradigms, containerization, distributed machine learning pipelines, and production model governance.",
+      "learning_outcomes": "Differentiate hypervisor types from container namespaces, identify concept drift in streaming data, and architect MLOps pipelines.",
+      "key_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+      "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales.",
+      "sample_question": {
+        "question_text": "Which of the following is an example of a Type 1 (Bare-Metal) Hypervisor?",
+        "option_a": "Oracle VirtualBox",
+        "option_b": "VMware Workstation",
+        "option_c": "VMware ESXi",
+        "option_d": "QEMU on Windows",
+        "correct_option": "C",
+        "explanation": "Type 1 Hypervisors run directly on the bare physical host hardware without an underlying host operating system (e.g., VMware ESXi, Microsoft Hyper-V, Xen). VirtualBox and VMware Workstation run on top of an existing OS (Type 2).",
+        "numerical_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+        "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales."
+      }
+    },
+    {
+      "id": "top-40-0",
+      "label": "Cloud Service Models: Infrastruc...",
+      "full_title": "Cloud Service Models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS)",
+      "group": "topic",
+      "unit_title": "Cloud Computing, Virtualization & MLOps",
+      "unit_number": 10,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Cloud Computing, Virtualization & MLOps: Cloud Service Models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS)",
+      "key_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+      "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales.",
+      "sample_question": {
+        "question_text": "Which of the following is an example of a Type 1 (Bare-Metal) Hypervisor?",
+        "option_a": "Oracle VirtualBox",
+        "option_b": "VMware Workstation",
+        "option_c": "VMware ESXi",
+        "option_d": "QEMU on Windows",
+        "correct_option": "C",
+        "explanation": "Type 1 Hypervisors run directly on the bare physical host hardware without an underlying host operating system (e.g., VMware ESXi, Microsoft Hyper-V, Xen). VirtualBox and VMware Workstation run on top of an existing OS (Type 2).",
+        "numerical_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+        "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales."
+      }
+    },
+    {
+      "id": "top-40-1",
+      "label": "Cloud Deployment Models: Public,...",
+      "full_title": "Cloud Deployment Models: Public, Private, Hybrid, Multi-Cloud, Community",
+      "group": "topic",
+      "unit_title": "Cloud Computing, Virtualization & MLOps",
+      "unit_number": 10,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Cloud Computing, Virtualization & MLOps: Cloud Deployment Models: Public, Private, Hybrid, Multi-Cloud, Community",
+      "key_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+      "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales.",
+      "sample_question": {
+        "question_text": "Which of the following is an example of a Type 1 (Bare-Metal) Hypervisor?",
+        "option_a": "Oracle VirtualBox",
+        "option_b": "VMware Workstation",
+        "option_c": "VMware ESXi",
+        "option_d": "QEMU on Windows",
+        "correct_option": "C",
+        "explanation": "Type 1 Hypervisors run directly on the bare physical host hardware without an underlying host operating system (e.g., VMware ESXi, Microsoft Hyper-V, Xen). VirtualBox and VMware Workstation run on top of an existing OS (Type 2).",
+        "numerical_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+        "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales."
+      }
+    },
+    {
+      "id": "top-40-2",
+      "label": "Virtualization Technology: Hyper...",
+      "full_title": "Virtualization Technology: Hypervisor Architecture (Type 1 Bare-Metal vs Type 2 Hosted), Hardware Virtualization vs OS-Level Containerization",
+      "group": "topic",
+      "unit_title": "Cloud Computing, Virtualization & MLOps",
+      "unit_number": 10,
+      "size": 15,
+      "color": "#8B5CF6",
+      "description": "Targeted exam topic in Cloud Computing, Virtualization & MLOps: Virtualization Technology: Hypervisor Architecture (Type 1 Bare-Metal vs Type 2 Hosted), Hardware Virtualization vs OS-Level Containerization",
+      "key_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+      "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales.",
+      "sample_question": {
+        "question_text": "Which of the following is an example of a Type 1 (Bare-Metal) Hypervisor?",
+        "option_a": "Oracle VirtualBox",
+        "option_b": "VMware Workstation",
+        "option_c": "VMware ESXi",
+        "option_d": "QEMU on Windows",
+        "correct_option": "C",
+        "explanation": "Type 1 Hypervisors run directly on the bare physical host hardware without an underlying host operating system (e.g., VMware ESXi, Microsoft Hyper-V, Xen). VirtualBox and VMware Workstation run on top of an existing OS (Type 2).",
+        "numerical_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+        "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales."
+      }
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "sub-4",
+      "target": "unit-31",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-31",
+      "target": "top-31-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-31",
+      "target": "top-31-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-31",
+      "target": "top-31-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-32",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-32",
+      "target": "top-32-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-32",
+      "target": "top-32-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-32",
+      "target": "top-32-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-33",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-33",
+      "target": "top-33-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-33",
+      "target": "top-33-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-33",
+      "target": "top-33-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-34",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-34",
+      "target": "top-34-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-34",
+      "target": "top-34-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-34",
+      "target": "top-34-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-35",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-35",
+      "target": "top-35-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-35",
+      "target": "top-35-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-35",
+      "target": "top-35-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-36",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-36",
+      "target": "top-36-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-36",
+      "target": "top-36-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-36",
+      "target": "top-36-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-37",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-37",
+      "target": "top-37-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-37",
+      "target": "top-37-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-37",
+      "target": "top-37-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-38",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-38",
+      "target": "top-38-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-38",
+      "target": "top-38-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-38",
+      "target": "top-38-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-39",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-39",
+      "target": "top-39-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-39",
+      "target": "top-39-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-39",
+      "target": "top-39-2",
+      "type": "contains_topic"
+    },
+    {
+      "source": "sub-4",
+      "target": "unit-40",
+      "type": "has_unit"
+    },
+    {
+      "source": "unit-40",
+      "target": "top-40-0",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-40",
+      "target": "top-40-1",
+      "type": "contains_topic"
+    },
+    {
+      "source": "unit-40",
+      "target": "top-40-2",
+      "type": "contains_topic"
+    }
+  ]
 }

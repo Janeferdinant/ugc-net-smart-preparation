@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "day_number": 1,
+    "phase_week": 1,
+    "phase_title": "Week 1: Search & Game Theory",
+    "module_title": "Day 1: Uninformed Search Mechanics (BFS, DFS, UCS)",
+    "core_topics_json": "[\"State space graphs\", \"Tree search vs Graph search\", \"Queue implementations\", \"Time and space complexity proofs\"]",
+    "target_hours": 3.0,
+    "key_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+    "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal.",
+    "pyq_year_session": "UGC NET 2021 Nov",
+    "pyq_question_text": "In Breadth-First Search, if the branching factor is b and depth of shallowest solution is d, what is the space complexity?",
+    "pyq_options_json": "{\"A\": \"O(d)\", \"B\": \"O(b^d)\", \"C\": \"O(b * d)\", \"D\": \"O(d^b)\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "BFS stores all generated nodes in memory at the current frontier level. At depth d, there are b^d leaf nodes in memory. Hence space complexity is O(b^d).",
+    "core_topics": [
+      "State space graphs",
+      "Tree search vs Graph search",
+      "Queue implementations",
+      "Time and space complexity proofs"
+    ],
+    "pyq_options": {
+      "A": "O(d)",
+      "B": "O(b^d)",
+      "C": "O(b * d)",
+      "D": "O(d^b)"
+    }
+  },
+  {
+    "id": 2,
+    "day_number": 2,
+    "phase_week": 1,
+    "phase_title": "Week 1: Search & Game Theory",
+    "module_title": "Day 2: Informed Search & A* Admissibility",
+    "core_topics_json": "[\"Heuristic function h(n)\", \"Evaluation function f(n) = g(n) + h(n)\", \"Admissible heuristics (h(n) <= h*(n))\", \"Consistent / Monotonic heuristics\"]",
+    "target_hours": 3.5,
+    "key_formula": "f(n) = g(n) + h(n), with h(n) <= h*(n) guaranteeing tree-search optimality.",
+    "real_time_application": "Warehouse AGV (Automated Guided Vehicle) collision-free shortest path planning.",
+    "pyq_year_session": "UGC NET 2023 Dec",
+    "pyq_question_text": "An A* search algorithm is guaranteed to find an optimal path if the heuristic function h(n) is:",
+    "pyq_options_json": "{\"A\": \"Overestimating the true cost\", \"B\": \"Admissible and never overestimates the true cost\", \"C\": \"Equal to the path cost g(n)\", \"D\": \"Negative\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "For tree search, admissibility (h(n) <= h*(n)) is sufficient for optimality. For graph search, consistency (triangle inequality h(n) <= c(n,a,n') + h(n')) guarantees optimal paths without reopening closed nodes.",
+    "core_topics": [
+      "Heuristic function h(n)",
+      "Evaluation function f(n) = g(n) + h(n)",
+      "Admissible heuristics (h(n) <= h*(n))",
+      "Consistent / Monotonic heuristics"
+    ],
+    "pyq_options": {
+      "A": "Overestimating the true cost",
+      "B": "Admissible and never overestimates the true cost",
+      "C": "Equal to the path cost g(n)",
+      "D": "Negative"
+    }
+  },
+  {
+    "id": 3,
+    "day_number": 3,
+    "phase_week": 1,
+    "phase_title": "Week 1: Search & Game Theory",
+    "module_title": "Day 3: Memory-Bounded Search (IDA*, SMA*)",
+    "core_topics_json": "[\"Iterative Deepening A*\", \"f-cost cutoffs\", \"Memory vs Time trade-offs\", \"Recursive Best-First Search (RBFS)\"]",
+    "target_hours": 3.0,
+    "key_formula": "Space complexity of IDA* = O(b * d) with f-contour cutoffs.",
+    "real_time_application": "Embedded robotics pathfinding with strict RAM limits (Microcontroller AI).",
+    "pyq_year_session": "UGC NET 2020 Oct",
+    "pyq_question_text": "What is the primary advantage of Iterative Deepening A* (IDA*) over standard A* search?",
+    "pyq_options_json": "{\"A\": \"It visits fewer nodes\", \"B\": \"It reduces memory consumption to linear O(bd)\", \"C\": \"It does not require a heuristic\", \"D\": \"It works only on directed graphs\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "A* keeps all explored nodes in memory (exponential O(b^d)), which causes out-of-memory errors on hard problems. IDA* uses depth-first contour cutoffs, reducing memory to O(bd) while retaining optimality.",
+    "core_topics": [
+      "Iterative Deepening A*",
+      "f-cost cutoffs",
+      "Memory vs Time trade-offs",
+      "Recursive Best-First Search (RBFS)"
+    ],
+    "pyq_options": {
+      "A": "It visits fewer nodes",
+      "B": "It reduces memory consumption to linear O(bd)",
+      "C": "It does not require a heuristic",
+      "D": "It works only on directed graphs"
+    }
+  },
+  {
+    "id": 4,
+    "day_number": 4,
+    "phase_week": 1,
+    "phase_title": "Week 1: Search & Game Theory",
+    "module_title": "Day 4: Adversarial Search & Minimax Theorem",
+    "core_topics_json": "[\"Zero-sum game formulation\", \"Terminal states and Utility values\", \"Minimax value calculation\", \"Backed-up values in game trees\"]",
+    "target_hours": 3.0,
+    "key_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+    "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation).",
+    "pyq_year_session": "UGC NET 2022 June",
+    "pyq_question_text": "In a two-player zero-sum game with branching factor b and game depth d, the time complexity of the Minimax algorithm is:",
+    "pyq_options_json": "{\"A\": \"O(b * d)\", \"B\": \"O(b^d)\", \"C\": \"O(d^b)\", \"D\": \"O(b^(d/2))\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "Minimax traverses all states in the complete game tree up to maximum depth d with branching factor b, yielding exact time complexity O(b^d).",
+    "core_topics": [
+      "Zero-sum game formulation",
+      "Terminal states and Utility values",
+      "Minimax value calculation",
+      "Backed-up values in game trees"
+    ],
+    "pyq_options": {
+      "A": "O(b * d)",
+      "B": "O(b^d)",
+      "C": "O(d^b)",
+      "D": "O(b^(d/2))"
+    }
+  },
+  {
+    "id": 5,
+    "day_number": 5,
+    "phase_week": 1,
+    "phase_title": "Week 1: Search & Game Theory",
+    "module_title": "Day 5: Alpha-Beta Pruning Bounds & Node Ordering",
+    "core_topics_json": "[\"Alpha cutoff condition (v <= alpha)\", \"Beta cutoff condition (v >= beta)\", \"Optimal node ordering time complexity\", \"Horizon effect\"]",
+    "target_hours": 3.5,
+    "key_formula": "Best-case time complexity with optimal ordering = O(b^(d/2)), doubling effective search depth.",
+    "real_time_application": "Automated high-frequency algorithmic bid-ask auction pricing engines.",
+    "pyq_year_session": "UGC NET 2023 June",
+    "pyq_question_text": "With optimal move ordering, Alpha-Beta pruning reduces the time complexity of minimax from O(b^d) to:",
+    "pyq_options_json": "{\"A\": \"O(b * d)\", \"B\": \"O(b^(d/2))\", \"C\": \"O(d^(b/2))\", \"D\": \"O(log(b^d))\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "When child moves are examined in best-first order, Alpha-Beta prunes roughly half the tree branches at alternating depths, achieving O(b^(d/2)) complexity, effectively doubling the search depth.",
+    "core_topics": [
+      "Alpha cutoff condition (v <= alpha)",
+      "Beta cutoff condition (v >= beta)",
+      "Optimal node ordering time complexity",
+      "Horizon effect"
+    ],
+    "pyq_options": {
+      "A": "O(b * d)",
+      "B": "O(b^(d/2))",
+      "C": "O(d^(b/2))",
+      "D": "O(log(b^d))"
+    }
+  },
+  {
+    "id": 6,
+    "day_number": 6,
+    "phase_week": 1,
+    "phase_title": "Week 1: Search & Game Theory",
+    "module_title": "Day 6: Local Search & Genetic Algorithms",
+    "core_topics_json": "[\"Hill climbing anomalies\", \"Simulated Annealing temperature schedules\", \"Genetic chromosome encoding\", \"Crossover and mutation operators\"]",
+    "target_hours": 3.0,
+    "key_formula": "Probability of accepting worse state: P = exp(-delta_E / T)",
+    "real_time_application": "VLSI chip layout gate placement optimization and Traveling Salesperson Problem (TSP).",
+    "pyq_year_session": "UGC NET 2019 Dec",
+    "pyq_question_text": "In Simulated Annealing, when the temperature T approaches 0, the algorithm behaves exactly like:",
+    "pyq_options_json": "{\"A\": \"Breadth-First Search\", \"B\": \"Pure Random Walk\", \"C\": \"Standard Greedy Hill Climbing\", \"D\": \"Depth-First Search\"}",
+    "official_answer_key": "C",
+    "problem_demo_walkthrough": "As T -> 0, the acceptance probability exp(-delta_E / T) for worse moves approaches 0, meaning only strictly improving moves are accepted, reducing to greedy hill climbing.",
+    "core_topics": [
+      "Hill climbing anomalies",
+      "Simulated Annealing temperature schedules",
+      "Genetic chromosome encoding",
+      "Crossover and mutation operators"
+    ],
+    "pyq_options": {
+      "A": "Breadth-First Search",
+      "B": "Pure Random Walk",
+      "C": "Standard Greedy Hill Climbing",
+      "D": "Depth-First Search"
+    }
+  },
+  {
+    "id": 7,
+    "day_number": 7,
+    "phase_week": 1,
+    "phase_title": "Week 1: Search & Game Theory",
+    "module_title": "Day 7: Week 1 Integration & PYQ Diagnostic Sprint",
+    "core_topics_json": "[\"Comprehensive search problems review\", \"Admissibility proofs\", \"Alpha-Beta tree manual trace\", \"Timed mock sprint\"]",
+    "target_hours": 4.0,
+    "key_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+    "real_time_application": "End-to-end autonomous navigation and routing engines.",
+    "pyq_year_session": "UGC NET 2024 June",
+    "pyq_question_text": "Which search algorithm combines the linear space complexity of DFS with the completeness of BFS?",
+    "pyq_options_json": "{\"A\": \"Uniform Cost Search\", \"B\": \"Iterative Deepening Depth-First Search (IDDFS)\", \"C\": \"Greedy Best-First Search\", \"D\": \"Bidirectional Search\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "IDDFS runs DFS with incrementally increasing depth limits. It is complete, optimal for uniform step costs, and retains linear space complexity O(bd).",
+    "core_topics": [
+      "Comprehensive search problems review",
+      "Admissibility proofs",
+      "Alpha-Beta tree manual trace",
+      "Timed mock sprint"
+    ],
+    "pyq_options": {
+      "A": "Uniform Cost Search",
+      "B": "Iterative Deepening Depth-First Search (IDDFS)",
+      "C": "Greedy Best-First Search",
+      "D": "Bidirectional Search"
+    }
+  },
+  {
+    "id": 8,
+    "day_number": 8,
+    "phase_week": 2,
+    "phase_title": "Week 2: Logic & Probabilistic AI",
+    "module_title": "Day 8: Propositional Logic & Normal Forms",
+    "core_topics_json": "[\"Conjunctive Normal Form (CNF)\", \"Disjunctive Normal Form (DNF)\", \"Tautology vs Contradiction vs Contingency\", \"Horn clause resolution\"]",
+    "target_hours": 3.0,
+    "key_formula": "Implication elimination: (P -> Q) is logically equivalent to (~P v Q).",
+    "real_time_application": "Hardware circuit verification and SAT solvers for microchip safety checks.",
+    "pyq_year_session": "UGC NET 2020 Oct",
+    "pyq_question_text": "The proposition (P -> Q) -> (~P -> ~Q) is a:",
+    "pyq_options_json": "{\"A\": \"Tautology\", \"B\": \"Contradiction\", \"C\": \"Contingency\", \"D\": \"Valid argument\"}",
+    "official_answer_key": "C",
+    "problem_demo_walkthrough": "When P=False and Q=True, (P->Q) is True while (~P->~Q) is (True->False) which is False. True->False evaluates to False. When P=True, Q=True, it evaluates to True. Since it is neither always True nor always False, it is a Contingency.",
+    "core_topics": [
+      "Conjunctive Normal Form (CNF)",
+      "Disjunctive Normal Form (DNF)",
+      "Tautology vs Contradiction vs Contingency",
+      "Horn clause resolution"
+    ],
+    "pyq_options": {
+      "A": "Tautology",
+      "B": "Contradiction",
+      "C": "Contingency",
+      "D": "Valid argument"
+    }
+  },
+  {
+    "id": 9,
+    "day_number": 9,
+    "phase_week": 2,
+    "phase_title": "Week 2: Logic & Probabilistic AI",
+    "module_title": "Day 9: First-Order Logic & Skolemization",
+    "core_topics_json": "[\"Universal and Existential quantifiers\", \"Scope of variables\", \"Conversion to Clause Form\", \"Skolem constants and Skolem functions\"]",
+    "target_hours": 3.5,
+    "key_formula": "Eliminate existential quantifiers: exists y P(x, y) becomes P(x, f(x)) where f is a Skolem function.",
+    "real_time_application": "Legal contract verification and regulatory compliance automated rule engines.",
+    "pyq_year_session": "UGC NET 2021 Nov",
+    "pyq_question_text": "In Skolemization, an existential quantifier within the scope of universal quantifiers is replaced by:",
+    "pyq_options_json": "{\"A\": \"A Skolem constant\", \"B\": \"A Skolem function of the universally quantified variables\", \"C\": \"A free variable\", \"D\": \"A negated literal\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "Because the existential variable depends on the universal variable preceding it, it must be mapped to a function of those universal variables (Skolem function).",
+    "core_topics": [
+      "Universal and Existential quantifiers",
+      "Scope of variables",
+      "Conversion to Clause Form",
+      "Skolem constants and Skolem functions"
+    ],
+    "pyq_options": {
+      "A": "A Skolem constant",
+      "B": "A Skolem function of the universally quantified variables",
+      "C": "A free variable",
+      "D": "A negated literal"
+    }
+  },
+  {
+    "id": 10,
+    "day_number": 10,
+    "phase_week": 2,
+    "phase_title": "Week 2: Logic & Probabilistic AI",
+    "module_title": "Day 10: Unification & Resolution Refutation",
+    "core_topics_json": "[\"Most General Unifier (MGU)\", \"Occur check in unification\", \"Resolvent generation\", \"Refutation completeness: deriving the empty clause (box)\"]",
+    "target_hours": 3.5,
+    "key_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+    "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine).",
+    "pyq_year_session": "UGC NET 2023 Dec",
+    "pyq_question_text": "Which substitution represents the Most General Unifier (MGU) for P(x, f(y)) and P(a, f(b))?",
+    "pyq_options_json": "{\"A\": \"{x/a, y/b}\", \"B\": \"{x/f(b), y/a}\", \"C\": \"{x/b, y/a}\", \"D\": \"{x/a, y/f(b)}\"}",
+    "official_answer_key": "A",
+    "problem_demo_walkthrough": "Matching terms pairwise: x unifies with a ({x/a}), and f(y) unifies with f(b) which yields y unifies with b ({y/b}). The combined MGU is {x/a, y/b}.",
+    "core_topics": [
+      "Most General Unifier (MGU)",
+      "Occur check in unification",
+      "Resolvent generation",
+      "Refutation completeness: deriving the empty clause (box)"
+    ],
+    "pyq_options": {
+      "A": "{x/a, y/b}",
+      "B": "{x/f(b), y/a}",
+      "C": "{x/b, y/a}",
+      "D": "{x/a, y/f(b)}"
+    }
+  },
+  {
+    "id": 11,
+    "day_number": 11,
+    "phase_week": 2,
+    "phase_title": "Week 2: Logic & Probabilistic AI",
+    "module_title": "Day 11: Structured Knowledge (Semantic Nets, Frames)",
+    "core_topics_json": "[\"IS-A and PART-OF inheritance hierarchies\", \"Slot-and-filler structures in Frames\", \"Default values and demons\", \"Conceptual Dependency theory\"]",
+    "target_hours": 3.0,
+    "key_formula": "Multiple inheritance ambiguity resolved via Topological Sort / Inferential Distance.",
+    "real_time_application": "Enterprise Knowledge Graphs (Google Knowledge Graph, Wikidata entity linking).",
+    "pyq_year_session": "UGC NET 2019 June",
+    "pyq_question_text": "In Frame-based knowledge representation, procedures attached to slots that execute when values are accessed or updated are called:",
+    "pyq_options_json": "{\"A\": \"Inheritors\", \"B\": \"Demons (e.g., if-needed, if-added)\", \"C\": \"Skolemizers\", \"D\": \"Heuristics\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "In Frame systems, procedural attachments triggered automatically upon slot query or modification are known as demons (such as IF-NEEDED, IF-ADDED, IF-REMOVED).",
+    "core_topics": [
+      "IS-A and PART-OF inheritance hierarchies",
+      "Slot-and-filler structures in Frames",
+      "Default values and demons",
+      "Conceptual Dependency theory"
+    ],
+    "pyq_options": {
+      "A": "Inheritors",
+      "B": "Demons (e.g., if-needed, if-added)",
+      "C": "Skolemizers",
+      "D": "Heuristics"
+    }
+  },
+  {
+    "id": 12,
+    "day_number": 12,
+    "phase_week": 2,
+    "phase_title": "Week 2: Logic & Probabilistic AI",
+    "module_title": "Day 12: Bayesian Networks & d-Separation",
+    "core_topics_json": "[\"Conditional independence DAGs\", \"Chain rule of probability\", \"Markov Blanket (parents, children, and spouses)\", \"d-separation rules\"]",
+    "target_hours": 3.5,
+    "key_formula": "P(X1, ..., Xn) = Prod_{i=1}^n P(Xi | Parents(Xi))",
+    "real_time_application": "Credit card fraud detection and spam filtering engines.",
+    "pyq_year_session": "UGC NET 2022 Oct",
+    "pyq_question_text": "In a Bayesian Belief Network, the Markov Blanket of a node X consists of:",
+    "pyq_options_json": "{\"A\": \"Only its parent nodes\", \"B\": \"Its parents, its children, and the other parents of its children (spouses)\", \"C\": \"Only its children nodes\", \"D\": \"All nodes in the network\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "A node X is conditionally independent of all other nodes in the network given its Markov Blanket, which strictly contains its parents, its children, and its children's co-parents (spouses).",
+    "core_topics": [
+      "Conditional independence DAGs",
+      "Chain rule of probability",
+      "Markov Blanket (parents, children, and spouses)",
+      "d-separation rules"
+    ],
+    "pyq_options": {
+      "A": "Only its parent nodes",
+      "B": "Its parents, its children, and the other parents of its children (spouses)",
+      "C": "Only its children nodes",
+      "D": "All nodes in the network"
+    }
+  },
+  {
+    "id": 13,
+    "day_number": 13,
+    "phase_week": 2,
+    "phase_title": "Week 2: Logic & Probabilistic AI",
+    "module_title": "Day 13: Fuzzy Sets & Membership Operations",
+    "core_topics_json": "[\"Crisp vs Fuzzy sets\", \"Standard fuzzy operations: Intersection (min), Union (max), Complement (1 - mu)\", \"Alpha-cut sets\", \"Convex fuzzy sets\"]",
+    "target_hours": 3.0,
+    "key_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+    "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors.",
+    "pyq_year_session": "UGC NET 2021 Dec",
+    "pyq_question_text": "If A is a fuzzy set with membership mu_A(x) = 0.7 and B is a fuzzy set with mu_B(x) = 0.4, the membership value in (A n ~B) is:",
+    "pyq_options_json": "{\"A\": \"0.3\", \"B\": \"0.6\", \"C\": \"0.4\", \"D\": \"0.7\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "Complement mu_{~B}(x) = 1 - 0.4 = 0.6. Intersection is the minimum: min(0.7, 0.6) = 0.6.",
+    "core_topics": [
+      "Crisp vs Fuzzy sets",
+      "Standard fuzzy operations: Intersection (min), Union (max), Complement (1 - mu)",
+      "Alpha-cut sets",
+      "Convex fuzzy sets"
+    ],
+    "pyq_options": {
+      "A": "0.3",
+      "B": "0.6",
+      "C": "0.4",
+      "D": "0.7"
+    }
+  },
+  {
+    "id": 14,
+    "day_number": 14,
+    "phase_week": 2,
+    "phase_title": "Week 2: Logic & Probabilistic AI",
+    "module_title": "Day 14: Fuzzy Inference & Defuzzification",
+    "core_topics_json": "[\"Mamdani inference pipeline\", \"Fuzzification of inputs\", \"Rule evaluation\", \"Defuzzification methods (Centroid, Bisector, MOM, SOM, LOM)\"]",
+    "target_hours": 3.5,
+    "key_formula": "Centroid Defuzzification z* = Integral(z * mu(z) dz) / Integral(mu(z) dz)",
+    "real_time_application": "High-speed bullet train speed-control actuators and industrial climate controls.",
+    "pyq_year_session": "UGC NET 2023 June",
+    "pyq_question_text": "Which defuzzification method calculates the center of gravity of the combined fuzzy output area?",
+    "pyq_options_json": "{\"A\": \"Mean of Maxima (MOM)\", \"B\": \"Centroid Method (Center of Gravity)\", \"C\": \"Smallest of Maxima (SOM)\", \"D\": \"Height Defuzzifier\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "The Centroid / Center of Gravity (COG) method calculates the center of area under the aggregated fuzzy membership curve, providing the smoothest physical control signal.",
+    "core_topics": [
+      "Mamdani inference pipeline",
+      "Fuzzification of inputs",
+      "Rule evaluation",
+      "Defuzzification methods (Centroid, Bisector, MOM, SOM, LOM)"
+    ],
+    "pyq_options": {
+      "A": "Mean of Maxima (MOM)",
+      "B": "Centroid Method (Center of Gravity)",
+      "C": "Smallest of Maxima (SOM)",
+      "D": "Height Defuzzifier"
+    }
+  },
+  {
+    "id": 15,
+    "day_number": 15,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 15: Supervised Learning & Regularization",
+    "core_topics_json": "[\"Cost functions (MSE, Cross-Entropy)\", \"Gradient descent mathematical derivation\", \"L1 (Lasso) vs L2 (Ridge) regularization\", \"Bias-Variance tradeoff\"]",
+    "target_hours": 3.5,
+    "key_formula": "Lasso Cost = MSE + lambda * Sum(|w_i|); Ridge Cost = MSE + lambda * Sum(w_i^2)",
+    "real_time_application": "Real estate price prediction and customer churn probability estimation.",
+    "pyq_year_session": "UGC NET 2020 Oct",
+    "pyq_question_text": "Which regularization technique promotes feature sparsity by driving irrelevant weights to exactly zero?",
+    "pyq_options_json": "{\"A\": \"L2 Regularization (Ridge)\", \"B\": \"L1 Regularization (Lasso)\", \"C\": \"Dropout\", \"D\": \"Early Stopping\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "L1 regularization adds the absolute sum of weights to the loss, which has diamond-shaped constraint boundaries that intersect feature axes, forcing uninformative weights to become exactly 0 (sparsity).",
+    "core_topics": [
+      "Cost functions (MSE, Cross-Entropy)",
+      "Gradient descent mathematical derivation",
+      "L1 (Lasso) vs L2 (Ridge) regularization",
+      "Bias-Variance tradeoff"
+    ],
+    "pyq_options": {
+      "A": "L2 Regularization (Ridge)",
+      "B": "L1 Regularization (Lasso)",
+      "C": "Dropout",
+      "D": "Early Stopping"
+    }
+  },
+  {
+    "id": 16,
+    "day_number": 16,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 16: Decision Tree Induction (ID3 & C4.5)",
+    "core_topics_json": "[\"Entropy H(S) = -Sum(p_i * log2(p_i))\", \"Information Gain Calculation\", \"Gini Impurity = 1 - Sum(p_i^2)\", \"Gain Ratio to prevent high-branch bias\"]",
+    "target_hours": 4.0,
+    "key_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+    "real_time_application": "Loan credit approval engines and clinical triage risk classification.",
+    "pyq_year_session": "UGC NET 2022 June",
+    "pyq_question_text": "In the ID3 algorithm, if a dataset S has 9 positive and 5 negative examples, the entropy Entropy(S) is calculated using:",
+    "pyq_options_json": "{\"A\": \"-(9/14)*log2(9/14) - (5/14)*log2(5/14)\", \"B\": \"(9/14)*log2(9/14) + (5/14)*log2(5/14)\", \"C\": \"1 - (9/14)^2 - (5/14)^2\", \"D\": \"log2(14/9)\"}",
+    "official_answer_key": "A",
+    "problem_demo_walkthrough": "Shannon Entropy is defined as -Sum(p_i * log2(p_i)). With p(+) = 9/14 and p(-) = 5/14, Entropy = -(9/14)*log2(9/14) - (5/14)*log2(5/14) approx 0.940 bits.",
+    "core_topics": [
+      "Entropy H(S) = -Sum(p_i * log2(p_i))",
+      "Information Gain Calculation",
+      "Gini Impurity = 1 - Sum(p_i^2)",
+      "Gain Ratio to prevent high-branch bias"
+    ],
+    "pyq_options": {
+      "A": "-(9/14)*log2(9/14) - (5/14)*log2(5/14)",
+      "B": "(9/14)*log2(9/14) + (5/14)*log2(5/14)",
+      "C": "1 - (9/14)^2 - (5/14)^2",
+      "D": "log2(14/9)"
+    }
+  },
+  {
+    "id": 17,
+    "day_number": 17,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 17: Support Vector Machines (SVM) & Kernels",
+    "core_topics_json": "[\"Maximum margin optimization\", \"Support vectors geometry\", \"Slack variables (C parameter)\", \"Kernel Trick (Linear, Polynomial, RBF/Gaussian)\"]",
+    "target_hours": 3.5,
+    "key_formula": "Margin width = 2 / ||w||. Kernel function K(x, z) = exp(-gamma * ||x - z||^2)",
+    "real_time_application": "Cancer tumor classification from gene expression microarrays.",
+    "pyq_year_session": "UGC NET 2023 Dec",
+    "pyq_question_text": "In Support Vector Machines, if the hyperparameter C is set to an extremely large value, the model will:",
+    "pyq_options_json": "{\"A\": \"Allow large margins and risk underfitting\", \"B\": \"Penalize training errors heavily and risk overfitting\", \"C\": \"Ignore all support vectors\", \"D\": \"Convert to a linear regression model\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "The hyperparameter C balances margin width against misclassification penalties. A huge C forces zero margin violations on the training set (hard margin behavior), which risks severe overfitting.",
+    "core_topics": [
+      "Maximum margin optimization",
+      "Support vectors geometry",
+      "Slack variables (C parameter)",
+      "Kernel Trick (Linear, Polynomial, RBF/Gaussian)"
+    ],
+    "pyq_options": {
+      "A": "Allow large margins and risk underfitting",
+      "B": "Penalize training errors heavily and risk overfitting",
+      "C": "Ignore all support vectors",
+      "D": "Convert to a linear regression model"
+    }
+  },
+  {
+    "id": 18,
+    "day_number": 18,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 18: k-Means & Hierarchical Clustering",
+    "core_topics_json": "[\"k-Means centroid update math\", \"Convergence criterion\", \"Dendrogram interpretation\", \"Linkage types (Single, Complete, Average)\"]",
+    "target_hours": 3.5,
+    "key_formula": "k-Means objective J = Sum_{i=1}^k Sum_{x in C_i} ||x - mu_i||^2",
+    "real_time_application": "Customer market segmentation for targeted e-commerce marketing.",
+    "pyq_year_session": "UGC NET 2021 Nov",
+    "pyq_question_text": "In Agglomerative Hierarchical Clustering, Single Linkage defines the distance between two clusters as:",
+    "pyq_options_json": "{\"A\": \"The maximum distance between any two points in the clusters\", \"B\": \"The minimum distance between any single point in one cluster and any single point in the other\", \"C\": \"The distance between cluster centroids\", \"D\": \"The average of all pairwise distances\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "Single linkage calculates the minimum distance between points across clusters, which can produce long elongated chaining clusters.",
+    "core_topics": [
+      "k-Means centroid update math",
+      "Convergence criterion",
+      "Dendrogram interpretation",
+      "Linkage types (Single, Complete, Average)"
+    ],
+    "pyq_options": {
+      "A": "The maximum distance between any two points in the clusters",
+      "B": "The minimum distance between any single point in one cluster and any single point in the other",
+      "C": "The distance between cluster centroids",
+      "D": "The average of all pairwise distances"
+    }
+  },
+  {
+    "id": 19,
+    "day_number": 19,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 19: PCA & Dimensionality Reduction",
+    "core_topics_json": "[\"Covariance matrix construction\", \"Eigenvalues and Eigenvectors\", \"Projection matrix transformation\", \"Scree plot and explained variance\"]",
+    "target_hours": 4.0,
+    "key_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+    "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis.",
+    "pyq_year_session": "UGC NET 2022 Oct",
+    "pyq_question_text": "In Principal Component Analysis (PCA), the first principal component corresponds to:",
+    "pyq_options_json": "{\"A\": \"The eigenvector associated with the smallest eigenvalue\", \"B\": \"The eigenvector associated with the largest eigenvalue\", \"C\": \"The mean of the feature vector\", \"D\": \"The determinant of the covariance matrix\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "The first principal component captures the maximum variance in the data, which mathematically corresponds to the eigenvector of the sample covariance matrix that has the largest eigenvalue.",
+    "core_topics": [
+      "Covariance matrix construction",
+      "Eigenvalues and Eigenvectors",
+      "Projection matrix transformation",
+      "Scree plot and explained variance"
+    ],
+    "pyq_options": {
+      "A": "The eigenvector associated with the smallest eigenvalue",
+      "B": "The eigenvector associated with the largest eigenvalue",
+      "C": "The mean of the feature vector",
+      "D": "The determinant of the covariance matrix"
+    }
+  },
+  {
+    "id": 20,
+    "day_number": 20,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 20: Multilayer Perceptron & Backpropagation Calculus",
+    "core_topics_json": "[\"Feedforward computation\", \"Activation functions (Sigmoid, Tanh, ReLU)\", \"Gradient of loss w.r.t weights via Chain Rule\", \"Vanishing gradient phenomenon\"]",
+    "target_hours": 4.0,
+    "key_formula": "delta_j = dE/d(net_j) = (dE/dy_j) * f'(net_j); w_ij = w_ij - eta * delta_j * y_i",
+    "real_time_application": "Autonomous vehicle computer vision and optical character recognition (OCR).",
+    "pyq_year_session": "UGC NET 2020 Oct",
+    "pyq_question_text": "Why is the ReLU activation function f(x) = max(0, x) preferred over the Sigmoid function in deep neural networks?",
+    "pyq_options_json": "{\"A\": \"ReLU is completely bounded between 0 and 1\", \"B\": \"ReLU mitigates the vanishing gradient problem for positive inputs\", \"C\": \"ReLU is continuously differentiable everywhere\", \"D\": \"ReLU prevents dead neurons\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "The derivative of the sigmoid function saturates at 0 for large positive or negative values, causing gradients to vanish during backpropagation in deep architectures. ReLU has a constant derivative of 1 for x > 0.",
+    "core_topics": [
+      "Feedforward computation",
+      "Activation functions (Sigmoid, Tanh, ReLU)",
+      "Gradient of loss w.r.t weights via Chain Rule",
+      "Vanishing gradient phenomenon"
+    ],
+    "pyq_options": {
+      "A": "ReLU is completely bounded between 0 and 1",
+      "B": "ReLU mitigates the vanishing gradient problem for positive inputs",
+      "C": "ReLU is continuously differentiable everywhere",
+      "D": "ReLU prevents dead neurons"
+    }
+  },
+  {
+    "id": 21,
+    "day_number": 21,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 21: Convolutional Neural Networks (CNNs)",
+    "core_topics_json": "[\"2D Convolution mathematics\", \"Feature maps, stride, and padding formulas\", \"Max pooling vs Average pooling\", \"LeNet, AlexNet, ResNet skip connections\"]",
+    "target_hours": 4.0,
+    "key_formula": "Output Dimension O = floor((W - K + 2P) / S) + 1",
+    "real_time_application": "Radiology chest X-ray pneumonia detection and biometric facial unlocking.",
+    "pyq_year_session": "UGC NET 2023 June",
+    "pyq_question_text": "An input image of size 32x32 is convolved with a 5x5 kernel using stride S=1 and zero padding P=2. What is the output feature map size?",
+    "pyq_options_json": "{\"A\": \"28x28\", \"B\": \"32x32\", \"C\": \"30x30\", \"D\": \"36x36\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "Using formula O = floor((W - K + 2P)/S) + 1: O = floor((32 - 5 + 2*2)/1) + 1 = floor(31/1) + 1 = 32. Output is 32x32 ('Same' padding).",
+    "core_topics": [
+      "2D Convolution mathematics",
+      "Feature maps, stride, and padding formulas",
+      "Max pooling vs Average pooling",
+      "LeNet, AlexNet, ResNet skip connections"
+    ],
+    "pyq_options": {
+      "A": "28x28",
+      "B": "32x32",
+      "C": "30x30",
+      "D": "36x36"
+    }
+  },
+  {
+    "id": 22,
+    "day_number": 22,
+    "phase_week": 3,
+    "phase_title": "Week 3: ML, Statistical Learning & Neural Nets",
+    "module_title": "Day 22: Recurrent Architectures & Transformers",
+    "core_topics_json": "[\"Sequence modeling with RNNs\", \"LSTM gates: Forget, Input, Output\", \"Scaled Dot-Product Self-Attention math\", \"Multi-Head Attention\"]",
+    "target_hours": 4.0,
+    "key_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+    "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation.",
+    "pyq_year_session": "UGC NET 2024 June",
+    "pyq_question_text": "In the Transformer attention mechanism, why is the dot product Q * K^T scaled by 1/sqrt(d_k)?",
+    "pyq_options_json": "{\"A\": \"To convert vectors to unit length\", \"B\": \"To prevent extremely large values that push the Softmax function into regions with near-zero gradients\", \"C\": \"To eliminate the need for positional encoding\", \"D\": \"To invert the matrix\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "For large key dimensions d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. Dividing by sqrt(d_k) stabilizes the gradient flow.",
+    "core_topics": [
+      "Sequence modeling with RNNs",
+      "LSTM gates: Forget, Input, Output",
+      "Scaled Dot-Product Self-Attention math",
+      "Multi-Head Attention"
+    ],
+    "pyq_options": {
+      "A": "To convert vectors to unit length",
+      "B": "To prevent extremely large values that push the Softmax function into regions with near-zero gradients",
+      "C": "To eliminate the need for positional encoding",
+      "D": "To invert the matrix"
+    }
+  },
+  {
+    "id": 23,
+    "day_number": 23,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 23: Natural Language Processing (TF-IDF & Embeddings)",
+    "core_topics_json": "[\"Bag-of-Words limitations\", \"TF-IDF formula and document frequency weighting\", \"Word2Vec (Skip-gram vs CBOW)\", \"Cosine similarity between word vectors\"]",
+    "target_hours": 3.5,
+    "key_formula": "TF-IDF(t, d, D) = TF(t, d) * log(N / DF(t))",
+    "real_time_application": "Legal document discovery, sentiment analysis, and search engine ranking.",
+    "pyq_year_session": "UGC NET 2022 Oct",
+    "pyq_question_text": "In TF-IDF scoring, if a word appears in all N documents of a corpus, its IDF value will be:",
+    "pyq_options_json": "{\"A\": \"1.0\", \"B\": \"0.0\", \"C\": \"N\", \"D\": \"Infinity\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "IDF is calculated as log(N / DF). If the term appears in all N documents, DF = N, so IDF = log(N / N) = log(1) = 0. Such ubiquitous words receive zero weight.",
+    "core_topics": [
+      "Bag-of-Words limitations",
+      "TF-IDF formula and document frequency weighting",
+      "Word2Vec (Skip-gram vs CBOW)",
+      "Cosine similarity between word vectors"
+    ],
+    "pyq_options": {
+      "A": "1.0",
+      "B": "0.0",
+      "C": "N",
+      "D": "Infinity"
+    }
+  },
+  {
+    "id": 24,
+    "day_number": 24,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 24: Formal Grammars & Parsing (CYK Algorithm)",
+    "core_topics_json": "[\"Chomsky hierarchy languages and automata\", \"Context-Free Grammars (CFG)\", \"Chomsky Normal Form (CNF: A -> BC or A -> a)\", \"CYK dynamic programming table\"]",
+    "target_hours": 3.5,
+    "key_formula": "CYK algorithm time complexity is O(n^3 * |G|), parsing arbitrary CFGs in polynomial time.",
+    "real_time_application": "Syntax tree analysis in compilers and grammatical structure analysis in Siri/Alexa.",
+    "pyq_year_session": "UGC NET 2021 Dec",
+    "pyq_question_text": "To parse a string of length n using the Cocke-Younger-Kasami (CYK) algorithm, the grammar must first be in:",
+    "pyq_options_json": "{\"A\": \"Greibach Normal Form (GNF)\", \"B\": \"Chomsky Normal Form (CNF)\", \"C\": \"Backus-Naur Form (BNF)\", \"D\": \"Deterministic Finite Automata\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "The CYK dynamic programming algorithm requires the context-free grammar to be strictly in Chomsky Normal Form (CNF) where all productions are of the form A -> BC or A -> a.",
+    "core_topics": [
+      "Chomsky hierarchy languages and automata",
+      "Context-Free Grammars (CFG)",
+      "Chomsky Normal Form (CNF: A -> BC or A -> a)",
+      "CYK dynamic programming table"
+    ],
+    "pyq_options": {
+      "A": "Greibach Normal Form (GNF)",
+      "B": "Chomsky Normal Form (CNF)",
+      "C": "Backus-Naur Form (BNF)",
+      "D": "Deterministic Finite Automata"
+    }
+  },
+  {
+    "id": 25,
+    "day_number": 25,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 25: Hadoop Architecture & MapReduce Execution",
+    "core_topics_json": "[\"HDFS NameNode and DataNode roles\", \"Block size and 3x default replication\", \"Map, Shuffle, Sort, and Reduce phases\", \"Combiner function optimization\"]",
+    "target_hours": 3.5,
+    "key_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+    "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs).",
+    "pyq_year_session": "UGC NET 2020 Oct",
+    "pyq_question_text": "In the Hadoop MapReduce framework, what operation occurs between the Map phase and the Reduce phase?",
+    "pyq_options_json": "{\"A\": \"Block Replication\", \"B\": \"Shuffle and Sort\", \"C\": \"Speculative Execution\", \"D\": \"Data Serialization\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "The intermediate key-value pairs produced by Mappers undergo Shuffle and Sort, which aggregates all values associated with the same intermediate key before feeding them to the appropriate Reducer.",
+    "core_topics": [
+      "HDFS NameNode and DataNode roles",
+      "Block size and 3x default replication",
+      "Map, Shuffle, Sort, and Reduce phases",
+      "Combiner function optimization"
+    ],
+    "pyq_options": {
+      "A": "Block Replication",
+      "B": "Shuffle and Sort",
+      "C": "Speculative Execution",
+      "D": "Data Serialization"
+    }
+  },
+  {
+    "id": 26,
+    "day_number": 26,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 26: Apache Spark & Distributed RDDs",
+    "core_topics_json": "[\"Spark in-memory execution vs Hadoop disk I/O\", \"Resilient Distributed Datasets (RDDs)\", \"Transformations (Lazy evaluation) vs Actions\", \"Narrow vs Wide dependencies (Shuffle)\"]",
+    "target_hours": 3.5,
+    "key_formula": "Wide transformation (e.g., groupByKey, reduceByKey) requires network shuffling across partitions.",
+    "real_time_application": "Real-time streaming fraud prevention in banking transactions.",
+    "pyq_year_session": "UGC NET 2023 Dec",
+    "pyq_question_text": "Which of the following Apache Spark operations represents a Wide Dependency that triggers a network shuffle across cluster nodes?",
+    "pyq_options_json": "{\"A\": \"map()\", \"B\": \"filter()\", \"C\": \"groupByKey()\", \"D\": \"flatMap()\"}",
+    "official_answer_key": "C",
+    "problem_demo_walkthrough": "map(), filter(), and flatMap() are Narrow dependencies where each parent partition is used by at most one child partition without network shuffling. groupByKey() requires shuffling data across multiple cluster nodes.",
+    "core_topics": [
+      "Spark in-memory execution vs Hadoop disk I/O",
+      "Resilient Distributed Datasets (RDDs)",
+      "Transformations (Lazy evaluation) vs Actions",
+      "Narrow vs Wide dependencies (Shuffle)"
+    ],
+    "pyq_options": {
+      "A": "map()",
+      "B": "filter()",
+      "C": "groupByKey()",
+      "D": "flatMap()"
+    }
+  },
+  {
+    "id": 27,
+    "day_number": 27,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 27: NoSQL Database Categories & CAP Theorem",
+    "core_topics_json": "[\"CAP Theorem (Consistency, Availability, Partition Tolerance)\", \"ACID vs BASE properties\", \"Columnar (Cassandra), Document (Mongo), Key-Value (Redis), Graph (Neo4j)\", \"Consistent hashing\"]",
+    "target_hours": 3.5,
+    "key_formula": "CAP theorem: A distributed network can satisfy at most two of {C, A, P} simultaneously.",
+    "real_time_application": "Social media graph feeds (Instagram/Twitter follow relationships and timeline generation).",
+    "pyq_year_session": "UGC NET 2021 Nov",
+    "pyq_question_text": "According to Brewer's CAP theorem, in the presence of a network partition, a distributed system must choose between:",
+    "pyq_options_json": "{\"A\": \"Latency and Throughput\", \"B\": \"Consistency and Availability\", \"C\": \"Atomicity and Durability\", \"D\": \"Encryption and Compression\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "When network partitions inevitably occur (P is mandatory in distributed systems), the architect must choose whether to maintain strong Consistency (rejecting out-of-sync requests) or high Availability (serving stale responses).",
+    "core_topics": [
+      "CAP Theorem (Consistency, Availability, Partition Tolerance)",
+      "ACID vs BASE properties",
+      "Columnar (Cassandra), Document (Mongo), Key-Value (Redis), Graph (Neo4j)",
+      "Consistent hashing"
+    ],
+    "pyq_options": {
+      "A": "Latency and Throughput",
+      "B": "Consistency and Availability",
+      "C": "Atomicity and Durability",
+      "D": "Encryption and Compression"
+    }
+  },
+  {
+    "id": 28,
+    "day_number": 28,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 28: Cloud Virtualization & Containers (Docker/K8s)",
+    "core_topics_json": "[\"Type 1 (Bare-Metal) vs Type 2 (Hosted) Hypervisors\", \"Container cgroups and namespaces vs full OS VMs\", \"Kubernetes Pod lifecycle and service mesh\", \"Serverless Functions (Cold starts)\"]",
+    "target_hours": 3.5,
+    "key_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+    "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales.",
+    "pyq_year_session": "UGC NET 2022 June",
+    "pyq_question_text": "Which of the following is an example of a Type 1 (Bare-Metal) Hypervisor?",
+    "pyq_options_json": "{\"A\": \"Oracle VirtualBox\", \"B\": \"VMware Workstation\", \"C\": \"VMware ESXi\", \"D\": \"QEMU on Windows\"}",
+    "official_answer_key": "C",
+    "problem_demo_walkthrough": "Type 1 Hypervisors run directly on the bare physical host hardware without an underlying host operating system (e.g., VMware ESXi, Microsoft Hyper-V, Xen). VirtualBox and VMware Workstation run on top of an existing OS (Type 2).",
+    "core_topics": [
+      "Type 1 (Bare-Metal) vs Type 2 (Hosted) Hypervisors",
+      "Container cgroups and namespaces vs full OS VMs",
+      "Kubernetes Pod lifecycle and service mesh",
+      "Serverless Functions (Cold starts)"
+    ],
+    "pyq_options": {
+      "A": "Oracle VirtualBox",
+      "B": "VMware Workstation",
+      "C": "VMware ESXi",
+      "D": "QEMU on Windows"
+    }
+  },
+  {
+    "id": 29,
+    "day_number": 29,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 29: Model Evaluation Metrics & MLOps Pipelines",
+    "core_topics_json": "[\"Confusion Matrix: TP, FP, TN, FN\", \"Precision, Recall, F1-Score, Specificity\", \"ROC Curve & AUC metric\", \"Data drift, concept drift, and model deployment\"]",
+    "target_hours": 3.5,
+    "key_formula": "Precision = TP / (TP + FP); Recall = TP / (TP + FN); F1 = 2 * (Prec * Rec) / (Prec + Rec)",
+    "real_time_application": "Automated medical pathology imaging quality control and fraud classifier monitoring.",
+    "pyq_year_session": "UGC NET 2023 June",
+    "pyq_question_text": "In an imbalanced classification problem where false negatives are catastrophically costly (e.g., rare disease screening), which metric should be maximized?",
+    "pyq_options_json": "{\"A\": \"Accuracy\", \"B\": \"Precision\", \"C\": \"Recall (Sensitivity)\", \"D\": \"Specificity\"}",
+    "official_answer_key": "C",
+    "problem_demo_walkthrough": "Recall = TP / (TP + FN). When false negatives must be minimized (missing a sick patient is disastrous), maximizing Recall ensures as many true positive cases as possible are detected.",
+    "core_topics": [
+      "Confusion Matrix: TP, FP, TN, FN",
+      "Precision, Recall, F1-Score, Specificity",
+      "ROC Curve & AUC metric",
+      "Data drift, concept drift, and model deployment"
+    ],
+    "pyq_options": {
+      "A": "Accuracy",
+      "B": "Precision",
+      "C": "Recall (Sensitivity)",
+      "D": "Specificity"
+    }
+  },
+  {
+    "id": 30,
+    "day_number": 30,
+    "phase_week": 4,
+    "phase_title": "Week 4: Big Data, Cloud & Exam Sprint",
+    "module_title": "Day 30: Grand Full-Length AI & Data Science Mock Exam",
+    "core_topics_json": "[\"Timed 100-Question Grand Mock Test\", \"Paper 1 & Paper 2 combined scoring\", \"Cutoff benchmarking for JRF / Assistant Professor\", \"Final formula sheet review\"]",
+    "target_hours": 4.5,
+    "key_formula": "Total Marks = 200; UGC NET JRF target = 65%+ aggregate score.",
+    "real_time_application": "End-to-end examination readiness and professional academic competency.",
+    "pyq_year_session": "UGC NET 2024 June",
+    "pyq_question_text": "Which learning paradigm allows an agent to learn optimal behaviors by interacting with an environment through trial-and-error rewards?",
+    "pyq_options_json": "{\"A\": \"Supervised Learning\", \"B\": \"Reinforcement Learning (RL)\", \"C\": \"Unsupervised Clustering\", \"D\": \"Deductive Reasoning\"}",
+    "official_answer_key": "B",
+    "problem_demo_walkthrough": "Reinforcement Learning formalizes decision-making via Markov Decision Processes (MDPs), where an agent learns an optimal policy through scalar feedback rewards.",
+    "core_topics": [
+      "Timed 100-Question Grand Mock Test",
+      "Paper 1 & Paper 2 combined scoring",
+      "Cutoff benchmarking for JRF / Assistant Professor",
+      "Final formula sheet review"
+    ],
+    "pyq_options": {
+      "A": "Supervised Learning",
+      "B": "Reinforcement Learning (RL)",
+      "C": "Unsupervised Clustering",
+      "D": "Deductive Reasoning"
+    }
+  }
+]

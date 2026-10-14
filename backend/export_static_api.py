@@ -78,6 +78,10 @@ def export_all():
     report = LinkValidator().generate_verification_report()
     write_json("verification-report", report)
 
+    # 10. 30-Day Master Study Plan
+    study_plan = UgcNetService.get_study_plan_30_days()
+    write_json("study-plan/30-days", study_plan)
+
     print("All static API endpoints successfully exported to frontend/api/!")
 
 if __name__ == "__main__":

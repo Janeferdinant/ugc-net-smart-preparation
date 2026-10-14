@@ -93,8 +93,15 @@ def export_all():
     career = UgcNetService.get_career_resources()
     with open(os.path.join(api_dir, "career.json"), "w", encoding="utf-8") as f:
         json.dump(career, f, indent=2)
+
+    # 11. 30-Day Master Study Plan
+    study_dir = os.path.join(api_dir, "study-plan")
+    os.makedirs(study_dir, exist_ok=True)
+    plan = UgcNetService.get_study_plan_30_days()
+    with open(os.path.join(study_dir, "30-days.json"), "w", encoding="utf-8") as f:
+        json.dump(plan, f, indent=2)
         
-    # 11. Verification report
+    # 12. Verification report
     import shutil
     shutil.copyfile(os.path.join(BASE_DIR, "reports", "verification_report.json"), os.path.join(api_dir, "verification-report.json"))
         

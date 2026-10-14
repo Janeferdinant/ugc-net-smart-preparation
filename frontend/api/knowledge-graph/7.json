@@ -3,9 +3,13 @@
     {
       "id": "sub-7",
       "label": "Natural Language Processing & LLMs",
+      "full_title": "Natural Language Processing & LLMs",
       "group": "root",
       "size": 32,
-      "color": "#3B82F6"
+      "color": "#3B82F6",
+      "description": "Supplementary linguistic intelligence domain covering tokenization, word embeddings, attention mechanisms, BERT/GPT architectures, and retrieval augmented generation (RAG).",
+      "key_formula": "UGC NET Comprehensive Syllabi Hierarchy",
+      "real_time_application": "Academic Curriculum Taxonomy & Research Roadmaps"
     }
   ],
   "links": []

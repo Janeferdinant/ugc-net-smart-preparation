@@ -91,6 +91,8 @@ class UgcNetUnifiedHandler(SimpleHTTPRequestHandler):
                     data = UgcNetService.get_career_resources()
                 elif path == "/api/verification-report":
                     data = LinkValidator().generate_verification_report()
+                elif path == "/api/study-plan/30-days":
+                    data = UgcNetService.get_study_plan_30_days()
                 else:
                     self._set_api_headers(404)
                     self.wfile.write(json.dumps({"error": f"Endpoint '{path}' not found"}).encode("utf-8"))

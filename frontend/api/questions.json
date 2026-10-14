@@ -19,6 +19,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -42,6 +43,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -65,6 +67,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VI: Logical Reasoning"
   },
@@ -88,6 +91,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VIII: Information and Communication Technology (ICT)"
   },
@@ -111,6 +115,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IX: People, Development and Environment"
   },
@@ -134,6 +139,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -157,6 +163,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -180,6 +187,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit IV: Communication"
   },
@@ -203,6 +211,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit V: Mathematical Reasoning and Aptitude"
   },
@@ -226,6 +235,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit VII: Data Interpretation"
   },
@@ -249,6 +259,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit VIII: Information and Communication Technology (ICT)"
   },
@@ -272,6 +283,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit X: Higher Education System"
   },
@@ -295,6 +307,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Electronic Science",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -318,6 +331,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Electronic Science",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -341,6 +355,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Electronic Science",
     "unit_title": "Unit V: Mathematical Reasoning and Aptitude"
   },
@@ -364,6 +379,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit VI: Logical Reasoning"
   },
@@ -387,6 +403,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -410,6 +427,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IV: Communication"
   },
@@ -433,6 +451,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -456,6 +475,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Electronic Science",
     "unit_title": "Unit III: Comprehension"
   },
@@ -479,6 +499,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit III: Comprehension"
   },
@@ -502,6 +523,7 @@
     "year": 2021,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -525,6 +547,7 @@
     "year": 2022,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -548,6 +571,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -571,6 +595,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -594,6 +619,7 @@
     "year": 2019,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit I: Teaching Aptitude"
   },
@@ -617,6 +643,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -640,6 +667,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -663,6 +691,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -686,6 +715,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -709,6 +739,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit II: Research Aptitude"
   },
@@ -732,6 +763,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit III: Comprehension"
   },
@@ -755,6 +787,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit III: Comprehension"
   },
@@ -778,6 +811,7 @@
     "year": 2019,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit III: Comprehension"
   },
@@ -801,6 +835,7 @@
     "year": 2020,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit III: Comprehension"
   },
@@ -824,6 +859,7 @@
     "year": 2021,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit III: Comprehension"
   },
@@ -847,6 +883,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IV: Communication"
   },
@@ -870,6 +907,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IV: Communication"
   },
@@ -893,6 +931,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IV: Communication"
   },
@@ -916,6 +955,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IV: Communication"
   },
@@ -939,6 +979,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IV: Communication"
   },
@@ -962,6 +1003,7 @@
     "year": 2019,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit V: Mathematical Reasoning and Aptitude"
   },
@@ -985,6 +1027,7 @@
     "year": 2020,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit V: Mathematical Reasoning and Aptitude"
   },
@@ -1008,6 +1051,7 @@
     "year": 2021,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit V: Mathematical Reasoning and Aptitude"
   },
@@ -1031,6 +1075,7 @@
     "year": 2022,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit V: Mathematical Reasoning and Aptitude"
   },
@@ -1054,6 +1099,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit V: Mathematical Reasoning and Aptitude"
   },
@@ -1077,6 +1123,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VI: Logical Reasoning"
   },
@@ -1100,6 +1147,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VI: Logical Reasoning"
   },
@@ -1123,6 +1171,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VI: Logical Reasoning"
   },
@@ -1146,6 +1195,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VI: Logical Reasoning"
   },
@@ -1169,6 +1219,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VI: Logical Reasoning"
   },
@@ -1192,6 +1243,7 @@
     "year": 2021,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VII: Data Interpretation"
   },
@@ -1215,6 +1267,7 @@
     "year": 2022,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VII: Data Interpretation"
   },
@@ -1238,6 +1291,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VII: Data Interpretation"
   },
@@ -1261,6 +1315,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VII: Data Interpretation"
   },
@@ -1284,6 +1339,7 @@
     "year": 2019,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VII: Data Interpretation"
   },
@@ -1307,6 +1363,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VIII: Information and Communication Technology (ICT)"
   },
@@ -1330,6 +1387,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VIII: Information and Communication Technology (ICT)"
   },
@@ -1353,6 +1411,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VIII: Information and Communication Technology (ICT)"
   },
@@ -1376,6 +1435,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VIII: Information and Communication Technology (ICT)"
   },
@@ -1399,6 +1459,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit VIII: Information and Communication Technology (ICT)"
   },
@@ -1422,6 +1483,7 @@
     "year": 2023,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IX: People, Development and Environment"
   },
@@ -1445,6 +1507,7 @@
     "year": 2024,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IX: People, Development and Environment"
   },
@@ -1468,6 +1531,7 @@
     "year": 2019,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IX: People, Development and Environment"
   },
@@ -1491,6 +1555,7 @@
     "year": 2020,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IX: People, Development and Environment"
   },
@@ -1514,6 +1579,7 @@
     "year": 2021,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit IX: People, Development and Environment"
   },
@@ -1537,6 +1603,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit X: Higher Education System"
   },
@@ -1560,6 +1627,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit X: Higher Education System"
   },
@@ -1583,6 +1651,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit X: Higher Education System"
   },
@@ -1606,6 +1675,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit X: Higher Education System"
   },
@@ -1629,6 +1699,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "General Paper on Teaching & Research Aptitude (Paper 1)",
     "unit_title": "Unit X: Higher Education System"
   },
@@ -1652,6 +1723,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1675,6 +1747,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1698,6 +1771,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1721,6 +1795,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1744,6 +1819,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1767,6 +1843,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1790,6 +1867,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1813,6 +1891,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1836,6 +1915,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1859,6 +1939,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1882,6 +1963,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1905,6 +1987,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1928,6 +2011,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1951,6 +2035,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1974,6 +2059,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 1: Discrete Structures and Optimization"
   },
@@ -1997,6 +2083,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2020,6 +2107,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2043,6 +2131,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2066,6 +2155,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2089,6 +2179,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2112,6 +2203,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2135,6 +2227,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2158,6 +2251,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2181,6 +2275,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2204,6 +2299,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2227,6 +2323,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2250,6 +2347,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2273,6 +2371,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2296,6 +2395,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2319,6 +2419,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 2: Computer System Architecture"
   },
@@ -2342,6 +2443,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2365,6 +2467,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2388,6 +2491,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2411,6 +2515,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2434,6 +2539,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2457,6 +2563,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2480,6 +2587,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2503,6 +2611,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2526,6 +2635,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2549,6 +2659,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2572,6 +2683,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2595,6 +2707,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2618,6 +2731,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2641,6 +2755,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2664,6 +2779,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 3: Programming Languages and Computer Graphics"
   },
@@ -2687,6 +2803,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2710,6 +2827,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2733,6 +2851,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2756,6 +2875,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2779,6 +2899,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2802,6 +2923,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2825,6 +2947,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2848,6 +2971,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2871,6 +2995,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2894,6 +3019,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2917,6 +3043,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2940,6 +3067,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2963,6 +3091,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -2986,6 +3115,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -3009,6 +3139,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 4: Database Management Systems"
   },
@@ -3032,6 +3163,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3055,6 +3187,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3078,6 +3211,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3101,6 +3235,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3124,6 +3259,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3147,6 +3283,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3170,6 +3307,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3193,6 +3331,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3216,6 +3355,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3239,6 +3379,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3262,6 +3403,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3285,6 +3427,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3308,6 +3451,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3331,6 +3475,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3354,6 +3499,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 5: System Software and Operating System"
   },
@@ -3377,6 +3523,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3400,6 +3547,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3423,6 +3571,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3446,6 +3595,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3469,6 +3619,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3492,6 +3643,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3515,6 +3667,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3538,6 +3691,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3561,6 +3715,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3584,6 +3739,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3607,6 +3763,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3630,6 +3787,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3653,6 +3811,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3676,6 +3835,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3699,6 +3859,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 6: Software Engineering"
   },
@@ -3722,6 +3883,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3745,6 +3907,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3768,6 +3931,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3791,6 +3955,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3814,6 +3979,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3837,6 +4003,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3860,6 +4027,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3883,6 +4051,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3906,6 +4075,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3929,6 +4099,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3952,6 +4123,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3975,6 +4147,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -3998,6 +4171,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -4021,6 +4195,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -4044,6 +4219,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 7: Data Communication and Computer Networks"
   },
@@ -4067,6 +4243,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4090,6 +4267,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4113,6 +4291,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4136,6 +4315,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4159,6 +4339,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4182,6 +4363,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4205,6 +4387,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4228,6 +4411,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4251,6 +4435,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4274,6 +4459,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4297,6 +4483,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4320,6 +4507,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4343,6 +4531,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4366,6 +4555,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4389,6 +4579,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 8: Theory of Computation and Compilers"
   },
@@ -4412,6 +4603,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4435,6 +4627,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4458,6 +4651,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4481,6 +4675,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4504,6 +4699,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4527,6 +4723,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4550,6 +4747,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4573,6 +4771,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4596,6 +4795,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4619,6 +4819,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4642,6 +4843,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4665,6 +4867,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4688,6 +4891,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4711,6 +4915,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4734,6 +4939,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 9: Data Science and Cloud Computing"
   },
@@ -4757,6 +4963,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4780,6 +4987,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4803,6 +5011,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4826,6 +5035,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4849,6 +5059,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4872,6 +5083,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4895,6 +5107,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4918,6 +5131,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4941,6 +5155,7 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4964,6 +5179,7 @@
     "year": 2019,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -4987,6 +5203,7 @@
     "year": 2020,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -5010,6 +5227,7 @@
     "year": 2021,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -5033,6 +5251,7 @@
     "year": 2022,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -5056,6 +5275,7 @@
     "year": 2023,
     "session": "June",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
   },
@@ -5079,7 +5299,728 @@
     "year": 2024,
     "session": "December",
     "is_official_pyq": 1,
+    "real_time_application": null,
     "subject_name": "Computer Science and Applications",
     "unit_title": "Unit 10: Artificial Intelligence"
+  },
+  {
+    "id": 222,
+    "subject_id": 4,
+    "unit_id": 31,
+    "paper_id": null,
+    "question_number": 1,
+    "question_text": "In Breadth-First Search, if the branching factor is b and depth of shallowest solution is d, what is the space complexity?",
+    "option_a": "O(d)",
+    "option_b": "O(b^d)",
+    "option_c": "O(b * d)",
+    "option_d": "O(d^b)",
+    "correct_option": "B",
+    "explanation": "BFS stores all generated nodes in memory at the current frontier level. At depth d, there are b^d leaf nodes in memory. Hence space complexity is O(b^d).",
+    "numerical_formula": "Time Complexity of BFS = O(b^d), Space = O(b^d)",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "GPS Navigation routing in sparse road networks; Web crawler link traversal.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Search Algorithms & Heuristic Optimization"
+  },
+  {
+    "id": 223,
+    "subject_id": 4,
+    "unit_id": 31,
+    "paper_id": null,
+    "question_number": 2,
+    "question_text": "An A* search algorithm is guaranteed to find an optimal path if the heuristic function h(n) is:",
+    "option_a": "Overestimating the true cost",
+    "option_b": "Admissible and never overestimates the true cost",
+    "option_c": "Equal to the path cost g(n)",
+    "option_d": "Negative",
+    "correct_option": "B",
+    "explanation": "For tree search, admissibility (h(n) <= h*(n)) is sufficient for optimality. For graph search, consistency (triangle inequality h(n) <= c(n,a,n') + h(n')) guarantees optimal paths without reopening closed nodes.",
+    "numerical_formula": "f(n) = g(n) + h(n), with h(n) <= h*(n) guaranteeing tree-search optimality.",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Warehouse AGV (Automated Guided Vehicle) collision-free shortest path planning.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Search Algorithms & Heuristic Optimization"
+  },
+  {
+    "id": 224,
+    "subject_id": 4,
+    "unit_id": 31,
+    "paper_id": null,
+    "question_number": 3,
+    "question_text": "What is the primary advantage of Iterative Deepening A* (IDA*) over standard A* search?",
+    "option_a": "It visits fewer nodes",
+    "option_b": "It reduces memory consumption to linear O(bd)",
+    "option_c": "It does not require a heuristic",
+    "option_d": "It works only on directed graphs",
+    "correct_option": "B",
+    "explanation": "A* keeps all explored nodes in memory (exponential O(b^d)), which causes out-of-memory errors on hard problems. IDA* uses depth-first contour cutoffs, reducing memory to O(bd) while retaining optimality.",
+    "numerical_formula": "Space complexity of IDA* = O(b * d) with f-contour cutoffs.",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Embedded robotics pathfinding with strict RAM limits (Microcontroller AI).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Search Algorithms & Heuristic Optimization"
+  },
+  {
+    "id": 225,
+    "subject_id": 4,
+    "unit_id": 32,
+    "paper_id": null,
+    "question_number": 4,
+    "question_text": "In a two-player zero-sum game with branching factor b and game depth d, the time complexity of the Minimax algorithm is:",
+    "option_a": "O(b * d)",
+    "option_b": "O(b^d)",
+    "option_c": "O(d^b)",
+    "option_d": "O(b^(d/2))",
+    "correct_option": "B",
+    "explanation": "Minimax traverses all states in the complete game tree up to maximum depth d with branching factor b, yielding exact time complexity O(b^d).",
+    "numerical_formula": "Minimax(s) = max_a Minimax(Result(s,a)) for MAX node; min_a for MIN node.",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2022,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Chess and Checkers automated engines (Stockfish position evaluation).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Adversarial Search & Game Playing"
+  },
+  {
+    "id": 226,
+    "subject_id": 4,
+    "unit_id": 32,
+    "paper_id": null,
+    "question_number": 5,
+    "question_text": "With optimal move ordering, Alpha-Beta pruning reduces the time complexity of minimax from O(b^d) to:",
+    "option_a": "O(b * d)",
+    "option_b": "O(b^(d/2))",
+    "option_c": "O(d^(b/2))",
+    "option_d": "O(log(b^d))",
+    "correct_option": "B",
+    "explanation": "When child moves are examined in best-first order, Alpha-Beta prunes roughly half the tree branches at alternating depths, achieving O(b^(d/2)) complexity, effectively doubling the search depth.",
+    "numerical_formula": "Best-case time complexity with optimal ordering = O(b^(d/2)), doubling effective search depth.",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Automated high-frequency algorithmic bid-ask auction pricing engines.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Adversarial Search & Game Playing"
+  },
+  {
+    "id": 227,
+    "subject_id": 4,
+    "unit_id": 32,
+    "paper_id": null,
+    "question_number": 6,
+    "question_text": "In Simulated Annealing, when the temperature T approaches 0, the algorithm behaves exactly like:",
+    "option_a": "Breadth-First Search",
+    "option_b": "Pure Random Walk",
+    "option_c": "Standard Greedy Hill Climbing",
+    "option_d": "Depth-First Search",
+    "correct_option": "C",
+    "explanation": "As T -> 0, the acceptance probability exp(-delta_E / T) for worse moves approaches 0, meaning only strictly improving moves are accepted, reducing to greedy hill climbing.",
+    "numerical_formula": "Probability of accepting worse state: P = exp(-delta_E / T)",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "VLSI chip layout gate placement optimization and Traveling Salesperson Problem (TSP).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Adversarial Search & Game Playing"
+  },
+  {
+    "id": 228,
+    "subject_id": 4,
+    "unit_id": 33,
+    "paper_id": null,
+    "question_number": 7,
+    "question_text": "Which search algorithm combines the linear space complexity of DFS with the completeness of BFS?",
+    "option_a": "Uniform Cost Search",
+    "option_b": "Iterative Deepening Depth-First Search (IDDFS)",
+    "option_c": "Greedy Best-First Search",
+    "option_d": "Bidirectional Search",
+    "correct_option": "B",
+    "explanation": "IDDFS runs DFS with incrementally increasing depth limits. It is complete, optimal for uniform step costs, and retains linear space complexity O(bd).",
+    "numerical_formula": "Branching factor b* calculation: N = 1 + b* + (b*)^2 + ... + (b*)^d",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2024,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "End-to-end autonomous navigation and routing engines.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Knowledge Representation, Predicate Logic & Reasoning"
+  },
+  {
+    "id": 229,
+    "subject_id": 4,
+    "unit_id": 33,
+    "paper_id": null,
+    "question_number": 8,
+    "question_text": "The proposition (P -> Q) -> (~P -> ~Q) is a:",
+    "option_a": "Tautology",
+    "option_b": "Contradiction",
+    "option_c": "Contingency",
+    "option_d": "Valid argument",
+    "correct_option": "C",
+    "explanation": "When P=False and Q=True, (P->Q) is True while (~P->~Q) is (True->False) which is False. True->False evaluates to False. When P=True, Q=True, it evaluates to True. Since it is neither always True nor always False, it is a Contingency.",
+    "numerical_formula": "Implication elimination: (P -> Q) is logically equivalent to (~P v Q).",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Hardware circuit verification and SAT solvers for microchip safety checks.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Knowledge Representation, Predicate Logic & Reasoning"
+  },
+  {
+    "id": 230,
+    "subject_id": 4,
+    "unit_id": 33,
+    "paper_id": null,
+    "question_number": 9,
+    "question_text": "In Skolemization, an existential quantifier within the scope of universal quantifiers is replaced by:",
+    "option_a": "A Skolem constant",
+    "option_b": "A Skolem function of the universally quantified variables",
+    "option_c": "A free variable",
+    "option_d": "A negated literal",
+    "correct_option": "B",
+    "explanation": "Because the existential variable depends on the universal variable preceding it, it must be mapped to a function of those universal variables (Skolem function).",
+    "numerical_formula": "Eliminate existential quantifiers: exists y P(x, y) becomes P(x, f(x)) where f is a Skolem function.",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Legal contract verification and regulatory compliance automated rule engines.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Knowledge Representation, Predicate Logic & Reasoning"
+  },
+  {
+    "id": 231,
+    "subject_id": 4,
+    "unit_id": 34,
+    "paper_id": null,
+    "question_number": 10,
+    "question_text": "Which substitution represents the Most General Unifier (MGU) for P(x, f(y)) and P(a, f(b))?",
+    "option_a": "{x/a, y/b}",
+    "option_b": "{x/f(b), y/a}",
+    "option_c": "{x/b, y/a}",
+    "option_d": "{x/a, y/f(b)}",
+    "correct_option": "A",
+    "explanation": "Matching terms pairwise: x unifies with a ({x/a}), and f(y) unifies with f(b) which yields y unifies with b ({y/b}). The combined MGU is {x/a, y/b}.",
+    "numerical_formula": "Resolvent of (A v B) and (~A v C) with substitution theta is (B v C)theta.",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Automated medical diagnosis expert systems (MYCIN inference engine).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems"
+  },
+  {
+    "id": 232,
+    "subject_id": 4,
+    "unit_id": 34,
+    "paper_id": null,
+    "question_number": 11,
+    "question_text": "In Frame-based knowledge representation, procedures attached to slots that execute when values are accessed or updated are called:",
+    "option_a": "Inheritors",
+    "option_b": "Demons (e.g., if-needed, if-added)",
+    "option_c": "Skolemizers",
+    "option_d": "Heuristics",
+    "correct_option": "B",
+    "explanation": "In Frame systems, procedural attachments triggered automatically upon slot query or modification are known as demons (such as IF-NEEDED, IF-ADDED, IF-REMOVED).",
+    "numerical_formula": "Multiple inheritance ambiguity resolved via Topological Sort / Inferential Distance.",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Enterprise Knowledge Graphs (Google Knowledge Graph, Wikidata entity linking).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems"
+  },
+  {
+    "id": 233,
+    "subject_id": 4,
+    "unit_id": 34,
+    "paper_id": null,
+    "question_number": 12,
+    "question_text": "In a Bayesian Belief Network, the Markov Blanket of a node X consists of:",
+    "option_a": "Only its parent nodes",
+    "option_b": "Its parents, its children, and the other parents of its children (spouses)",
+    "option_c": "Only its children nodes",
+    "option_d": "All nodes in the network",
+    "correct_option": "B",
+    "explanation": "A node X is conditionally independent of all other nodes in the network given its Markov Blanket, which strictly contains its parents, its children, and its children's co-parents (spouses).",
+    "numerical_formula": "P(X1, ..., Xn) = Prod_{i=1}^n P(Xi | Parents(Xi))",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2022,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Credit card fraud detection and spam filtering engines.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Probabilistic Reasoning, Bayesian Networks & Fuzzy Systems"
+  },
+  {
+    "id": 234,
+    "subject_id": 4,
+    "unit_id": 35,
+    "paper_id": null,
+    "question_number": 13,
+    "question_text": "If A is a fuzzy set with membership mu_A(x) = 0.7 and B is a fuzzy set with mu_B(x) = 0.4, the membership value in (A n ~B) is:",
+    "option_a": "0.3",
+    "option_b": "0.6",
+    "option_c": "0.4",
+    "option_d": "0.7",
+    "correct_option": "B",
+    "explanation": "Complement mu_{~B}(x) = 1 - 0.4 = 0.6. Intersection is the minimum: min(0.7, 0.6) = 0.6.",
+    "numerical_formula": "mu_{A n B}(x) = min(mu_A(x), mu_B(x)); mu_{A u B}(x) = max(mu_A(x), mu_B(x))",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Automated anti-lock braking systems (ABS) and washing machine load sensors.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Classical Machine Learning & Statistical Learning"
+  },
+  {
+    "id": 235,
+    "subject_id": 4,
+    "unit_id": 35,
+    "paper_id": null,
+    "question_number": 14,
+    "question_text": "Which defuzzification method calculates the center of gravity of the combined fuzzy output area?",
+    "option_a": "Mean of Maxima (MOM)",
+    "option_b": "Centroid Method (Center of Gravity)",
+    "option_c": "Smallest of Maxima (SOM)",
+    "option_d": "Height Defuzzifier",
+    "correct_option": "B",
+    "explanation": "The Centroid / Center of Gravity (COG) method calculates the center of area under the aggregated fuzzy membership curve, providing the smoothest physical control signal.",
+    "numerical_formula": "Centroid Defuzzification z* = Integral(z * mu(z) dz) / Integral(mu(z) dz)",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "High-speed bullet train speed-control actuators and industrial climate controls.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Classical Machine Learning & Statistical Learning"
+  },
+  {
+    "id": 236,
+    "subject_id": 4,
+    "unit_id": 35,
+    "paper_id": null,
+    "question_number": 15,
+    "question_text": "Which regularization technique promotes feature sparsity by driving irrelevant weights to exactly zero?",
+    "option_a": "L2 Regularization (Ridge)",
+    "option_b": "L1 Regularization (Lasso)",
+    "option_c": "Dropout",
+    "option_d": "Early Stopping",
+    "correct_option": "B",
+    "explanation": "L1 regularization adds the absolute sum of weights to the loss, which has diamond-shaped constraint boundaries that intersect feature axes, forcing uninformative weights to become exactly 0 (sparsity).",
+    "numerical_formula": "Lasso Cost = MSE + lambda * Sum(|w_i|); Ridge Cost = MSE + lambda * Sum(w_i^2)",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Real estate price prediction and customer churn probability estimation.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Classical Machine Learning & Statistical Learning"
+  },
+  {
+    "id": 237,
+    "subject_id": 4,
+    "unit_id": 36,
+    "paper_id": null,
+    "question_number": 16,
+    "question_text": "In the ID3 algorithm, if a dataset S has 9 positive and 5 negative examples, the entropy Entropy(S) is calculated using:",
+    "option_a": "-(9/14)*log2(9/14) - (5/14)*log2(5/14)",
+    "option_b": "(9/14)*log2(9/14) + (5/14)*log2(5/14)",
+    "option_c": "1 - (9/14)^2 - (5/14)^2",
+    "option_d": "log2(14/9)",
+    "correct_option": "A",
+    "explanation": "Shannon Entropy is defined as -Sum(p_i * log2(p_i)). With p(+) = 9/14 and p(-) = 5/14, Entropy = -(9/14)*log2(9/14) - (5/14)*log2(5/14) approx 0.940 bits.",
+    "numerical_formula": "Gain(S, A) = Entropy(S) - Sum_{v} (|S_v| / |S|) * Entropy(S_v)",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2022,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Loan credit approval engines and clinical triage risk classification.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Unsupervised Learning, Clustering & Association Rules"
+  },
+  {
+    "id": 238,
+    "subject_id": 4,
+    "unit_id": 36,
+    "paper_id": null,
+    "question_number": 17,
+    "question_text": "In Support Vector Machines, if the hyperparameter C is set to an extremely large value, the model will:",
+    "option_a": "Allow large margins and risk underfitting",
+    "option_b": "Penalize training errors heavily and risk overfitting",
+    "option_c": "Ignore all support vectors",
+    "option_d": "Convert to a linear regression model",
+    "correct_option": "B",
+    "explanation": "The hyperparameter C balances margin width against misclassification penalties. A huge C forces zero margin violations on the training set (hard margin behavior), which risks severe overfitting.",
+    "numerical_formula": "Margin width = 2 / ||w||. Kernel function K(x, z) = exp(-gamma * ||x - z||^2)",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Cancer tumor classification from gene expression microarrays.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Unsupervised Learning, Clustering & Association Rules"
+  },
+  {
+    "id": 239,
+    "subject_id": 4,
+    "unit_id": 36,
+    "paper_id": null,
+    "question_number": 18,
+    "question_text": "In Agglomerative Hierarchical Clustering, Single Linkage defines the distance between two clusters as:",
+    "option_a": "The maximum distance between any two points in the clusters",
+    "option_b": "The minimum distance between any single point in one cluster and any single point in the other",
+    "option_c": "The distance between cluster centroids",
+    "option_d": "The average of all pairwise distances",
+    "correct_option": "B",
+    "explanation": "Single linkage calculates the minimum distance between points across clusters, which can produce long elongated chaining clusters.",
+    "numerical_formula": "k-Means objective J = Sum_{i=1}^k Sum_{x in C_i} ||x - mu_i||^2",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Customer market segmentation for targeted e-commerce marketing.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Unsupervised Learning, Clustering & Association Rules"
+  },
+  {
+    "id": 240,
+    "subject_id": 4,
+    "unit_id": 37,
+    "paper_id": null,
+    "question_number": 19,
+    "question_text": "In Principal Component Analysis (PCA), the first principal component corresponds to:",
+    "option_a": "The eigenvector associated with the smallest eigenvalue",
+    "option_b": "The eigenvector associated with the largest eigenvalue",
+    "option_c": "The mean of the feature vector",
+    "option_d": "The determinant of the covariance matrix",
+    "correct_option": "B",
+    "explanation": "The first principal component captures the maximum variance in the data, which mathematically corresponds to the eigenvector of the sample covariance matrix that has the largest eigenvalue.",
+    "numerical_formula": "Principal components are eigenvectors of covariance matrix Sigma = (1/N) * X^T * X",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2022,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Facial recognition feature compression (Eigenfaces) and financial risk factor analysis.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Deep Learning & Neural Architectures"
+  },
+  {
+    "id": 241,
+    "subject_id": 4,
+    "unit_id": 37,
+    "paper_id": null,
+    "question_number": 20,
+    "question_text": "Why is the ReLU activation function f(x) = max(0, x) preferred over the Sigmoid function in deep neural networks?",
+    "option_a": "ReLU is completely bounded between 0 and 1",
+    "option_b": "ReLU mitigates the vanishing gradient problem for positive inputs",
+    "option_c": "ReLU is continuously differentiable everywhere",
+    "option_d": "ReLU prevents dead neurons",
+    "correct_option": "B",
+    "explanation": "The derivative of the sigmoid function saturates at 0 for large positive or negative values, causing gradients to vanish during backpropagation in deep architectures. ReLU has a constant derivative of 1 for x > 0.",
+    "numerical_formula": "delta_j = dE/d(net_j) = (dE/dy_j) * f'(net_j); w_ij = w_ij - eta * delta_j * y_i",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Autonomous vehicle computer vision and optical character recognition (OCR).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Deep Learning & Neural Architectures"
+  },
+  {
+    "id": 242,
+    "subject_id": 4,
+    "unit_id": 37,
+    "paper_id": null,
+    "question_number": 21,
+    "question_text": "An input image of size 32x32 is convolved with a 5x5 kernel using stride S=1 and zero padding P=2. What is the output feature map size?",
+    "option_a": "28x28",
+    "option_b": "32x32",
+    "option_c": "30x30",
+    "option_d": "36x36",
+    "correct_option": "B",
+    "explanation": "Using formula O = floor((W - K + 2P)/S) + 1: O = floor((32 - 5 + 2*2)/1) + 1 = floor(31/1) + 1 = 32. Output is 32x32 ('Same' padding).",
+    "numerical_formula": "Output Dimension O = floor((W - K + 2P) / S) + 1",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Radiology chest X-ray pneumonia detection and biometric facial unlocking.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Deep Learning & Neural Architectures"
+  },
+  {
+    "id": 243,
+    "subject_id": 4,
+    "unit_id": 38,
+    "paper_id": null,
+    "question_number": 22,
+    "question_text": "In the Transformer attention mechanism, why is the dot product Q * K^T scaled by 1/sqrt(d_k)?",
+    "option_a": "To convert vectors to unit length",
+    "option_b": "To prevent extremely large values that push the Softmax function into regions with near-zero gradients",
+    "option_c": "To eliminate the need for positional encoding",
+    "option_d": "To invert the matrix",
+    "correct_option": "B",
+    "explanation": "For large key dimensions d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. Dividing by sqrt(d_k) stabilizes the gradient flow.",
+    "numerical_formula": "Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2024,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Large Language Models (ChatGPT, Claude) and real-time speech translation.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Natural Language Processing (NLP) & Computational Linguistics"
+  },
+  {
+    "id": 244,
+    "subject_id": 4,
+    "unit_id": 38,
+    "paper_id": null,
+    "question_number": 23,
+    "question_text": "In TF-IDF scoring, if a word appears in all N documents of a corpus, its IDF value will be:",
+    "option_a": "1.0",
+    "option_b": "0.0",
+    "option_c": "N",
+    "option_d": "Infinity",
+    "correct_option": "B",
+    "explanation": "IDF is calculated as log(N / DF). If the term appears in all N documents, DF = N, so IDF = log(N / N) = log(1) = 0. Such ubiquitous words receive zero weight.",
+    "numerical_formula": "TF-IDF(t, d, D) = TF(t, d) * log(N / DF(t))",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2022,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Legal document discovery, sentiment analysis, and search engine ranking.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Natural Language Processing (NLP) & Computational Linguistics"
+  },
+  {
+    "id": 245,
+    "subject_id": 4,
+    "unit_id": 38,
+    "paper_id": null,
+    "question_number": 24,
+    "question_text": "To parse a string of length n using the Cocke-Younger-Kasami (CYK) algorithm, the grammar must first be in:",
+    "option_a": "Greibach Normal Form (GNF)",
+    "option_b": "Chomsky Normal Form (CNF)",
+    "option_c": "Backus-Naur Form (BNF)",
+    "option_d": "Deterministic Finite Automata",
+    "correct_option": "B",
+    "explanation": "The CYK dynamic programming algorithm requires the context-free grammar to be strictly in Chomsky Normal Form (CNF) where all productions are of the form A -> BC or A -> a.",
+    "numerical_formula": "CYK algorithm time complexity is O(n^3 * |G|), parsing arbitrary CFGs in polynomial time.",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Syntax tree analysis in compilers and grammatical structure analysis in Siri/Alexa.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Natural Language Processing (NLP) & Computational Linguistics"
+  },
+  {
+    "id": 246,
+    "subject_id": 4,
+    "unit_id": 39,
+    "paper_id": null,
+    "question_number": 25,
+    "question_text": "In the Hadoop MapReduce framework, what operation occurs between the Map phase and the Reduce phase?",
+    "option_a": "Block Replication",
+    "option_b": "Shuffle and Sort",
+    "option_c": "Speculative Execution",
+    "option_d": "Data Serialization",
+    "correct_option": "B",
+    "explanation": "The intermediate key-value pairs produced by Mappers undergo Shuffle and Sort, which aggregates all values associated with the same intermediate key before feeding them to the appropriate Reducer.",
+    "numerical_formula": "Map: (k1, v1) -> list(k2, v2); Reduce: (k2, list(v2)) -> list(k3, v3)",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Large-scale web index creation (Google PageRank computation over billions of URLs).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Big Data Architectures, Distributed Computing & NoSQL"
+  },
+  {
+    "id": 247,
+    "subject_id": 4,
+    "unit_id": 39,
+    "paper_id": null,
+    "question_number": 26,
+    "question_text": "Which of the following Apache Spark operations represents a Wide Dependency that triggers a network shuffle across cluster nodes?",
+    "option_a": "map()",
+    "option_b": "filter()",
+    "option_c": "groupByKey()",
+    "option_d": "flatMap()",
+    "correct_option": "C",
+    "explanation": "map(), filter(), and flatMap() are Narrow dependencies where each parent partition is used by at most one child partition without network shuffling. groupByKey() requires shuffling data across multiple cluster nodes.",
+    "numerical_formula": "Wide transformation (e.g., groupByKey, reduceByKey) requires network shuffling across partitions.",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Real-time streaming fraud prevention in banking transactions.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Big Data Architectures, Distributed Computing & NoSQL"
+  },
+  {
+    "id": 248,
+    "subject_id": 4,
+    "unit_id": 39,
+    "paper_id": null,
+    "question_number": 27,
+    "question_text": "According to Brewer's CAP theorem, in the presence of a network partition, a distributed system must choose between:",
+    "option_a": "Latency and Throughput",
+    "option_b": "Consistency and Availability",
+    "option_c": "Atomicity and Durability",
+    "option_d": "Encryption and Compression",
+    "correct_option": "B",
+    "explanation": "When network partitions inevitably occur (P is mandatory in distributed systems), the architect must choose whether to maintain strong Consistency (rejecting out-of-sync requests) or high Availability (serving stale responses).",
+    "numerical_formula": "CAP theorem: A distributed network can satisfy at most two of {C, A, P} simultaneously.",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2021,
+    "session": "December",
+    "is_official_pyq": 1,
+    "real_time_application": "Social media graph feeds (Instagram/Twitter follow relationships and timeline generation).",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Big Data Architectures, Distributed Computing & NoSQL"
+  },
+  {
+    "id": 249,
+    "subject_id": 4,
+    "unit_id": 40,
+    "paper_id": null,
+    "question_number": 28,
+    "question_text": "Which of the following is an example of a Type 1 (Bare-Metal) Hypervisor?",
+    "option_a": "Oracle VirtualBox",
+    "option_b": "VMware Workstation",
+    "option_c": "VMware ESXi",
+    "option_d": "QEMU on Windows",
+    "correct_option": "C",
+    "explanation": "Type 1 Hypervisors run directly on the bare physical host hardware without an underlying host operating system (e.g., VMware ESXi, Microsoft Hyper-V, Xen). VirtualBox and VMware Workstation run on top of an existing OS (Type 2).",
+    "numerical_formula": "Container virtualization isolates processes sharing host kernel, achieving sub-second startup.",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2022,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Cloud microservices auto-scaling on Amazon AWS ECS / Google Cloud Run during flash sales.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Cloud Computing, Virtualization & MLOps"
+  },
+  {
+    "id": 250,
+    "subject_id": 4,
+    "unit_id": 40,
+    "paper_id": null,
+    "question_number": 29,
+    "question_text": "In an imbalanced classification problem where false negatives are catastrophically costly (e.g., rare disease screening), which metric should be maximized?",
+    "option_a": "Accuracy",
+    "option_b": "Precision",
+    "option_c": "Recall (Sensitivity)",
+    "option_d": "Specificity",
+    "correct_option": "C",
+    "explanation": "Recall = TP / (TP + FN). When false negatives must be minimized (missing a sick patient is disastrous), maximizing Recall ensures as many true positive cases as possible are detected.",
+    "numerical_formula": "Precision = TP / (TP + FP); Recall = TP / (TP + FN); F1 = 2 * (Prec * Rec) / (Prec + Rec)",
+    "common_pitfalls": null,
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "year": 2023,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "Automated medical pathology imaging quality control and fraud classifier monitoring.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Cloud Computing, Virtualization & MLOps"
+  },
+  {
+    "id": 251,
+    "subject_id": 4,
+    "unit_id": 40,
+    "paper_id": null,
+    "question_number": 30,
+    "question_text": "Which learning paradigm allows an agent to learn optimal behaviors by interacting with an environment through trial-and-error rewards?",
+    "option_a": "Supervised Learning",
+    "option_b": "Reinforcement Learning (RL)",
+    "option_c": "Unsupervised Clustering",
+    "option_d": "Deductive Reasoning",
+    "correct_option": "B",
+    "explanation": "Reinforcement Learning formalizes decision-making via Markov Decision Processes (MDPs), where an agent learns an optimal policy through scalar feedback rewards.",
+    "numerical_formula": "Total Marks = 200; UGC NET JRF target = 65%+ aggregate score.",
+    "common_pitfalls": null,
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "year": 2024,
+    "session": "June",
+    "is_official_pyq": 1,
+    "real_time_application": "End-to-end examination readiness and professional academic competency.",
+    "subject_name": "Artificial Intelligence & Data Science (UGC NET)",
+    "unit_title": "Cloud Computing, Virtualization & MLOps"
   }
 ]
