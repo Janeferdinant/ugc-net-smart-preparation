@@ -44,21 +44,40 @@ class UgcNetApp {
     this.switchTab('dashboard');
   }
 
+  async apiFetch(url, options) {
+    try {
+      let res = await fetch(url, options);
+      if (res.ok) return res;
+      if (!url.endsWith('.json')) {
+        const jsonUrl = url.includes('?') ? url.replace('?', '.json?') : `${url}.json`;
+        const fallback = await fetch(jsonUrl, options);
+        if (fallback.ok) return fallback;
+      }
+      return res;
+    } catch (err) {
+      if (!url.endsWith('.json')) {
+        const jsonUrl = url.includes('?') ? url.replace('?', '.json?') : `${url}.json`;
+        return await fetch(jsonUrl, options);
+      }
+      throw err;
+    }
+  }
+
   async fetchAppData() {
     try {
       const [subsRes, anaRes, papersRes, qRes, mocksRes] = await Promise.all([
-        fetch('/api/subjects'),
-        fetch('/api/analytics/overview'),
-        fetch('/api/papers'),
-        fetch('/api/questions'),
-        fetch('/api/mock-tests')
+        this.apiFetch('/api/subjects'),
+        this.apiFetch('/api/analytics/overview'),
+        this.apiFetch('/api/papers'),
+        this.apiFetch('/api/questions'),
+        this.apiFetch('/api/mock-tests')
       ]);
 
-      if (subsRes.ok) this.subjects = await subsRes.json();
-      if (anaRes.ok) this.analytics = await anaRes.json();
-      if (papersRes.ok) this.papers = await papersRes.json();
-      if (qRes.ok) this.questions = await qRes.json();
-      if (mocksRes.ok) this.mockTests = await mocksRes.json();
+      if (subsRes && subsRes.ok) this.subjects = await subsRes.json();
+      if (anaRes && anaRes.ok) this.analytics = await anaRes.json();
+      if (papersRes && papersRes.ok) this.papers = await papersRes.json();
+      if (qRes && qRes.ok) this.questions = await qRes.json();
+      if (mocksRes && mocksRes.ok) this.mockTests = await mocksRes.json();
     } catch (e) {
       console.warn("Could not fetch complete API payload, using fallback defaults", e);
     }
@@ -604,8 +623,8 @@ class UgcNetApp {
     const subId = this.selectedSubjectId || (this.subjects[0]?.id || 2);
     let units = [];
     try {
-      const res = await fetch(`/api/syllabus/${subId}`);
-      if (res.ok) units = await res.json();
+      const res = await this.apiFetch(`/api/syllabus/${subId}`);
+      if (res && res.ok) units = await res.json();
     } catch (e) {}
 
     const curSub = this.subjects.find(s => s.id === subId) || { name: "Computer Science and Applications" };
@@ -801,8 +820,8 @@ class UgcNetApp {
       btn.addEventListener('click', async (e) => {
         const tId = parseInt(e.currentTarget.getAttribute('data-test-id'));
         try {
-          const res = await fetch(`/api/mock-tests/${tId}`);
-          if (res.ok) {
+          const res = await this.apiFetch(`/api/mock-tests/${tId}`);
+          if (res && res.ok) {
             const testData = await res.json();
             const engine = new MockTestEngine('mock-test-container');
             engine.startTest(testData);
@@ -895,8 +914,8 @@ class UgcNetApp {
   async renderAuditView(container) {
     let rep = { total_resources_audited: 19, verified_sources: 19, verification_percentage: 100 };
     try {
-      const res = await fetch('/api/verification-report');
-      if (res.ok) rep = await res.json();
+      const res = await this.apiFetch('/api/verification-report');
+      if (res && res.ok) rep = await res.json();
     } catch (e) {}
 
     container.innerHTML = `

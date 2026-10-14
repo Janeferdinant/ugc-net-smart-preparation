@@ -85,8 +85,9 @@ export class KnowledgeGraphView {
 
   async fetchGraphData() {
     try {
-      const res = await fetch(`/api/knowledge-graph/${this.subjectId}`);
-      if (res.ok) {
+      let res = await fetch(`/api/knowledge-graph/${this.subjectId}`);
+      if (!res.ok) res = await fetch(`/api/knowledge-graph/${this.subjectId}.json`);
+      if (res && res.ok) {
         const data = await res.json();
         this.nodes = data.nodes || [];
         this.links = data.links || [];

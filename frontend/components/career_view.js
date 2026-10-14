@@ -46,8 +46,9 @@ export class CareerView {
 
   async fetchCareers() {
     try {
-      const res = await fetch('/api/career');
-      if (res.ok) {
+      let res = await fetch('/api/career');
+      if (!res.ok) res = await fetch('/api/career.json');
+      if (res && res.ok) {
         this.careers = await res.json();
       }
     } catch (e) {
